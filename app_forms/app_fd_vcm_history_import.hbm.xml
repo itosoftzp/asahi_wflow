@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_vcm_history_import" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_vcm_history_import">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_jumlah_unloading" name="jumlah_unloading" not-null="false" type="text"/><property column="c_gridDifferentFormTahap3" name="gridDifferentFormTahap3" not-null="false" type="text"/><property column="c_shift" name="shift" not-null="false" type="text"/><property column="c_type_form" name="type_form" not-null="false" type="text"/><property column="c_section_chief" name="section_chief" not-null="false" type="text"/><property column="c_nama_staff" name="nama_staff" not-null="false" type="text"/><property column="c_field18" name="field18" not-null="false" type="text"/><property column="c_loading" name="loading" not-null="false" type="text"/><property column="c_file_json" name="file_json" not-null="false" type="text"/><property column="c_gridSummaryStaff" name="gridSummaryStaff" not-null="false" type="text"/><property column="c_transfer" name="transfer" not-null="false" type="text"/><property column="c_jumlah" name="jumlah" not-null="false" type="text"/><property column="c_jumlah_normal" name="jumlah_normal" not-null="false" type="text"/><property column="c_jumlah_loading" name="jumlah_loading" not-null="false" type="text"/><property column="c_gridDifferentFormTahap1" name="gridDifferentFormTahap1" not-null="false" type="text"/><property column="c_jumlah_special" name="jumlah_special" not-null="false" type="text"/><property column="c_tanggal" name="tanggal" not-null="false" type="text"/><property column="c_unloading" name="unloading" not-null="false" type="text"/><property column="c_gridDifferentFormTahap2" name="gridDifferentFormTahap2" not-null="false" type="text"/><property column="c_department" name="department" not-null="false" type="text"/><property column="c_waktu_patrol" name="waktu_patrol" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_vip_invite_patient" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_vip_invite_patient">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_email_address" name="email_address" not-null="false" type="text"/><property column="c_id_doctor" name="id_doctor" not-null="false" type="text"/><property column="c_referring_doctor" name="referring_doctor" not-null="false" type="text"/><property column="c_patient_name" name="patient_name" not-null="false" type="text"/><property column="c_mobile_no" name="mobile_no" not-null="false" type="text"/><property column="c_register_flag" name="register_flag" not-null="false" type="text"/><property column="c_send_link_by" name="send_link_by" not-null="false" type="text"/><property column="c_date_expired" name="date_expired" not-null="false" type="text"/><property column="c_username" name="username" not-null="false" type="text"/><property column="c_clinic_hospital" name="clinic_hospital" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

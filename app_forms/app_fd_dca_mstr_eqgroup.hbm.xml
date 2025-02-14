@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_dca_mstr_eqgroup" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_dca_mstr_eqgroup">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_area" name="area" not-null="false" type="text"/><property column="c_role_name" name="role_name" not-null="false" type="text"/><property column="c_plant_id" name="plant_id" not-null="false" type="text"/><property column="c_autocode" name="autocode" not-null="false" type="text"/><property column="c_import" name="import" not-null="false" type="text"/><property column="c_status_upload" name="status_upload" not-null="false" type="text"/><property column="c_parent_id" name="parent_id" not-null="false" type="text"/><property column="c_document" name="document" not-null="false" type="text"/><property column="c_eq_group" name="eq_group" not-null="false" type="text"/><property column="c_attach_file" name="attach_file" not-null="false" type="text"/><property column="c_department" name="department" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

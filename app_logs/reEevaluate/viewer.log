@@ -1,0 +1,741 @@
+INFO    15 Oct 2024 10:38:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 10:38:21 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:38:21 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+ERROR   15 Oct 2024 10:38:21 org.joget.sample.JsonCallFormOptionsBinder - java.lang.IllegalArgumentException: Illegal character in path at index 0: [CONTEXT_PATH]/web/json/console/app[APP_PATH]/workflowVariable/options?j_password=adminita.52&j_username=admin
+java.lang.IllegalArgumentException: Illegal character in path at index 0: [CONTEXT_PATH]/web/json/console/app[APP_PATH]/workflowVariable/options?j_password=adminita.52&j_username=admin
+	at java.base/java.net.URI.create(URI.java:883)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at org.joget.sample.JsonCallFormOptionsBinder.getJsonData(JsonCallFormOptionsBinder.java:264)
+	at org.joget.sample.JsonCallFormOptionsBinder.loadAjaxOptions(JsonCallFormOptionsBinder.java:109)
+	at org.joget.sample.JsonCallFormOptionsBinder.load(JsonCallFormOptionsBinder.java:74)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:416)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:424)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:424)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:424)
+	at org.joget.apps.form.service.FormServiceImpl.executeFormOptionsBinders(FormServiceImpl.java:469)
+	at org.joget.apps.form.service.FormServiceImpl.previewElement(FormServiceImpl.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy69.previewElement(Unknown Source)
+	at org.joget.apps.app.controller.FormBuilderWebController.previewForm(FormBuilderWebController.java:154)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 0: [CONTEXT_PATH]/web/json/console/app[APP_PATH]/workflowVariable/options?j_password=adminita.52&j_username=admin
+	at java.base/java.net.URI$Parser.fail(URI.java:2913)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3084)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3125)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at java.base/java.net.URI.create(URI.java:881)
+	... 107 more
+INFO    15 Oct 2024 10:38:56 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:38:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:38:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:38:58 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:38:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:38:58 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:38:58 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 10:39:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:56 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:58 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:58 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:39:58 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 10:40:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:40:01 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:40:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:40:01 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:41:30 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    15 Oct 2024 10:41:30 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    15 Oct 2024 10:43:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.53) : true
+INFO    15 Oct 2024 10:49:56 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:49:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:49:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:49:57 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:49:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:49:57 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:49:57 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 10:50:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:50:03 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:50:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:50:03 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:51:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:51:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:51:31 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 10:52:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 10:52:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 10:53:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:53:36 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:53:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:53:44 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:54:35 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 10:54:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:54:37 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:55:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:55:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:55:00 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 10:55:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:55:03 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:09:17 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:10:26 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add userview tes. _
+INFO    15 Oct 2024 11:10:56 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Delete userview tes. _
+INFO    15 Oct 2024 11:11:07 org.joget.apps.app.service.AppServiceImpl - Importing app reEevaluate ...
+INFO    15 Oct 2024 11:11:07 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Initial commit for reEevaluate_2
+INFO    15 Oct 2024 11:11:07 org.joget.apps.app.service.AppServiceImpl - Imported form definitions : 4
+INFO    15 Oct 2024 11:11:07 org.joget.apps.app.service.AppServiceImpl - Imported datalist definitions : 4
+INFO    15 Oct 2024 11:11:08 org.joget.apps.app.service.AppServiceImpl - Imported userview definitions : 2
+INFO    15 Oct 2024 11:11:08 PackageEventLogger - UTCTime=1728965468636,EventType=packageUpdated,PackageId=reEevaluate,PackageVersion=2,EventPerformedBy=admin
+INFO    15 Oct 2024 11:11:08 org.joget.apps.app.service.AppServiceImpl - Imported xpdl
+INFO    15 Oct 2024 11:11:08 org.joget.apps.app.service.AppServiceImpl - Imported process form mappings : 2
+INFO    15 Oct 2024 11:11:08 org.joget.apps.app.service.AppServiceImpl - Imported process participant mappings : 2
+INFO    15 Oct 2024 11:11:09 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form formListProcess. _Add form formSubmitOpsi2. _Add form MstWorkflowVariables. _Add form submitForm. _Add list list. _Add list list_MstWorkflowVariables. _Add list list_submitForm. _Add list listOpsi2. _Add userview opsi2. _Add userview v. _Update xpdl reEevaluate. _Update app config reEevaluate. _Update app definition reEevaluate. _
+INFO    15 Oct 2024 11:11:15 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition reEevaluate. _
+INFO    15 Oct 2024 11:15:41 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:15:41 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:16:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:16:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:21:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:21:35 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:22:49 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:22:49 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:22:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:22:52 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:22:52 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:23:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:23:01 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:24:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:24:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:24:14 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:24:16 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:24:16 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:26:02 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:26:02 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:26:02 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:26:04 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:26:04 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:26:15 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:26:15 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:17 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:17 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:17 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:27:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:19 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:40 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:40 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:41 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:27:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:27:43 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:28:20 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:28:20 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:28:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:28:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Fixing checkout conflict: _forms/MstWorkflowVariables.json
+INFO    15 Oct 2024 11:28:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:28:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:28:46 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    15 Oct 2024 11:28:46 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    15 Oct 2024 11:29:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:29:19 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:29:19 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:29:22 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:29:22 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:29:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:29:48 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:29:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:29:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:29:50 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:30:28 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:30:28 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:30:28 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:30:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:30:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:31:11 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:31:11 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:31:11 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:31:13 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:31:13 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:34:05 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:34:05 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:34:05 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:34:10 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:34:10 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:34:11 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:34:11 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:36:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:36:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:36:09 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:36:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:36:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:36:26 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:36:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:36:29 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:36:30 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:36:30 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:39:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:39:57 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:39:57 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:40:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:40:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:40:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:40:01 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:41:47 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:41:47 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:41:47 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:41:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:41:50 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:42:02 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:42:02 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:44:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:44:42 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:44:43 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:44:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:44:44 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:44:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:44:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:45:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:45:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:45:33 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:45:39 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:45:39 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:45:39 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:45:41 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:45:41 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:46:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:46:36 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:46:36 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:46:39 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:46:39 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:46:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:46:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:46:49 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:46:49 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:46:52 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:46:52 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:46:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:46:55 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:48:30 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:48:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:48:32 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:48:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:48:35 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:49:15 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:49:18 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:49:18 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:49:20 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:49:20 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:49:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:49:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:49:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:49:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+ERROR   15 Oct 2024 11:49:49 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/presence, error:request token does not match session token)
+ERROR   15 Oct 2024 11:49:49 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/presence, error:request token does not match session token)
+ERROR   15 Oct 2024 11:50:09 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/fbuilder/app/reEevaluate/2/form/MstWorkflowVariables/element/preview, error:request token does not match session token)
+ERROR   15 Oct 2024 11:50:25 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/fbuilder/app/reEevaluate/2/form/MstWorkflowVariables/element/preview, error:request token does not match session token)
+ERROR   15 Oct 2024 11:50:27 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/fbuilder/app/reEevaluate/2/form/MstWorkflowVariables/element/preview, error:request token does not match session token)
+ERROR   15 Oct 2024 11:50:27 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/console/app/reEevaluate/2/form/MstWorkflowVariables/update, error:request token does not match session token)
+ERROR   15 Oct 2024 11:50:30 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/presence, error:request token does not match session token)
+INFO    15 Oct 2024 11:50:30 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:30 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:37 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:37 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:50:49 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:49 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:50:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:55 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:50:55 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:51:18 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:51:18 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:51:18 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 11:51:24 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:51:24 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:51:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:51:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:52:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:52:44 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 11:52:51 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 11:52:51 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 12:00:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 12:00:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 12:00:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 12:00:48 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 13:27:01 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 13:32:15 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form dtlWorkflow. _
+INFO    15 Oct 2024 13:34:01 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 13:34:52 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:34:52 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:34:53 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 13:35:05 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 13:35:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:35:42 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:35:42 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 13:35:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:35:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:36:06 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:36:06 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:36:07 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 13:36:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:36:09 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 13:56:12 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 13:56:12 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 13:56:12 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 13:56:14 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 13:56:27 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data RSorg.mariadb.jdbc.internal.com.read.resultset.SelectResultSet@724b5739
+INFO    15 Oct 2024 13:56:27 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2024-10-11 14:19:28","option_value":"-","correct_option":"25","unit":"oC","min":"0","avg":"-","parameter_equipment":"Room Temperature","max":"26","tag_number":"ASDF-1","form_type":"Max"},{"date":"2024-10-11 14:19:28","option_value":"-","correct_option":"25","unit":"oC","min":"0","avg":"-","parameter_equipment":"Room Temperature","max":"26","tag_number":"ASDF-1","form_type":"Max"},{"date":"2024-10-11 14:19:30","option_value":"-","correct_option":"50","unit":"%","min":"10","avg":"-","parameter_equipment":"Transformer Oil Level (33Q-1)","max":"100","tag_number":"ASDF-1","form_type":"Range"},{"date":"2024-10-11 14:19:30","option_value":"-","correct_option":"50","unit":"%","min":"10","avg":"-","parameter_equipment":"Transformer Oil Level (33Q-1)","max":"100","tag_number":"ASDF-1","form_type":"Range"}]}
+INFO    15 Oct 2024 14:01:10 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list. _
+INFO    15 Oct 2024 14:01:28 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:01:28 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:03:54 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formListProcess. _
+INFO    15 Oct 2024 14:06:59 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:06:59 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:07:01 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 14:08:22 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list. _
+INFO    15 Oct 2024 14:08:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:08:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:10:18 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 14:13:10 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 14:13:10 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 14:19:54 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 14:20:05 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:20:05 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:21:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 14:21:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:21:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:22:15 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 14:22:18 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:22:18 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:22:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 14:22:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+ERROR   15 Oct 2024 14:22:29 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/app/reEevaluate/2/form/embed, error:request token does not match session token)
+INFO    15 Oct 2024 14:23:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:23:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:23:23 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 14:23:23 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+ERROR   15 Oct 2024 14:23:31 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/app/reEevaluate/2/form/embed, error:request token does not match session token)
+INFO    15 Oct 2024 14:24:10 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 14:24:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:24:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:38 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:38 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:40 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 14:25:40 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+ERROR   15 Oct 2024 14:25:44 org.owasp.csrfguard.CsrfGuard - potential cross-site request forgery (CSRF) attack thwarted (user:<anonymous>, ip:182.253.194.53, method:POST, uri:/jw/web/userview/reEevaluate/v/_/MstWorkflowVariables_crud, error:request token does not match session token)
+INFO    15 Oct 2024 14:25:46 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:46 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:48 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:56 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:25:56 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:26:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:09 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:25 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 14:26:27 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:27 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:33 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:53 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:53 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:53 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:26:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:54 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:26:57 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:05 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:05 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:27 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:27 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:27:27 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:27:38 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 14:31:51 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:31:53 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:31:53 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:32:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:32:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:32:14 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:32:17 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:32:17 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:34:09 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:35:14 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:37:15 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:37:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:37:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:38:09 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:38:57 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:38:59 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:38:59 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:04 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:04 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:11 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:11 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:25 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:39:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:39:32 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:40:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:40:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:40:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:40:38 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:40:38 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:40:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:40:43 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:42:02 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:42:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:42:07 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:43:19 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:45:25 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:45:41 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:45:41 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:45:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:45:57 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:46:59 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:47:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:47:12 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:47:40 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:48:13 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:48:20 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:20 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:36 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:36 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:48:40 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:40 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:47 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:47 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:55:35 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:55:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:55:37 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:55:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:55:42 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:55:49 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:55:49 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:57:44 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:57:46 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:57:46 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:07 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:07 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 14:58:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:09 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:15 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:15 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:38 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:58:38 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:59:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:59:07 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:59:10 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:59:10 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:01:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:01:54 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:01:54 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 15:01:56 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:01:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:03 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:21 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:21 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:21 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 15:02:23 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:23 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:30 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:30 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:02:37 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:27 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:27 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:27 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 15:03:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:36 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:28 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form MstWorkflowVariables. _
+INFO    15 Oct 2024 15:04:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:40 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:40 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:50 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:05:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:05:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:06:57 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 15:12:53 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 15:13:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:13:54 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:15:45 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 15:17:39 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form dtlWorkflow. _
+INFO    15 Oct 2024 15:17:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:17:42 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:36:20 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:36:20 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:38:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list. _
+INFO    15 Oct 2024 15:38:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:38:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:38:59 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formListProcess. _
+INFO    15 Oct 2024 15:39:05 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:39:05 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:39:05 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 15:39:10 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:39:10 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:40:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:40:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:53:39 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:53:39 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:53:40 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 15:53:56 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:53:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:59:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4626_appCMTS_counterMeasureTrackingSystemProcess, processDefId=appCMTS#27#counterMeasureTrackingSystemProcess, participantId=safetyMember, next user=[Arma.Adi, aditya.henggar]]
+INFO    15 Oct 2024 15:59:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4598_appCMTS_counterMeasureTrackingSystemProcess, processDefId=appCMTS#27#counterMeasureTrackingSystemProcess, participantId=safetyMember, next user=[Arma.Adi, aditya.henggar]]
+INFO    15 Oct 2024 16:07:05 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.Asc.processtool.Process-tool started
+INFO    15 Oct 2024 16:07:05 org.joget.plugin.base.PluginManager - admin installed plugin (Process-tool-7.0-SNAPSHOT.jar).
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - c = safPicPlantVariable
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - d = admin
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - c = safCoordVariable
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - d = admin
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - a = 388324_4594_appCMTS_counterMeasureTrackingSystemProcess_processDraft
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - b = 4598_appCMTS_counterMeasureTrackingSystemProcess
+INFO    15 Oct 2024 16:07:15 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4598_appCMTS_counterMeasureTrackingSystemProcess, processDefId=appCMTS#27#counterMeasureTrackingSystemProcess, participantId=safetyMember, next user=[Arma.Adi, aditya.henggar]]
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - a = 388341_4592_appCMTS_counterMeasureTrackingSystemProcess_actionSafetyMember
+INFO    15 Oct 2024 16:07:15 ASC - Re Eevaluate V2 - b = 4626_appCMTS_counterMeasureTrackingSystemProcess
+INFO    15 Oct 2024 16:07:15 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4626_appCMTS_counterMeasureTrackingSystemProcess, processDefId=appCMTS#27#counterMeasureTrackingSystemProcess, participantId=safetyMember, next user=[Arma.Adi, aditya.henggar]]
+INFO    15 Oct 2024 16:08:55 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list_submitForm. _
+INFO    15 Oct 2024 16:09:08 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:09:08 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:10:56 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:10:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:10:56 ASC - Re Eevaluate V2 - c = userMemberITD
+INFO    15 Oct 2024 16:10:56 ASC - Re Eevaluate V2 - d = admin
+INFO    15 Oct 2024 16:10:56 ASC - Re Eevaluate V2 - a = 388854_4752_helpdesk_helpDesk_ITDMemberAction
+INFO    15 Oct 2024 16:10:56 ASC - Re Eevaluate V2 - b = 4752_helpdesk_helpDesk
+INFO    15 Oct 2024 16:10:56 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[admin]]
+INFO    15 Oct 2024 16:11:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:11:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:12:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:12:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:12:14 ASC - Re Eevaluate V2 - c = userFunctional
+INFO    15 Oct 2024 16:12:14 ASC - Re Eevaluate V2 - d = Agus.Hendra
+INFO    15 Oct 2024 16:12:14 ASC - Re Eevaluate V2 - c = userMemberITD
+INFO    15 Oct 2024 16:12:14 ASC - Re Eevaluate V2 - d = Afandi.Asc
+INFO    15 Oct 2024 16:12:14 ASC - Re Eevaluate V2 - a = 388854_4752_helpdesk_helpDesk_ITDMemberAction
+INFO    15 Oct 2024 16:12:14 ASC - Re Eevaluate V2 - b = 4752_helpdesk_helpDesk
+INFO    15 Oct 2024 16:12:14 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Afandi.Asc]]
+INFO    15 Oct 2024 16:13:07 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:13:07 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:17:22 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list. _
+INFO    15 Oct 2024 16:17:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:17:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:18:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:18:09 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - c = userMemberITD
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - d = Yuharmen.Asc
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - c = userFunctional
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - d = Ahsanuddin.Asc
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - a = 388854_4752_helpdesk_helpDesk_ITDMemberAction
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - b = 814_helpdesk_helpDesk
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - a = 388870_4770_helpdesk_helpDesk_ITDMemberAction
+INFO    15 Oct 2024 16:18:09 ASC - Re Eevaluate V2 - b = 4752_helpdesk_helpDesk
+INFO    15 Oct 2024 16:18:09 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Yuharmen.Asc]]
+INFO    15 Oct 2024 16:20:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:20:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:23:59 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:25:09 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list. _
+INFO    15 Oct 2024 16:25:10 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:25:10 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - c = userFunctional
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - d = admin
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - c = userMemberITD
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - d = Akira Hirai
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - a = 388854_4752_helpdesk_helpDesk_ITDMemberAction
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - b = 4752_helpdesk_helpDesk
+INFO    15 Oct 2024 16:25:39 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Akira Hirai]]
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - a = 388870_4770_helpdesk_helpDesk_ITDMemberAction
+INFO    15 Oct 2024 16:25:39 ASC - Re Eevaluate V2 - b = 4770_helpdesk_helpDesk
+INFO    15 Oct 2024 16:25:39 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Akira Hirai]]
+INFO    15 Oct 2024 16:26:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Delete userview opsi2. _
+INFO    15 Oct 2024 16:26:40 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview v. _
+INFO    15 Oct 2024 16:26:45 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Delete list list_MstWorkflowVariables. _
+INFO    15 Oct 2024 16:27:02 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Delete list listOpsi2. _
+INFO    15 Oct 2024 16:27:15 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Delete form MstWorkflowVariables. _
+INFO    15 Oct 2024 16:27:25 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Delete form formSubmitOpsi2. _
+INFO    15 Oct 2024 16:27:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:27:35 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:33:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:33:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:33:49 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:33:49 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:36:05 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:36:05 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:36:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:36:44 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:36:53 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:36:53 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:36:53 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    15 Oct 2024 16:36:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:36:58 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:11:11 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:11:11 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:11:13 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:11:13 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:12:49 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:12:49 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:13:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:13:49 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:13:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    16 Oct 2024 10:13:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:13:55 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:14:15 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:14:15 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:14:16 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    16 Oct 2024 10:14:17 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:14:17 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:11 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:11 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:11 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    16 Oct 2024 10:15:13 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:13 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:56 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:56 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    16 Oct 2024 10:15:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:15:58 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:17:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:17:50 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:17:51 ASC - Re Eevaluate V2 - c = action
+INFO    16 Oct 2024 10:17:51 ASC - Re Eevaluate V2 - d = admin
+INFO    16 Oct 2024 10:17:51 ASC - Re Eevaluate V2 - a = 388874_4752_helpdesk_helpDesk_ITDMemberAction
+INFO    16 Oct 2024 10:17:51 ASC - Re Eevaluate V2 - b = 4752_helpdesk_helpDesk
+INFO    16 Oct 2024 10:17:51 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    16 Oct 2024 10:21:13 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.Asc.processtool.Process-tool started
+INFO    16 Oct 2024 10:21:14 org.joget.plugin.base.PluginManager - admin installed plugin (Process-tool-7.0-SNAPSHOT.jar).
+INFO    16 Oct 2024 10:23:50 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview v. _
+INFO    16 Oct 2024 10:25:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:25:35 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:25:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:25:54 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:26:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:26:32 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:26:33 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form submitForm. _
+INFO    16 Oct 2024 10:26:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:26:36 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    16 Oct 2024 10:34:36 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - c = userMemberITD
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - d = Zulkifli.Asc
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - c = userFunctional
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - d = Ikhsan.Asc
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - a = 388874_4752_helpdesk_helpDesk_ITDMemberAction
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - b = 4752_helpdesk_helpDesk
+INFO    16 Oct 2024 10:46:34 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Zulkifli.Asc]]
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - a = 388878_4770_helpdesk_helpDesk_ITDMemberAction
+INFO    16 Oct 2024 10:46:34 ASC - Re Eevaluate V2 - b = 4770_helpdesk_helpDesk
+INFO    16 Oct 2024 10:46:34 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Zulkifli.Asc]]
+INFO    16 Oct 2024 10:50:16 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}

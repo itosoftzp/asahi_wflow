@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_visitAppr_setup" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_visitAppr_setup">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_sufficientAmountInEWallet" name="sufficientAmountInEWallet" not-null="false" type="text"/><property column="c_approvedProcedures" name="approvedProcedures" not-null="false" type="text"/><property column="c_claimCostWithinMaxAllowed" name="claimCostWithinMaxAllowed" not-null="false" type="text"/><property column="c_approvedLabTest" name="approvedLabTest" not-null="false" type="text"/><property column="c_approvedXRay" name="approvedXRay" not-null="false" type="text"/><property column="c_approvedMedication" name="approvedMedication" not-null="false" type="text"/><property column="c_approvedInjection" name="approvedInjection" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

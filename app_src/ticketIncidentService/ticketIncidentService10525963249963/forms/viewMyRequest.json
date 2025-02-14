@@ -1,0 +1,165 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field2",
+                        "label": "",
+                        "value": "\n<style>\n    \n    .modal {\n        z-index: 875;\n    }\n    \n    .modal-backdrop {\n        z-index: 874;\n    }\n    .hideBtnSave {\n        display: none !important;\n    }\n    .form-check-btm {\n        padding-bottom: 20px;\n    }\n    .form-check {\n        padding-bottom: 20px;\n    }\n    .text-memo {\n        width: 200px;\n    }\n    .memo {\n        margin-top: -19px;\n    }\n    .icon-ownership {\n        width: 40px;\n    }\n    button#takeOwnerShip {\n        background-color: white;\n        padding: 0px;\n        border:0px;\n        /*border: 1px solid;*/\n        box-shadow: 3px 3px;\n        color: #E0E0E0;\n    }\n    button#actionss {\n        background-color: white;\n        padding: 0px;\n        border: 0px;\n        /*border: 1px solid;*/\n        box-shadow: 3px 3px;\n        color: #E0E0E0;\n    }\n    .tooltipBtn {\n      position: relative;\n      display: inline-block;\n    }\n    \n    .tooltipBtn .tooltiptext {\n      visibility: hidden;\n      width: 120px;\n      background-color: black;\n      color: #fff;\n      text-align: center;\n      border-radius: 6px;\n      padding: 5px 0;\n    \n      /* Position the tooltip */\n      position: absolute;\n      z-index: 1;\n      top: -29px;\n      left: -2px;\n    }\n    \n    .tooltipBtn:hover .tooltiptext {\n      visibility: visible;\n    }\n    \n<\/style>\n\n<div class=\"tooltipBtn\">\n  <button type=\"button\" id=\"actionss\" onclick=\"showModal()\"><img class=\"icon-ownership\" src=\"#appResource.icon_action2.png#\"><\/button>\n <span class=\"tooltiptext\">Action<\/span>\n<\/div>\n<div class=\"tooltipBtn\">\n <button type=\"button\" id=\"takeOwnerShip\"><img class=\"icon-ownership\" src=\"#appResource.icon_take_ownership3.png#\"><\/button>\n <span class=\"tooltiptext\">Take Owner<\/span>\n<\/div>\n\n<!-- Modal New -->\n<div class=\"modal fade\" id=\"modalNew\"  tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">New Workflow<\/h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">&times;<\/span>\n        <\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        <div class=\"form-check\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"newToDraft\" id=\"newToDraftRadio\" value=\"DRAFT\">\n          <label class=\"form-check-label\" for=\"newToDraft\">\n           TO DRAFT\n          <\/label>\n        <\/div>\n        \n        <div class=\"memo\">\n            <label class=\"text-memo\">Memo<\/label>\n            <input class=\"text-memo\" type=\"text\" name=\"memoNew\" id=\"memoNew\" />\n        <\/div>\n      <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\" onclick=\"updateStatusNewToDraft()\">Save<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n<!-- Modal Draft -->\n<div class=\"modal fade\" id=\"modalDraft\"  tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Draft Workflow<\/h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">&times;<\/span>\n        <\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        <div class=\"form-check\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"draftRadio\" id=\"draftToAnalysisRadio\" value=\"ANALYSIS\">\n          <label class=\"form-check-label\" for=\"draftToAnalysisRadio\">\n           TO ANALYSIS\n          <\/label>\n        <\/div>\n        <div class=\"form-check\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"draftRadio\" id=\"draftToBackendRadio\" value=\"BACKEND\">\n          <label class=\"form-check-label\" for=\"draftToBackendRadio\">\n           TO BACKEND\n          <\/label>\n        <\/div>\n        \n        <div class=\"memo\">\n            <label class=\"text-memo\">Memo<\/label>\n            <input class=\"text-memo\" type=\"text\" name=\"memoDraft\" id=\"memoDraft\" />\n        <\/div>\n      <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\" onclick=\"updateStatusOnDraft()\">Save<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n\n<!-- Modal Analysis -->\n<div class=\"modal fade\" id=\"modalAnalysis\"  tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Send to Tier-2 (Queued) Action<\/h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">&times;<\/span>\n        <\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        <div class=\"form-check\">\n          <label class=\"form-check-label\" for=\"analystRedis\">\n            FLOW REDISPATCH BY SELECT SOLUTION AND ROUTE TO BACKEND\n          <\/label>\n          <input class=\"form-check-input\" type=\"radio\" name=\"analysisRoute\" id=\"analystToBackend\" value=\"BACKEND\">\n        <\/div>\n        \n        <div class=\"form-check\">\n          <label class=\"form-check-label\">\n            FLOW REDISPATCH BY REASSIGN OWNER / OWNERGROUP\n          <\/label>\n          <input class=\"form-check-input\" type=\"radio\" name=\"analysisRoute\" id=\"analystRedis\" value=\"ANALYSIS\">\n        <\/div>\n        \n        <div class=\"form-check\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"analysisRoute\" id=\"analystToPending\" value=\"PENDING\">\n          <label class=\"form-check-label\" for=\"analystToPending\">\n           FLOW REQUEST PENDING\n          <\/label>\n        <\/div>\n        \n        <div class=\"form-check\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"analysisRoute\" id=\"analystToFinalCheck\" value=\"FINALCHECK\">\n          <label class=\"form-check-label\" for=\"analystToFinalCheck\">\n           FLOW RESOLVE TIKET\n          <\/label>\n        <\/div>\n        \n        <div class=\"memo\">\n            <label class=\"text-memo\">Memo<\/label>\n            <input class=\"text-memo\" type=\"text\" name=\"memoAnalyst\" id=\"memoAnalyst\" />\n        <\/div>\n      <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\" onclick=\"updateStatusAnalyst()\">Save<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n\n<!-- Modal Backend -->\n<div class=\"modal fade\" id=\"modalBackend\"  tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Send to Tier-3 (Backend) Action<\/h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">&times;<\/span>\n        <\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"backendRoute\" id=\"analysToBackend\" value=\"ANALYSIS\">\n          <label class=\"form-check-label\" for=\"analymemoAnalystsToBackend\">\n              Select Relevant Solution\n          <\/label>\n        <\/div>\n        \n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"backendRoute\" id=\"analysToFinal\" value=\"\">\n          <label class=\"form-check-label\" for=\"analysToFinal\">\n                Reassign Owner\n          <\/label>\n        <\/div>\n        \n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"backendRoute\" id=\"analysToFinal\" value=\"FINALCHECK\">\n          <label class=\"form-check-label\" for=\"analysToFinal\">Resolve Incident<\/label>\n        <\/div>\n        <div>\n            <label>Memo<\/label>\n            <input type=\"text\" name=\"memoBackend\" id=\"memoBackend\" />\n        <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\" onclick=\"updateStatusBackend()\">Save<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n  <\/div>\n<\/div>\n\n\n<!-- Modal Final Check -->\n<div class=\"modal fade\" id=\"modalFinalCheck\"  tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Final Check Action<\/h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">&times;<\/span>\n        <\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"finalRoute\" id=\"finalcheckRedis\" value=\"FINALCHECK\">\n          <label class=\"form-check-label\" for=\"analysToBackend\">\n            FLOW REDISPATCH BY SELECT SOLUTION\n          <\/label>\n        <\/div>\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"finalRedist\" id=\"finalToOwner\" value=\"FINALCHECK\">\n          <label class=\"form-check-label\" for=\"finalToOwner\">\n            FLOW REDISPATCH BY REASSIGN OWNER / OWNERGROUP\n          <\/label>\n        <\/div>\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"finalRoute\" id=\"finalToAnalyst\" value=\"ANALYSIS\">\n          <label class=\"form-check-label\" for=\"analysToFinal\">\n           FLOW REOPEN / REWORK \n          <\/label>\n        <\/div>\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"finalRoute\" id=\"finalToMediaCare\" value=\"MEDIACARE\">\n          <label class=\"form-check-label\" for=\"analysToFinal\">\n           FLOW RESOLVE TIKET\n          <\/label>\n        <\/div>\n        <div>\n            <label>Memo<\/label>\n            <input type=\"text\" name=\"memoFinal\" id=\"memoFinal\" />\n        <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\" onclick=\"updateStatusFinalCheck()\">Save<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n  <\/div>\n<\/div>\n\n\n<!-- Modal Salam Sim-->\n<div class=\"modal fade\" id=\"modalSalamSim\"  tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Salam Simpatik Action<\/h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">&times;<\/span>\n        <\/button>\n      <\/div>\n      <div class=\"modal-body\">\n       <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"salamRoute\" id=\"salamSimtoAnalyst\" value =\"ANALYSIS\">\n          <label class=\"form-check-label\" for=\"analysToBackend\">\n            REOPEN / REWORK TIKET \n          <\/label>\n        <\/div>\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"salamRoute\" id=\"salamSimToClose\" value=\"CLOSED\">\n          <label class=\"form-check-label\" for=\"analysToFinal\">\n           RESOLVE\n          <\/label>\n        <\/div>\n        <div>\n            <label>Memo<\/label>\n            <input type=\"text\" name=\"memoSalam\" id=\"memoSalam\" />\n        <\/div>\n      <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\" onclick=\"updateStatusSalamSim()\">Save<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n\n<!-- Modal Media Caring-->\n<div class=\"modal fade\" id=\"modalMediacare\"  tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Media Caring Action<\/h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">&times;<\/span>\n        <\/button>\n      <\/div>\n      <div class=\"modal-body\">\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"mediaRoute\" id=\"mediaCareToAnalyst\" value =\"ANALYSIS\">\n          <label class=\"form-check-label\" for=\"analysToBackend\">\n            REOPEN / REWORK TIKET \n          <\/label>\n        <\/div>\n        <div class=\"form-check-btm\">\n          <input class=\"form-check-input\" type=\"radio\" name=\"mediaRoute\" id=\"mediaCareToSalamSim\" value=\"SALAMSIM\">\n          <label class=\"form-check-label\" for=\"analysToFinal\">\n           RESOLVE\n          <\/label>\n        <\/div>\n        <div>\n            <label>Memo<\/label>\n            <input type=\"text\" name=\"memoMedia\" id=\"memoMedia\" />\n        <\/div>\n      <\/div>\n      <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>\n        <button type=\"button\" class=\"btn btn-primary\" onclick=\"updateStatusMediaCaring()\">Save<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n<script>\n    let currentProcess = '';\n    $(document).ready(function(){\n        \n        // $(\"input[name='submit']\").hide();\n        $(\"input[name='submit'\").addClass('hideBtnSave');\n        \n        $(\"#takeOwnerShip\").click(() => {\n            $(\"#multipageForm_1_ticketUserInformation_owner\").val('#currentUser.username#');\n            $(\"input[name='submit']\").click();\n        })\n\n    });\n    \n\tconst showModal = () => {\n\t    \n\t    //harus dirubah ini masih proses tanpa backend\n\t    if(currentProcess === 'analysis') {\n\t        $('#modalAnalysis').modal('show');\n\t    }\n\t    if(currentProcess === 'pending') {\n\t        $('#modalPending').modal('show');\n\t    }\n\t    if(currentProcess === 'backend') {\n\t        $('#modalBackend').modal('show');\n\t    }\n\t    if(currentProcess === 'finalcheck') {\n\t        $('#modalFinalCheck').modal('show');\n\t    }\n\t    if(currentProcess === 'mediacare') {\n\t        $('#modalMediacare').modal('show');\n\t    }\n\t    if(currentProcess === 'salamsim') {\n\t        $('#modalSalamSim').modal('show');\n\t    }\n\t    if(currentProcess === 'new') {\n\t        $('#modalNew').modal('show');\n\t    }\n\t    if(currentProcess === 'draft') {\n\t        $('#modalDraft').modal('show');\n\t    }\n\t    \n\t    \n\t}\n    \n    \n        let reqData = {\n\t\t\tticket_id:'',\n\t\t\tclass:'',\n\t\t\tstatus:'',\n\t\t\tchange_by:'',\n\t\t\tchange_date:'',\n\t\t\tmemo:'',\n\t\t\tsite_idorg_id:'',\n\t\t\ttk_status_id:'',\n\t\t\tstatus_tracking:'',\n\t\t\towner:'',\n\t\t\towner_group:'',\n\t\t\tassigned_owner_group:''\n\t\t}\n\t\t\n\t\tconst updateStatusNewToDraft = async() => {\n\t\t    try {\n\t\t\t    const ticket_id = $(\"input[name='multipageForm_1_ticketUserInformation_id'\").val();\n\t\t\t\tconst status = $(\"input[name='newToDraft']:checked\").val();\n\t\t\t\tconst memo = $('#memoNew').val();\n\t\t\t\t\n\t\t\t\t$.blockUI({ message: '<h1> Please wait...<\/h1>' });\n\n\t\t\t\treqData = { ...reqData, status, memo, ticket_id};\n                \n\t\t\t\tconst req = await reqToAPI(reqData);\n\t\t\t\t\n\t\t\t\twindow.location.href = \"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B\";\n\t\t\t} catch(error) {\n\t\t\t    $.unblockUI();\n\t\t\t\tconsole.log({error})\n\t\t\t}\n\t\t}\n\t\t\n\t\t\n\t\tconst updateStatusOnDraft = async() => {\n\t\t    try {\n\t\t\t    const ticket_id = $(\"input[name='multipageForm_1_ticketUserInformation_id'\").val();\n\t\t\t\tconst status = $(\"input[name='draftRadio']:checked\").val();\n\t\t\t\tconst memo = $('#memoDraft').val();\n\t\t\t\t\n\t\t\t\t$.blockUI({ message: '<h1> Please wait...<\/h1>' });\n\t\t\t\t\n\t\t\t\treqData = { ...reqData, status, memo, ticket_id};\n                \n\t\t\t\tconst req = await reqToAPI(reqData);\n\t\t\t\t\n\t\t\t\twindow.location.href = \"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B\";\n\t\t\t} catch(error) {\n\t\t\t     $.unblockUI();\n\t\t\t\tconsole.log({error})\n\t\t\t}\n\t\t}\n\n\t\tconst updateStatusAnalyst = async() => {\n\t\t\ttry {\n\t\t\t    const ticket_id = $(\"input[name='multipageForm_1_ticketUserInformation_id'\").val();\n\t\t\t\tconst status = $(\"input[name='analysisRoute']:checked\").val();\n\t\t\t\tconst memo = $('#memoAnalyst').val();\n\t\t\t\t\n\t\t\t\treqData = { ...reqData, status, memo, ticket_id};\n\t\t\t\t\n\t\t\t\tconsole.log({reqData});\n\t\t\t\t$.blockUI({ message: '<h1> Please wait...<\/h1>' });\n\t\t\t\tconst req = await reqToAPI(reqData);\n\t\t\t\t\n\t\t\t\twindow.location.href = \"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B\";\n\t\t\t\t\n\t\t\t} catch(error) {\n\t\t\t     $.unblockUI();\n\t\t\t\tconsole.log({error})\n\t\t\t}\n\t\t}\n\n\t\tconst updateStatusBackend = async() => {\n\t\t\ttry {\n\t\t\t\tconst ticket_id = $(\"input[name='multipageForm_1_ticketUserInformation_id'\").val();\n\t\t\t\tconst status = $(\"input[name='backendRoute']:checked\").val();\n\t\t\t\tconst memo = $('#memoBackend').val();\n\t\t\t\n\t\t\t\t$.blockUI({ message: '<h1> Please wait...<\/h1>' });\n\t\t\t\treqData = { ...reqData, status, memo, ticket_id};\n                \n\t\t\t\tconst req = await reqToAPI(reqData);\n\t\t\t\t\n\t\t\t\twindow.location.href = \"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B\";\n\t\t\t} catch(error) {\n\t\t\t     $.unblockUI();\n\t\t\t\tconsole.log({error})\n\t\t\t}\n\t\t}\n\n\t\tconst updateStatusFinalCheck = async() => {\n\t\t\ttry {\n\t\t\t\tconst ticket_id = $(\"input[name='multipageForm_1_ticketUserInformation_id'\").val();\n\t\t\t\tconst status = $(\"input[name='finalRoute']:checked\").val();\n\t\t\t\tconst memo = $('#memoFinal').val();\n\t\t\t\t\n\t\t\t\t$.blockUI({ message: '<h1> Please wait...<\/h1>' });\n\t\t\t\treqData = { ...reqData, status, memo, ticket_id};\n\t\t\t\tconst req = await reqToAPI(reqData);\n\t\t\t\t\n\t\t\t\twindow.location.href = \"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B\";\n\t\t\t} catch(error) {\n\t\t\t     $.unblockUI();\n\t\t\t\tconsole.log({error})\n\t\t\t}\n\t\t}\n\n\t\tconst updateStatusMediaCaring = async() => {\n\t\t\ttry {\n\t\t\t\tconst ticket_id = $(\"input[name='multipageForm_1_ticketUserInformation_id']\").val();\n\t\t\t\tconst status = $(\"input[name='mediaRoute']:checked\").val();\n\t\t\t\tconst memo = $('#memoMedia').val();\n\t\t\t\t$.blockUI({ message: '<h1> Please wait...<\/h1>' });\n\t\t\t\t\n\t\t\t\treqData = { ...reqData, status, memo, ticket_id};\n\t\t\t\t\n\t\t\t\tconst req = await reqToAPI(reqData);\n\t\t\t\t\n\t\t\t\twindow.location.href = \"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B\";\n\t\t\t} catch(error) {\n\t\t\t     $.unblockUI();\n\t\t\t\tconsole.log({error})\n\t\t\t}\n\t\t}\n\n\t\tconst updateStatusSalamSim = async() => {\n\t\t\ttry {\n\t\t\t\tconst ticket_id = $(\"input[name='multipageForm_1_ticketUserInformation_id'\").val();\n\t\t\t\tconst status = $(\"input[name='salamRoute']:checked\").val();\n\t\t\t\tconst memo = $('#memoSalam').val();\n\t\t\t\t\n\t\t\t\treqData = { ...reqData, status, memo, ticket_id};\n                $.blockUI({ message: '<h1> Please wait...<\/h1>' });\n\t\t\t\t\n\t\t\t\tconst req = await reqToAPI(reqData);\n\t\t\t\t\n\t\t\t\twindow.location.href = \"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B\";\n\t\t\t} catch(error) {\n\t\t\t     $.unblockUI();\n\t\t\t\tconsole.log({error})\n\t\t\t}\n\t\t}\n\n\t\tconst reqToAPI = (data) => {\n\t\t\treturn new Promise((resolve, reject) => {\n\t\t\t\t$.ajax({\n\t\t\t\t\turl:'/jw/web/json/plugin/id.co.itasoft.telkom.oss.plugin.UpdateTicket/service?',\n\t\t\t\t\ttype:'post',\n\t\t\t\t\tdata: data,\n\t\t\t\t\tdataType: 'json',\n\t\t\t\t\tsuccess: function(result) {\n\t\t\t\t\t    console.log({result})\n\t\t\t\t\t\tresolve(result);\n\t\t\t\t\t},\n\t\t\t\t\terror: function(xhr, status, errorThrown) {\n\t\t\t\t\t\treject(status);\n\t\t\t\t\t}\n\t\t\t\t})\n\t\t\t})\n\t\t}\n<\/script>\n"
+                    }
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section2",
+                "join": "",
+                "label": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [
+                    {
+                        "className": "org.joget.plugin.enterprise.MultiPagedForm",
+                        "properties": {
+                            "ajaxMode": "true",
+                            "css": "",
+                            "displayMode": "wizard",
+                            "id": "multipageForm",
+                            "nextButtonlabel": "Next",
+                            "numberOfPage": {
+                                "className": "5",
+                                "properties": {
+                                    "page1_formDefId": "ticketUserInformation",
+                                    "page1_label": "Incident",
+                                    "page1_parentSubFormId": "page1_key",
+                                    "page1_readonly": "",
+                                    "page1_readonlyLabel": "",
+                                    "page1_subFormParentId": "",
+                                    "page1_validate": "true",
+                                    "page2_formDefId": "actualResolution",
+                                    "page2_label": "Actual Resolution",
+                                    "page2_parentSubFormId": "page2_key",
+                                    "page2_readonly": "",
+                                    "page2_readonlyLabel": "",
+                                    "page2_subFormParentId": "",
+                                    "page2_validate": "true",
+                                    "page3_formDefId": "relatedRecord",
+                                    "page3_label": "Related Records",
+                                    "page3_parentSubFormId": "page3_key",
+                                    "page3_readonly": "",
+                                    "page3_readonlyLabel": "",
+                                    "page3_subFormParentId": "",
+                                    "page3_validate": "true",
+                                    "page4_formDefId": "customerInformation",
+                                    "page4_label": "Customer Information",
+                                    "page4_parentSubFormId": "page4_key",
+                                    "page4_readonly": "",
+                                    "page4_readonlyLabel": "",
+                                    "page4_subFormParentId": "",
+                                    "page4_validate": "true",
+                                    "page5_formDefId": "impactedServices",
+                                    "page5_label": "Impacted Service",
+                                    "page5_parentSubFormId": "page5_key",
+                                    "page5_readonly": "",
+                                    "page5_readonlyLabel": "",
+                                    "page5_subFormParentId": "",
+                                    "page5_validate": "true"
+                                }
+                            },
+                            "onlyAllowSubmitOnLastPage": "",
+                            "prevButtonlabel": "Prev"
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "autoPopulate": "",
+                            "id": "field2",
+                            "label": "",
+                            "value": "<style>\r\n    th:nth-child(7){\r\n        display:none !important;\r\n    }\r\n    td:nth-child(7){\r\n        display:none !important;\r\n    }\r\n    .row_action.footable-visible{\r\n        text-align :center !important;\r\n    }\r\n    \r\n    td.merah .ps_progress_container .progress_bar .bar {\r\n        background: #f00;\r\n    }\r\n<\/style>\r\n\r\n<script>\r\n    $(document).ready(function(){\r\n       // // $(\"[name = multipageForm_1_ticketUserInformation_owner]\").val('#currentUser.username#'); \r\n    });\r\n    document.getElementById(\"multipageForm_1_ticketUserInformation_owner\").readOnly = true;\r\n<\/script>"
+                        }
+                    }
+                ],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section1",
+                "join": "",
+                "label": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        }
+    ],
+    "properties": {
+        "description": "",
+        "id": "viewMyRequest",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "View my Request",
+        "noPermissionMessage": "",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "postProcessorRunOn": "create",
+        "storeBinder": {
+            "className": "",
+            "properties": {}
+        },
+        "tableName": "ticket"
+    }
+}

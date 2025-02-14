@@ -1,0 +1,19 @@
+INFO    25 Jan 2021 01:12:04 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 0
+INFO    25 Jan 2021 01:12:04 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    25 Jan 2021 01:12:04 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Add form mappingAreaCpl. _Add form masterCpl. _Add form masterEquipment. _Add form masterService. _Add list mappingArea. _Add userview testFormGrid. _Update app config formGridTestApp. _Update app definition formGridTestApp. _
+INFO    25 Jan 2021 08:12:19 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    25 Jan 2021 08:12:19 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    08 Feb 2021 16:24:51 PackageEventLogger - UTCTime=1612776291223,EventType=packageLoaded,PackageId=formGridTestApp,PackageVersion=1,EventPerformedBy=novifp
+INFO    08 Feb 2021 16:24:51 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Update app definition formGridTestApp. _Update package formGridTestApp. _Update xpdl formGridTestApp. _
+INFO    08 Feb 2021 16:25:04 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Update package formGridTestApp. _
+INFO    08 Feb 2021 16:25:46 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Update package formGridTestApp. _
+INFO    08 Feb 2021 16:26:06 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Add form uploadFile. _Update package formGridTestApp. _
+INFO    08 Feb 2021 16:26:17 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Update form uploadFile. _
+INFO    08 Feb 2021 16:27:03 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Update form uploadFile. _
+INFO    08 Feb 2021 16:27:30 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Update package formGridTestApp. _
+INFO    08 Feb 2021 16:27:43 org.joget.apps.app.lib.JsonTool - POST : https://konteks-api.konvergen.ai/joget/ktp
+INFO    08 Feb 2021 16:27:43 org.joget.apps.app.lib.JsonTool - Adding param image : KTP.jpg
+INFO    08 Feb 2021 16:27:43 org.joget.apps.app.lib.JsonTool - Adding param key : 7b6918a3ff3c620524baa7e2ae930104adcd90487babb336673fed62c5df7745
+INFO    08 Feb 2021 16:27:43 org.joget.apps.app.lib.JsonTool - https://konteks-api.konvergen.ai/joget/ktp returned with status : 500
+INFO    08 Feb 2021 16:27:43 org.joget.apps.app.lib.JsonTool - {"read":{"agama":"","alamat":"","berlakuHingga":"","golonganDarah":"","jenisKelamin":"","kecamatan":"","kelurahanDesa":"","kewarganegaraan":"","kotaKabupaten":"","nama":"","nik":"","pekerjaan":"","provinsi":"","rtRw":"","statusPerkawinan":"","tanggalLahir":"","tempatLahir":""},"status":"Failed"}_
+INFO    08 Feb 2021 16:27:43 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=1288_formGridTestApp_process1, processDefId=formGridTestApp#1#process1, participantId=participant1, next user=[novifp]]

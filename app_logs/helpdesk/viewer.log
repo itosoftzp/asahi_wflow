@@ -1,0 +1,1049 @@
+INFO    21 Nov 2023 20:06:19 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Masuk readJson{  "user": {    "shift": "3",    "nama_staff": "DWI PRASETYA",    "department": "VCM-1"  },  "transactions": [    {      "area_code": "200",      "area_name": "OHCL SECTION",      "document_code": "RPT-VC3-3001",      "document_name": "Checklist Field",      "equipment_code": "RE-C201",      "equipment_name": "OHCL Reactor",      "id_service": "",      "service_name": "HCl",      "parameter": "Pressure",      "tag": "PG-C2735",      "date": "2023-07-28 08:00:00",      "form_type": "Range",      "min_value": "5",      "max_value": "7.5",      "correct_option": "-",      "unit": "Kg/cm2G",      "nfc_code": "VC3-C200-4",      "user_nik": "11111",      "user_name": "Dhona",      "department": "VCM-2",      "shift": "1",      "input": "5",      "description": "apa aja",      "foto": "",      "foto_2": "",      "status": "normal",      "format_type": "Field",      "to": "VCM-1",      "step": "1",      "ship_name": "ship2",      "amount": "2222"    },    {      "area_code": "200",      "area_name": "OHCL SECTION",      "document_code": "RPT-VC3-3001",      "document_name": "Checklist Field",      "equipment_code": "RE-C201",      "equipment_name": "OHCL Reactor",      "id_service": "",      "service_name": "HCl",      "parameter": "Pressure",      "tag": "PG-C2735",      "date": "2023-07-28 18:00:00",      "form_type": "Range",      "min_value": "5",      "max_value": "7.5",      "correct_option": "-",      "unit": "Kg/cm2G",      "nfc_code": "VC3-C200-4",      "user_nik": "11111",      "user_name": "Dhona",      "department": "VCM-2",      "shift": "2",      "input": "7",      "description": "apa aja",      "foto": "",      "foto_2": "",      "status": "normal",      "format_type": "Field",      "to": "VCM-1",      "step": "1",      "ship_name": "ship2",      "amount": "2222"    }  ]}
+INFO    21 Nov 2023 20:06:19 ASC - Smart Patrol VCM - Import Data - Ini format Special
+ERROR   21 Nov 2023 20:06:19 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Error set ServiceList JSONObject["a1_amount"] not found.
+org.json.JSONException: JSONObject["a1_amount"] not found.
+	at org.json.JSONObject.get(JSONObject.java:499)
+	at org.json.JSONObject.getString(JSONObject.java:670)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.getDataSpecial(ImportData.java:305)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.readJson(ImportData.java:216)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.webService(ImportData.java:69)
+	at org.joget.apps.app.controller.PluginJsonController.pluginService(PluginJsonController.java:279)
+	at jdk.internal.reflect.GeneratedMethodAccessor340.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.JsonResponseFilter.doFilter(JsonResponseFilter.java:144)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR   21 Nov 2023 20:06:19 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Error set ServiceList JSONObject["a1_amount"] not found.
+org.json.JSONException: JSONObject["a1_amount"] not found.
+	at org.json.JSONObject.get(JSONObject.java:499)
+	at org.json.JSONObject.getString(JSONObject.java:670)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.getDataSpecial(ImportData.java:305)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.readJson(ImportData.java:216)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.webService(ImportData.java:69)
+	at org.joget.apps.app.controller.PluginJsonController.pluginService(PluginJsonController.java:279)
+	at jdk.internal.reflect.GeneratedMethodAccessor340.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.JsonResponseFilter.doFilter(JsonResponseFilter.java:144)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR   21 Nov 2023 20:06:19 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Error set ServiceList JSONArray[2] not found.
+org.json.JSONException: JSONArray[2] not found.
+	at org.json.JSONArray.get(JSONArray.java:236)
+	at org.json.JSONArray.getJSONObject(JSONArray.java:328)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.getDataSpecial(ImportData.java:272)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.readJson(ImportData.java:216)
+	at id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData.webService(ImportData.java:69)
+	at org.joget.apps.app.controller.PluginJsonController.pluginService(PluginJsonController.java:279)
+	at jdk.internal.reflect.GeneratedMethodAccessor340.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.JsonResponseFilter.doFilter(JsonResponseFilter.java:144)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+INFO    22 Nov 2023 15:15:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (180.254.64.151) : true
+INFO    01 Dec 2023 15:01:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    07 Dec 2023 22:26:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (125.164.18.23) : false
+INFO    27 Dec 2023 14:14:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Agus.Kurniawan (114.124.207.162) : true
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek User
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Section
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Area
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Document
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Equipment
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Shift
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service_Special
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Format
+INFO    27 Dec 2023 14:16:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - Berhasil generate JSON
+INFO    27 Dec 2023 14:26:47 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Masuk readJson{"user":{"shift":"2","nama_staff":"Agus Kurniawan","department":"VCM-1"},"transactions":[{"area_code":"itatestac03","area_name":"itatestan03","document_code":"itatestdc03","document_name":"itatestdn03","equipment_code":"itatestec03","equipment_name":"itatesten03","id_service":"2b253ede-a5bc-45f2-ba07-d2d3bcbce371","service_name":"s2","parameter":"sp2","tag":"st2","date":"2023-12-27 14:26:42.799424","form_type":"min","min_value":"13","max_value":"","correct_option":"","unit":"su2","nfc_code":"123455","user_nik":"20222479","user_name":"Agus Kurniawan","department":"VCM-1","shift":"2","input":"SKIP","description":"","foto":"","foto_2":"","status":"normal","format_type":"Field","step":"","to":""},{"area_code":"itatestac03","area_name":"itatestan03","document_code":"itatestdc03","document_name":"itatestdn03","equipment_code":"itatestec03","equipment_name":"itatesten03","id_service":"92d4b1c3-18c4-4b7d-8d04-63d315a2a089","service_name":"s1","parameter":"sp1","tag":"st1","date":"2023-12-27 14:26:42.799455","form_type":"max","min_value":"","max_value":"10","correct_option":"","unit":"su1","nfc_code":"123455","user_nik":"20222479","user_name":"Agus Kurniawan","department":"VCM-1","shift":"2","input":"SKIP","description":"","foto":"","foto_2":"","status":"normal","format_type":"Field","step":"","to":""},{"area_code":"itatestac03","area_name":"itatestan03","document_code":"itatestdc03","document_name":"itatestdn03","equipment_code":"itatestec03","equipment_name":"itatesten03","id_service":"b33dded1-210d-4567-826e-3afb9ed4db9e","service_name":"itatests3","parameter":"itatestp3","tag":"itatestt3","date":"2023-12-27 14:26:42.799471","form_type":"max","min_value":"","max_value":"145","correct_option":"","unit":"itatestu3","nfc_code":"123455","user_nik":"20222479","user_name":"Agus Kurniawan","department":"VCM-1","shift":"2","input":"SKIP","description":"","foto":"","foto_2":"","status":"normal","format_type":"Field","step":"","to":""},{"area_code":"itatestac03","area_name":"itatestan03","document_code":"itatestdc03","document_name":"itatestdn03","equipment_code":"itatestec03","equipment_name":"itatesten03","id_service":"e9091932-a5f0-45eb-ac13-777610c10677","service_name":"s3","parameter":"sp3","tag":"st3","date":"2023-12-27 14:26:42.799487","form_type":"max","min_value":"","max_value":"15","correct_option":"","unit":"su3","nfc_code":"123455","user_nik":"20222479","user_name":"Agus Kurniawan","department":"VCM-1","shift":"2","input":"SKIP","description":"","foto":"","foto_2":"","status":"normal","format_type":"Field","step":"","to":""}]}
+INFO    27 Dec 2023 14:26:47 ASC - Smart Patrol VCM - Import Data - Ini format Standart
+INFO    27 Dec 2023 14:26:47 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    27 Dec 2023 14:26:47 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    27 Dec 2023 14:26:47 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    27 Dec 2023 14:26:47 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    24 Feb 2024 14:01:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.124.142) : true
+INFO    20 Mar 2024 09:08:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.57) : true
+INFO    22 Mar 2024 15:59:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.55) : true
+INFO    24 Jun 2024 09:26:23 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.124.125) : true
+INFO    16 Aug 2024 17:08:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : false
+INFO    22 Aug 2024 10:17:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (180.252.231.109) : false
+INFO    23 Aug 2024 10:14:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.57) : false
+INFO    26 Aug 2024 09:03:23 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (104.28.250.135) : false
+INFO    28 Aug 2024 09:08:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.60) : true
+INFO    28 Aug 2024 13:58:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.60) : true
+INFO    02 Sep 2024 14:44:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.60) : true
+INFO    04 Sep 2024 15:20:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.59) : true
+INFO    05 Sep 2024 11:05:52 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.59) : true
+INFO    17 Sep 2024 10:03:18 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[]}
+INFO    27 Sep 2024 09:32:18 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.49) : true
+INFO    30 Sep 2024 09:26:10 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.49) : true
+INFO    04 Oct 2024 17:35:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.48) : true
+INFO    11 Oct 2024 11:03:38 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview helpdeskUserview. _
+INFO    11 Oct 2024 16:07:08 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=deptManager, next user=[admin]]
+INFO    11 Oct 2024 16:08:27 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=helpDeskITD, next user=[Eva.Nurwulan, asc.helpdesk, Hari.Nuryadi]]
+INFO    11 Oct 2024 16:09:07 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=helpDeskITD, next user=[Eva.Nurwulan, asc.helpdesk, Hari.Nuryadi]]
+INFO    11 Oct 2024 16:09:50 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Oct 2024 09:02:57 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Oct 2024 09:43:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.53) : true
+INFO    14 Oct 2024 10:59:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.53) : true
+INFO    14 Oct 2024 11:16:32 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    14 Oct 2024 11:16:32 org.joget.plugin.base.PluginManager - 00000 installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    14 Oct 2024 11:16:44 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    14 Oct 2024 11:16:45 org.joget.plugin.base.PluginManager - 00000 installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    14 Oct 2024 14:26:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    14 Oct 2024 14:26:26 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    14 Oct 2024 15:05:29 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add list ListReevaluate. _
+INFO    14 Oct 2024 15:08:31 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list ListReevaluate. _
+INFO    14 Oct 2024 15:12:10 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list ListReevaluate. _
+INFO    14 Oct 2024 15:22:31 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview helpdeskUserview. _
+INFO    14 Oct 2024 15:23:47 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    14 Oct 2024 15:28:16 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[admin]]
+INFO    15 Oct 2024 09:02:57 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    15 Oct 2024 10:55:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 10:55:00 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:37:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:37:36 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:38:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:38:09 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:57:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:57:44 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:03:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:28 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:04:28 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:13:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=deptManager, next user=[admin]]
+INFO    15 Oct 2024 16:13:07 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:13:07 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:13:43 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=helpDeskITD, next user=[Eva.Nurwulan, asc.helpdesk, Hari.Nuryadi]]
+INFO    15 Oct 2024 16:14:25 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 16:14:37 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    15 Oct 2024 16:15:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:15:07 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:18:28 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Yuharmen.Asc]]
+INFO    15 Oct 2024 16:23:56 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    16 Oct 2024 09:03:18 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    16 Oct 2024 09:03:19 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Oct 2024 09:03:26 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Oct 2024 09:03:27 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Oct 2024 11:04:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.53) : true
+INFO    18 Oct 2024 09:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    18 Oct 2024 09:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    21 Oct 2024 09:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    21 Oct 2024 09:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    21 Oct 2024 09:47:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    21 Oct 2024 09:48:40 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    21 Oct 2024 10:25:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.53) : true
+INFO    21 Oct 2024 16:51:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    21 Oct 2024 16:51:54 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (182.253.194.53) : true
+INFO    22 Oct 2024 09:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    22 Oct 2024 09:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    23 Oct 2024 09:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    23 Oct 2024 09:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    24 Oct 2024 09:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    24 Oct 2024 09:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    25 Oct 2024 09:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    25 Oct 2024 09:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    25 Oct 2024 11:28:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.45) : true
+INFO    28 Oct 2024 09:02:53 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    28 Oct 2024 09:02:54 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    29 Oct 2024 09:03:08 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    29 Oct 2024 09:03:10 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    29 Oct 2024 09:26:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.45) : true
+INFO    30 Oct 2024 09:02:54 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    30 Oct 2024 09:02:55 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    30 Oct 2024 09:05:21 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : true
+INFO    31 Oct 2024 09:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    31 Oct 2024 09:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    31 Oct 2024 14:28:22 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : false
+INFO    31 Oct 2024 16:08:59 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.45) : true
+INFO    01 Nov 2024 09:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    01 Nov 2024 09:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    04 Nov 2024 09:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    04 Nov 2024 09:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    05 Nov 2024 09:03:08 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    05 Nov 2024 09:03:09 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Nov 2024 09:03:06 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Nov 2024 09:03:07 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Nov 2024 09:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Nov 2024 09:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    08 Nov 2024 09:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    08 Nov 2024 09:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    08 Nov 2024 09:26:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.52) : true
+INFO    11 Nov 2024 09:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    11 Nov 2024 09:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    12 Nov 2024 09:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    12 Nov 2024 09:03:06 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Nov 2024 09:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Nov 2024 09:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Nov 2024 12:31:20 org.joget.apps.app.service.AppDevUtil - Git project not found, first time init for app {id=example, version=1, published=false}
+INFO    13 Nov 2024 12:31:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Initial commit for example_1
+INFO    13 Nov 2024 12:31:22 org.joget.apps.app.service.AppDevUtil - Git project init complete for app {id=example, version=1, published=false}
+INFO    14 Nov 2024 00:00:55 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Nov 2024 00:00:56 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Nov 2024 08:34:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.52) : false
+INFO    15 Nov 2024 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    15 Nov 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    15 Nov 2024 09:05:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.52) : true
+INFO    15 Nov 2024 13:41:41 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.50) : true
+INFO    18 Nov 2024 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    18 Nov 2024 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    18 Nov 2024 17:24:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (103.109.203.166) : true
+INFO    19 Nov 2024 08:02:55 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    19 Nov 2024 08:02:56 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    20 Nov 2024 00:00:56 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    20 Nov 2024 00:00:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    21 Nov 2024 09:58:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    21 Nov 2024 09:58:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    22 Nov 2024 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    22 Nov 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    25 Nov 2024 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    25 Nov 2024 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+ERROR   25 Nov 2024 18:30:51 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+ERROR   25 Nov 2024 18:30:51 org.joget.workflow.shark.DeadlineChecker - org.hibernate.exception.JDBCConnectionException: Could not open connection
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.joget.workflow.shark.model.dao.DeadlineDao.getProcessIdsWithDeadlines(DeadlineDao.java:69)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$FastClassBySpringCGLIB$$aabaab08.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:737)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:283)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:672)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$EnhancerBySpringCGLIB$$56b6c34f.getProcessIdsWithDeadlines(<generated>)
+	at org.joget.workflow.shark.DeadlineChecker.runMe(DeadlineChecker.java:168)
+	at org.joget.workflow.shark.DeadlineChecker.run(DeadlineChecker.java:134)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1241)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:610)
+	at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:142)
+	at org.mariadb.jdbc.Driver.connect_aroundBody0(Driver.java:86)
+	at org.mariadb.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:1)
+	at com.mysql.jdbc.Driver.connect_aroundBody0(Driver.java:29)
+	at com.mysql.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at com.mysql.jdbc.Driver.connect(Driver.java:1)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:718)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:650)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:187)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:132)
+	at org.apache.tomcat.jdbc.pool.DataSource.getConnection(DataSource.java)
+	at org.apache.tomcat.jdbc.pool.XADataSource.getConnection(XADataSource.java)
+	at org.joget.commons.util.DynamicDataSource.getConnection_aroundBody0(DynamicDataSource.java:48)
+	at org.joget.commons.util.DynamicDataSource$AjcClosure1.run(DynamicDataSource.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at org.joget.commons.util.AnalyzerAspect.analyzeDbcpOpenConnections(AnalyzerAspect.java:170)
+	at org.joget.commons.util.DynamicDataSource.getConnection(DynamicDataSource.java:20)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 34 more
+Caused by: java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.connException(ExceptionMapper.java:87)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:218)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createConnection(AbstractConnectProtocol.java:474)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1236)
+	... 58 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:213)
+	... 60 more
+INFO    26 Nov 2024 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    26 Nov 2024 08:03:06 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    27 Nov 2024 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    27 Nov 2024 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    28 Nov 2024 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    28 Nov 2024 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    28 Nov 2024 17:10:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Afandi.Asc (182.253.194.55) : true
+INFO    29 Nov 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    29 Nov 2024 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    02 Dec 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    02 Dec 2024 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    03 Dec 2024 08:02:56 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    03 Dec 2024 08:02:57 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    04 Dec 2024 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    04 Dec 2024 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    05 Dec 2024 00:00:26 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    05 Dec 2024 00:00:27 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Dec 2024 00:00:08 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Dec 2024 00:00:09 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Dec 2024 00:00:42 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Dec 2024 00:00:43 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    08 Dec 2024 00:00:07 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    08 Dec 2024 00:00:08 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    09 Dec 2024 00:00:20 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    09 Dec 2024 00:00:21 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    10 Dec 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    10 Dec 2024 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    10 Dec 2024 13:22:17 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.63) : true
+ERROR   10 Dec 2024 18:30:51 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+ERROR   10 Dec 2024 18:30:51 org.joget.workflow.shark.DeadlineChecker - org.hibernate.exception.JDBCConnectionException: Could not open connection
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.joget.workflow.shark.model.dao.DeadlineDao.getProcessIdsWithDeadlines(DeadlineDao.java:69)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$FastClassBySpringCGLIB$$aabaab08.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:737)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:283)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:672)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$EnhancerBySpringCGLIB$$d91deb8c.getProcessIdsWithDeadlines(<generated>)
+	at org.joget.workflow.shark.DeadlineChecker.runMe(DeadlineChecker.java:168)
+	at org.joget.workflow.shark.DeadlineChecker.run(DeadlineChecker.java:134)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1241)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:610)
+	at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:142)
+	at org.mariadb.jdbc.Driver.connect_aroundBody0(Driver.java:86)
+	at org.mariadb.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:1)
+	at com.mysql.jdbc.Driver.connect_aroundBody0(Driver.java:29)
+	at com.mysql.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at com.mysql.jdbc.Driver.connect(Driver.java:1)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:718)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:650)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:187)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:132)
+	at org.apache.tomcat.jdbc.pool.DataSource.getConnection(DataSource.java)
+	at org.apache.tomcat.jdbc.pool.XADataSource.getConnection(XADataSource.java)
+	at org.joget.commons.util.DynamicDataSource.getConnection_aroundBody0(DynamicDataSource.java:48)
+	at org.joget.commons.util.DynamicDataSource$AjcClosure1.run(DynamicDataSource.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at org.joget.commons.util.AnalyzerAspect.analyzeDbcpOpenConnections(AnalyzerAspect.java:170)
+	at org.joget.commons.util.DynamicDataSource.getConnection(DynamicDataSource.java:20)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 34 more
+Caused by: java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.connException(ExceptionMapper.java:87)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:218)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createConnection(AbstractConnectProtocol.java:474)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1236)
+	... 58 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:213)
+	... 60 more
+INFO    11 Dec 2024 00:00:14 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    11 Dec 2024 00:00:15 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    12 Dec 2024 00:00:25 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    12 Dec 2024 00:00:26 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Dec 2024 08:02:56 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Dec 2024 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    16 Dec 2024 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    16 Dec 2024 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Dec 2024 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Dec 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Dec 2024 09:41:02 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.63) : true
+INFO    17 Dec 2024 10:09:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.63) : true
+INFO    18 Dec 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    18 Dec 2024 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    19 Dec 2024 08:02:57 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    19 Dec 2024 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    20 Dec 2024 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    20 Dec 2024 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    23 Dec 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    23 Dec 2024 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    24 Dec 2024 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    24 Dec 2024 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    25 Dec 2024 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    25 Dec 2024 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    26 Dec 2024 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    26 Dec 2024 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    27 Dec 2024 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    27 Dec 2024 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+ERROR   27 Dec 2024 18:30:53 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+ERROR   27 Dec 2024 18:30:53 org.joget.workflow.shark.DeadlineChecker - org.hibernate.exception.JDBCConnectionException: Could not open connection
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.joget.workflow.shark.model.dao.DeadlineDao.getProcessIdsWithDeadlines(DeadlineDao.java:69)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$FastClassBySpringCGLIB$$aabaab08.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:737)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:283)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:672)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$EnhancerBySpringCGLIB$$1b7831fb.getProcessIdsWithDeadlines(<generated>)
+	at org.joget.workflow.shark.DeadlineChecker.runMe(DeadlineChecker.java:168)
+	at org.joget.workflow.shark.DeadlineChecker.run(DeadlineChecker.java:134)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1241)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:610)
+	at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:142)
+	at org.mariadb.jdbc.Driver.connect_aroundBody0(Driver.java:86)
+	at org.mariadb.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:1)
+	at com.mysql.jdbc.Driver.connect_aroundBody0(Driver.java:29)
+	at com.mysql.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at com.mysql.jdbc.Driver.connect(Driver.java:1)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:718)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:650)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:187)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:132)
+	at org.apache.tomcat.jdbc.pool.DataSource.getConnection(DataSource.java)
+	at org.apache.tomcat.jdbc.pool.XADataSource.getConnection(XADataSource.java)
+	at org.joget.commons.util.DynamicDataSource.getConnection_aroundBody0(DynamicDataSource.java:48)
+	at org.joget.commons.util.DynamicDataSource$AjcClosure1.run(DynamicDataSource.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at org.joget.commons.util.AnalyzerAspect.analyzeDbcpOpenConnections(AnalyzerAspect.java:170)
+	at org.joget.commons.util.DynamicDataSource.getConnection(DynamicDataSource.java:20)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 34 more
+Caused by: java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.connException(ExceptionMapper.java:87)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:218)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createConnection(AbstractConnectProtocol.java:474)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1236)
+	... 58 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:213)
+	... 60 more
+INFO    30 Dec 2024 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    30 Dec 2024 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    31 Dec 2024 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    31 Dec 2024 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    01 Jan 2025 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    01 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    02 Jan 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    02 Jan 2025 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    02 Jan 2025 16:43:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.43) : true
+INFO    03 Jan 2025 08:02:56 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    03 Jan 2025 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Jan 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    08 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    08 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    09 Jan 2025 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    09 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    09 Jan 2025 15:12:02 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.43) : true
+INFO    10 Jan 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    10 Jan 2025 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Jan 2025 08:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Jan 2025 08:03:06 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    15 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    15 Jan 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    16 Jan 2025 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    16 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    17 Jan 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    20 Jan 2025 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    20 Jan 2025 08:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    21 Jan 2025 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    21 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    22 Jan 2025 00:00:22 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    22 Jan 2025 00:00:23 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    23 Jan 2025 08:03:06 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    23 Jan 2025 08:03:07 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    24 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    24 Jan 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    27 Jan 2025 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    27 Jan 2025 08:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+ERROR   27 Jan 2025 18:30:51 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+ERROR   27 Jan 2025 18:30:51 org.joget.workflow.shark.DeadlineChecker - org.hibernate.exception.JDBCConnectionException: Could not open connection
+org.hibernate.exception.JDBCConnectionException: Could not open connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:65)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:235)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.getConnection(LogicalConnectionImpl.java:171)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:63)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1300)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103)
+	at org.joget.workflow.shark.model.dao.DeadlineDao.getProcessIdsWithDeadlines(DeadlineDao.java:69)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$FastClassBySpringCGLIB$$aabaab08.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:737)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:283)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:672)
+	at org.joget.workflow.shark.model.dao.DeadlineDao$$EnhancerBySpringCGLIB$$9e319f6b.getProcessIdsWithDeadlines(<generated>)
+	at org.joget.workflow.shark.DeadlineChecker.runMe(DeadlineChecker.java:168)
+	at org.joget.workflow.shark.DeadlineChecker.run(DeadlineChecker.java:134)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not connect to address=(host=localhost)(port=3306)(type=master) : Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1241)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:610)
+	at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:142)
+	at org.mariadb.jdbc.Driver.connect_aroundBody0(Driver.java:86)
+	at org.mariadb.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:1)
+	at com.mysql.jdbc.Driver.connect_aroundBody0(Driver.java:29)
+	at com.mysql.jdbc.Driver.connect_aroundBody1$advice(Driver.java:155)
+	at com.mysql.jdbc.Driver.connect(Driver.java:1)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:718)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:650)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:187)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:132)
+	at org.apache.tomcat.jdbc.pool.DataSource.getConnection(DataSource.java)
+	at org.apache.tomcat.jdbc.pool.XADataSource.getConnection(XADataSource.java)
+	at org.joget.commons.util.DynamicDataSource.getConnection_aroundBody0(DynamicDataSource.java:48)
+	at org.joget.commons.util.DynamicDataSource$AjcClosure1.run(DynamicDataSource.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at org.joget.commons.util.AnalyzerAspect.analyzeDbcpOpenConnections(AnalyzerAspect.java:170)
+	at org.joget.commons.util.DynamicDataSource.getConnection(DynamicDataSource.java:20)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:380)
+	at org.hibernate.engine.jdbc.internal.LogicalConnectionImpl.obtainConnection(LogicalConnectionImpl.java:228)
+	... 34 more
+Caused by: java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:localhost, port:3306. Connection refused (Connection refused)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:241)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.connException(ExceptionMapper.java:87)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:218)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createConnection(AbstractConnectProtocol.java:474)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1236)
+	... 58 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.createSocket(AbstractConnectProtocol.java:213)
+	... 60 more
+INFO    28 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    28 Jan 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    29 Jan 2025 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    29 Jan 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    30 Jan 2025 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    30 Jan 2025 08:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+ERROR   30 Jan 2025 10:11:25 org.joget.commons.spring.web.CustomDelegatingFilterProxy - java.io.IOException: Broken pipe
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:330)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:293)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:513)
+	at org.springframework.security.web.util.OnCommittedResponseWrapper$SaveContextServletOutputStream.flush(OnCommittedResponseWrapper.java:513)
+	at org.joget.apps.app.controller.AppWebController.downloadAppResource(AppWebController.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:462)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1311)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:716)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:669)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:659)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:654)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:166)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:255)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1428)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:404)
+	at org.apache.coyote.Response.action(Response.java:206)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:326)
+	... 94 more
+INFO    31 Jan 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    31 Jan 2025 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    02 Feb 2025 09:07:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    02 Feb 2025 09:07:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    03 Feb 2025 00:00:34 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    03 Feb 2025 00:00:35 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    04 Feb 2025 07:19:29 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    04 Feb 2025 07:19:30 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    05 Feb 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    05 Feb 2025 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Feb 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    06 Feb 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Feb 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    07 Feb 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    10 Feb 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    10 Feb 2025 08:03:02 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    11 Feb 2025 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    11 Feb 2025 08:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    12 Feb 2025 08:03:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    12 Feb 2025 08:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Feb 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Feb 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Feb 2025 08:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Feb 2025 08:03:06 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]

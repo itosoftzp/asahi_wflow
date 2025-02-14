@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_levm_stp_case_mng" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_levm_stp_case_mng">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_under_legal_criteria" name="under_legal_criteria" not-null="false" type="text"/><property column="c_lod_notice" name="lod_notice" not-null="false" type="text"/><property column="c_under_legal_criteria_period" name="under_legal_criteria_period" not-null="false" type="text"/><property column="c_reminders_on_arrears_period" name="reminders_on_arrears_period" not-null="false" type="text"/><property column="c_publish" name="publish" not-null="false" type="text"/><property column="c_reminders_on_arrears" name="reminders_on_arrears" not-null="false" type="text"/><property column="c_lawyer_notice_period" name="lawyer_notice_period" not-null="false" type="text"/><property column="c_lawyer_notice" name="lawyer_notice" not-null="false" type="text"/><property column="c_lod_notice_period" name="lod_notice_period" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,52 @@
+INFO    08 Oct 2024 09:18:31 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 3
+INFO    08 Oct 2024 09:18:31 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    08 Oct 2024 09:18:31 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form abort_processes. _Add form activity_info. _Add form complete_activities. _Add form multiple_reassign_personal. _Add form process_ifo. _Add form reassign_form_activity. _Add form reassign_form_user. _Add form recover. _Add form reevaluate_assignment. _Add form reevaluate_form_user. _Add form reevaluate_processes. _Add form restart_processes. _Add list completed_process. _Add list personal_activities. _Add list running_activities. _Add list running_process. _Add userview u. _Update app config monapp. _Update app definition monapp. _
+INFO    08 Oct 2024 09:20:34 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4717_testRepeter_process1, processDefId=testRepeter#1#process1, participantId=process1_participant2, next user=[Dhimas.Adi]]
+INFO    08 Oct 2024 09:21:50 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4717_testRepeter_process1, processDefId=testRepeter#1#process1, participantId=process1_participant2, next user=[raisa]]
+INFO    08 Oct 2024 13:34:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (103.109.203.166) : true
+INFO    08 Oct 2024 14:05:19 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    08 Oct 2024 14:05:20 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    10 Oct 2024 09:04:09 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4741_testRepeter_process1, processDefId=testRepeter#2#process1, participantId=process1_participant2, next user=[Punaji.Asc]]
+INFO    10 Oct 2024 09:29:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true
+INFO    11 Oct 2024 09:02:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : false
+INFO    11 Oct 2024 16:20:08 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.Asc.processtool.Process-tool started
+INFO    11 Oct 2024 16:20:08 org.joget.plugin.base.PluginManager - admin installed plugin (Process-tool-7.0-SNAPSHOT.jar).
+INFO    14 Oct 2024 10:21:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 13:26:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    15 Oct 2024 13:27:01 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 13:53:42 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 13:53:42 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    17 Oct 2024 11:04:15 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    24 Oct 2024 13:51:34 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : false
+INFO    04 Nov 2024 11:50:25 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    04 Nov 2024 11:53:52 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.62) : true
+INFO    06 Nov 2024 10:04:47 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.52) : true
+INFO    07 Nov 2024 10:20:02 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user andi.riswandi (182.253.194.52) : true
+INFO    07 Nov 2024 10:20:21 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.52) : true
+INFO    07 Nov 2024 10:30:28 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-api-element started
+INFO    07 Nov 2024 10:30:28 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-api-element-7.0-SNAPSHOT.jar).
+INFO    12 Nov 2024 09:33:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.52) : true
+INFO    18 Nov 2024 14:01:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.50) : true
+INFO    25 Nov 2024 14:03:38 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.55) : true
+INFO    26 Nov 2024 16:21:26 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? AND c_status_user_patrol = 'Done' GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    26 Nov 2024 16:21:26 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2024-11-01 23:59:59, end_date=2024-12-26 23:59:59, department=INS
+INFO    26 Nov 2024 16:21:26 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":["1"],"data":[{"total":"1","month":"November"}],"month":["November"]}
+INFO    28 Nov 2024 10:01:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.55) : false
+INFO    29 Nov 2024 11:35:23 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? AND c_status_user_patrol = 'Done' GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    29 Nov 2024 11:35:23 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2024-11-01 23:59:59, end_date=2024-11-30 23:59:59, department=INS
+INFO    29 Nov 2024 11:35:23 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[2],"data":[{"total":"2","month":"November"}],"month":["November"]}
+INFO    02 Dec 2024 11:22:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.55) : true
+INFO    02 Dec 2024 16:06:18 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.55) : true
+INFO    04 Dec 2024 12:04:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.55) : true
+INFO    05 Dec 2024 10:02:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.55) : true
+INFO    11 Dec 2024 08:48:25 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Masuk readJson{"user":{"shift":"1","nama_staff":"Andrianto Prasetyo","department":"VCM-4"},"transactions":[{"area_code":"B001","area_name":"Xin Building","document_code":"FL001","document_name":"Floor 1","equipment_code":"R001a","equipment_name":"Meeting Room 1","id_service":"7ad51979-ee24-41b5-a697-f7c6b4d5422c","service_name":"Door Lock","parameter":"Functional","tag":"DOORFUNCTION","date":"2024-12-11 08:46:25.411493","form_type":"options","min_value":"","max_value":"","correct_option":"NORMAL","unit":"","nfc_code":"ITAS987","user_nik":"20152113","user_name":"Andrianto Prasetyo","department":"VCM-4","shift":"1","input":"NORMAL","description":"","foto":"","foto_2":"","status":"normal","format_type":"72dec0ca-aca5-4e2b-9e68-b5dd6ad0be01","step":"","to":""},{"area_code":"B001","area_name":"Xin Building","document_code":"FL001","document_name":"Floor 1","equipment_code":"R001a","equipment_name":"Meeting Room 1","id_service":"9a214307-cef2-477b-a93b-afddbcf46b02","service_name":"APAR Availability","parameter":"Available","tag":"APARAVAIL","date":"2024-12-11 08:46:25.412374","form_type":"options","min_value":"","max_value":"","correct_option":"Yes","unit":"","nfc_code":"ITAS987","user_nik":"20152113","user_name":"Andrianto Prasetyo","department":"VCM-4","shift":"1","input":"Yes","description":"","foto":"","foto_2":"","status":"normal","format_type":"72dec0ca-aca5-4e2b-9e68-b5dd6ad0be01","step":"","to":""}]}
+INFO    11 Dec 2024 08:48:25 ASC - Smart Patrol VCM - Import Data - Ini format Standart
+INFO    11 Dec 2024 08:48:25 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    11 Dec 2024 08:48:25 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    11 Dec 2024 19:56:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (180.244.132.64) : true
+INFO    16 Dec 2024 09:55:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.63) : true
+INFO    16 Dec 2024 14:23:15 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.63) : true
+INFO    19 Dec 2024 09:36:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.63) : true
+INFO    17 Jan 2025 11:12:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.39) : true
+INFO    20 Jan 2025 10:20:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.39) : true
+INFO    11 Feb 2025 16:39:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : true

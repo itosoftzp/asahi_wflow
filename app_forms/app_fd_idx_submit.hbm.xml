@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_idx_submit" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_idx_submit">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_requester" name="requester" not-null="false" type="text"/><property column="c_date" name="date" not-null="false" type="text"/><property column="c_auth" name="auth" not-null="false" type="text"/><property column="c_approval_status" name="approval_status" not-null="false" type="text"/><property column="c_file_name" name="file_name" not-null="false" type="text"/><property column="c_source" name="source" not-null="false" type="text"/><property column="c_type" name="type" not-null="false" type="text"/><property column="c_time_scheduler" name="time_scheduler" not-null="false" type="text"/><property column="c_source_file" name="source_file" not-null="false" type="text"/><property column="c_target" name="target" not-null="false" type="text"/><property column="c_target_label" name="target_label" not-null="false" type="text"/><property column="c_path" name="path" not-null="false" type="text"/><property column="c_source_label" name="source_label" not-null="false" type="text"/><property column="c_category" name="category" not-null="false" type="text"/><property column="c_authentication" name="authentication" not-null="false" type="text"/><property column="c_option" name="option" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

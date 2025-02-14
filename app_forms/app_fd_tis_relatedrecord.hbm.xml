@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_tis_relatedrecord" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_tis_relatedrecord">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_relatedrecclass" name="relatedrecclass" not-null="false" type="text"/><property column="c_relatetype" name="relatetype" not-null="false" type="text"/><property column="c_recordkey" name="recordkey" not-null="false" type="text"/><property column="c_relatedreckey" name="relatedreckey" not-null="false" type="text"/><property column="c_relatedrecordid" name="relatedrecordid" not-null="false" type="text"/><property column="c_siteid" name="siteid" not-null="false" type="text"/><property column="c_class" name="class" not-null="false" type="text"/><property column="c_relatedrecsiteid" name="relatedrecsiteid" not-null="false" type="text"/><property column="c_ticketid" name="ticketid" not-null="false" type="text"/><property column="c_orgid" name="orgid" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

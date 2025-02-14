@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_hmo_client" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_hmo_client">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_regNo" name="regNo" not-null="false" type="text"/><property column="c_country" name="country" not-null="false" type="text"/><property column="c_code" name="code" not-null="false" type="text"/><property column="c_clientCodeDummy" name="clientCodeDummy" not-null="false" type="text"/><property column="c_clientName" name="clientName" not-null="false" type="text"/><property column="c_address2" name="address2" not-null="false" type="text"/><property column="c_city" name="city" not-null="false" type="text"/><property column="c_address1" name="address1" not-null="false" type="text"/><property column="c_postcode" name="postcode" not-null="false" type="text"/><property column="c_editBy" name="editBy" not-null="false" type="text"/><property column="c_dateUpdated" name="dateUpdated" not-null="false" type="text"/><property column="c_picTelephoneNo" name="picTelephoneNo" not-null="false" type="text"/><property column="c_organizationType" name="organizationType" not-null="false" type="text"/><property column="c_password" name="password" not-null="false" type="text"/><property column="c_telephoneNo" name="telephoneNo" not-null="false" type="text"/><property column="c_clientCode" name="clientCode" not-null="false" type="text"/><property column="c_state" name="state" not-null="false" type="text"/><property column="c_editByName" name="editByName" not-null="false" type="text"/><property column="c_personInCharge" name="personInCharge" not-null="false" type="text"/><property column="c_username" name="username" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

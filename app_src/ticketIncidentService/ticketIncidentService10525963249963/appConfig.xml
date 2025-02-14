@@ -1,0 +1,30 @@
+<appDefinition>
+   <id>ticketIncidentService</id>
+   <version></version>
+   <name>Ticket Incident Service</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>counter_ticket</id>
+         <appId>ticketIncidentService</appId>
+         <appVersion>3</appVersion>
+         <value>137</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>url</id>
+         <appId>ticketIncidentService</appId>
+         <appVersion>3</appVersion>
+         <value>http://54.179.192.182:8080/</value>
+         <remarks></remarks>
+      </environmentVariable>
+   </environmentVariableList>
+   <messageList/>
+   <resourceList/>
+   <license>5T/bueZ3xbiXouDNP5cBh5W2wUFj2nbir0ONQDPxdx1zgwHtESUjQSfFYWKK1nXO6vB7wmnmoOvKAqW/N9uVQh1lskwMkKCj</license>
+</appDefinition>

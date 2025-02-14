@@ -1,0 +1,320 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.JdbcDataListBinder",
+        "properties": {
+            "jdbcDatasource": "default",
+            "optimisePaging": "",
+            "primaryKey": "id",
+            "sql": "SELECT\r\nid,\r\ndateCreated,\r\nc_owner AS OWNER,\r\nc_name AS NAME,\r\nc_reported_date AS reported_date,\r\nc_summary AS summary,\r\nc_classification_path AS classification_path,\r\nc_technology AS technology,\r\nc_service_category AS service_category,\r\nc_status AS status,\r\nCONCAT('<a href=\"/jw/web/userview/ticketIncidentService/ticketIncidentService/_/03ED2B71394E492586B8E57A69DCB91B?_mode=edit&amp;id=', id, '\"class=\"ticket\"> ', id, '<\/a>') AS 'ticket'\r\nFROM app_fd_ticket \r\nWHERE c_owner = '#currentUser.username#'"
+        }
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_4",
+            "label": "Ticket",
+            "name": "ticket",
+            "renderHtml": "true",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_0",
+            "label": "Summary",
+            "name": "summary",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Classification Path",
+            "name": "classification_path",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_2",
+            "label": "Technology",
+            "name": "technology",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_3",
+            "label": "Service Category",
+            "name": "service_category",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "filterable": true,
+            "format": {
+                "className": "org.joget.plugin.enterprise.ConditionFormatter",
+                "properties": {"conditions": [
+                    {
+                        "format": "\"<span style=\\\"background-color:green\\\">\"+{status}+\"<\/span>\"",
+                        "rule": "{status} == \"ANALYSIS\""
+                    },
+                    {
+                        "format": "\"<span style=\\\"background-color:red\\\">\"+{status}+\"<\/span>\"",
+                        "rule": "{status} == \"CLOSED\""
+                    }
+                ]}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
+            "id": "column_5",
+            "label": "Status",
+            "name": "status",
+            "sortable": "false",
+            "style": "",
+            "width": ""
+        }
+    ],
+    "considerFilterWhenGetTotal": "",
+    "description": "",
+    "disableResponsive": "",
+    "filters": [
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-3857263-fn_id",
+            "hidden": "",
+            "id": "filter_4",
+            "label": "Ticket",
+            "name": "id",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-3857263-fn_summary",
+            "hidden": "",
+            "id": "filter_0",
+            "label": "Summary",
+            "name": "summary",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-3857263-fn_classification_path",
+            "hidden": "",
+            "id": "filter_1",
+            "label": "Classification Path",
+            "name": "classification_path",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-3857263-fn_technology",
+            "hidden": "",
+            "id": "filter_2",
+            "label": "Technology",
+            "name": "technology",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-3857263-fn_service_category",
+            "hidden": "",
+            "id": "filter_3",
+            "label": "Service Category",
+            "name": "service_category",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {"defaultValue": ""}
+            }
+        },
+        {
+            "datalist_type": "filter",
+            "filterParamName": "d-3857263-fn_status",
+            "hidden": "",
+            "id": "filter_5",
+            "label": "Status",
+            "name": "status",
+            "type": {
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [
+                        {
+                            "grouping": "",
+                            "label": "-Select Status-",
+                            "value": ""
+                        },
+                        {
+                            "grouping": "",
+                            "label": "NEW",
+                            "value": "NEW"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "ANALYSIS",
+                            "value": "ANALYSIS"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "PENDING",
+                            "value": "PENDING"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "BACKEND",
+                            "value": "BACKEND"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "FINALCHECK",
+                            "value": "FINALCHECK"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "RESOLVED",
+                            "value": "RESOLVED"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "MEDIACARE",
+                            "value": "MEDIACARE"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "SALAMSIM",
+                            "value": "SALAMSIM"
+                        },
+                        {
+                            "grouping": "",
+                            "label": "CLOSED",
+                            "value": "CLOSED"
+                        }
+                    ],
+                    "optionsBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "size": ""
+                }
+            }
+        }
+    ],
+    "hidePageSize": "",
+    "id": "myRequestList",
+    "name": "My Request List",
+    "order": "1",
+    "orderBy": "dateCreated",
+    "pageSize": "0",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "responsiveView": [
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Mobile"
+        },
+        {
+            "breakpoint": "",
+            "columns": "",
+            "view": "Tablet"
+        }
+    ],
+    "rowActions": [],
+    "searchPopup": "",
+    "showDataWhenFilterSet": "",
+    "showPageSizeSelector": "true",
+    "useSession": ""
+}

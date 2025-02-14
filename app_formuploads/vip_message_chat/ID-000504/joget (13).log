@@ -1,0 +1,891 @@
+INFO  06 Oct 2020 09:45:23 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (124.158.184.162) : true
+INFO  06 Oct 2020 10:21:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (192.168.0.1) : true
+INFO  06 Oct 2020 10:21:14 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:22:16 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:23:17 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:24:18 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:25:19 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:26:18 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:27:20 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:28:20 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:29:21 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:30:22 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:31:24 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:32:25 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:33:26 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:34:27 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:35:28 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:36:29 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:37:30 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:38:31 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:38:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user cytta.rizka.aprilina (192.168.0.1) : true
+INFO  06 Oct 2020 10:38:55 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 10:38:55 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 10:38:57 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 10:39:03 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 10:39:18 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 10:39:31 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:40:32 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:41:32 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:42:34 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:43:35 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:44:35 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:45:36 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:46:37 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:47:39 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:48:39 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:49:41 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:50:42 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:51:43 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:52:43 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:53:45 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:54:45 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:55:46 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:56:48 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:57:48 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:58:50 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 10:59:49 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:00:50 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:01:51 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:02:53 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:03:54 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:04:55 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:05:55 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:06:57 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:07:16 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user cytta.rizka.aprilina (124.158.184.162) : true
+INFO  06 Oct 2020 11:07:56 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:08:57 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:09:05 org.joget.workflow.shark.WorkflowAssignmentManager  - [processId=6431_ideaSuggestion_ideaSugestion, processDefId=ideaSuggestion#7#ideaSugestion, participantId=departmentHead, next user=[cytta.rizka.aprilina]]
+INFO  06 Oct 2020 11:09:59 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:10:59 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:12:00 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:13:00 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:14:01 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:15:02 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:16:03 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:17:04 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:18:05 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:19:06 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:20:08 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:21:08 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:22:09 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:23:10 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:23:15 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user cytta.rizka.aprilina (192.168.0.1) : true
+INFO  06 Oct 2020 11:24:11 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:25:13 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:26:13 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:27:14 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:28:15 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:29:16 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:30:17 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:31:17 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:32:18 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:33:23 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:34:20 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:35:21 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:36:22 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:37:23 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:38:17 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user suhanah (192.168.0.1) : true
+INFO  06 Oct 2020 11:38:23 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:38:28 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:38:28 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:38:30 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:38:49 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 11:39:24 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:40:25 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:41:26 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:42:27 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:43:28 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:44:28 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:45:29 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:46:31 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:47:31 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:48:31 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:49:31 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:50:32 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:51:32 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:52:33 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:53:33 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:54:34 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:55:34 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:56:35 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:57:36 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:58:36 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 11:59:38 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:00:38 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:01:38 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:02:39 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:03:40 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:04:41 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:05:42 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:06:43 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:07:44 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:08:45 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:09:46 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:10:47 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:11:48 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:12:49 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:13:51 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:14:51 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:15:52 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:16:53 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:17:54 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 12:18:55 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:30:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (124.158.184.162) : true
+INFO  06 Oct 2020 13:43:40 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user cytta.rizka.aprilina (192.168.0.1) : true
+INFO  06 Oct 2020 13:43:40 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:43:41 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:43:42 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:43:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (124.158.184.162) : true
+INFO  06 Oct 2020 13:44:43 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:45:44 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:46:45 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:47:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (124.158.184.162) : true
+INFO  06 Oct 2020 13:47:46 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+ERROR 06 Oct 2020 13:47:48 org.joget.plugin.base.PluginManager  - Failed bundle start for id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53]: org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.4): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.4)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.4)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.4): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.4)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.4)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4368)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2281)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:984)
+	at org.joget.plugin.base.PluginManager.startBundle(PluginManager.java:340)
+	at org.joget.plugin.base.PluginManager.upload(PluginManager.java:597)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleSettingPluginUploadSubmit(ConsoleWebController.java:4278)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:667)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$d5a5318f.consoleSettingPluginUploadSubmit(<generated>)
+	at sun.reflect.GeneratedMethodAccessor993.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+ERROR 06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Failed bundle installation from file:/C:/Joget-v6-Enterprise-Toyota/./wflow/app_plugins/scheduler-6.0.0.jar.zip.jar: org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.joget.scheduler:6.0.0
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.joget.scheduler:6.0.0
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1337)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:113)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:3260)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:147)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:120)
+	at org.joget.plugin.base.PluginManager.installBundle(PluginManager.java:311)
+	at org.joget.plugin.base.PluginManager.installBundles(PluginManager.java:275)
+	at org.joget.plugin.base.PluginManager.refresh(PluginManager.java:262)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleSettingPluginRefresh(ConsoleWebController.java:4256)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:667)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$d5a5318f.consoleSettingPluginRefresh(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle org.joget.sample.currency-pack started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.cr.plugin.eform-cr-application-tools started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.cr.plugin.eform-cr-form-permission started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.cr.plugin.eform-cr-form-validator started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.cr.plugin.eform-cr-hash-variable started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.cr.plugin.eform-cr-userview-permission started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.cr.plugin.eform-cr-web-services started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.enr.plugin.eform-enr-application-tools started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.enr.plugin.eform-enr-datalist-action started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.enr.plugin.eform-enr-datalist-formatter started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.enr.plugin.eform-enr-form-validator started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.enr.plugin.eform-enr-hash-variable started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.enr.plugin.eform-enr-userview-permission started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.enr.plugin.eform-enr-web-services started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.general.plugin.eform-general-plugin-datalist-formatter started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-application-tools started
+ERROR 06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Failed bundle start for id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53]: org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.5): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.5)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.5)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.5): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.5)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.5)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4368)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2281)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:984)
+	at org.joget.plugin.base.PluginManager.startBundle(PluginManager.java:340)
+	at org.joget.plugin.base.PluginManager.installBundles(PluginManager.java:283)
+	at org.joget.plugin.base.PluginManager.refresh(PluginManager.java:262)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleSettingPluginRefresh(ConsoleWebController.java:4256)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:667)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$d5a5318f.consoleSettingPluginRefresh(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.tnj.plugin.eform-tnj-application-tools started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.tnj.plugin.eform-tnj-form-permission started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.tnj.plugin.eform-tnj-form-validator started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.tnj.plugin.eform-tnj-hash-variable started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.tnj.plugin.eform-tnj-userview-permission started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.tnj.plugin.eform-tnj-web-services started
+INFO  06 Oct 2020 13:48:10 org.joget.plugin.base.PluginManager  - Bundle org.joget.tutorial.not_permission started
+ERROR 06 Oct 2020 13:48:11 org.joget.plugin.base.PluginManager  - Failed bundle start for id.co.itasoft.plugin.oasys-application-tools [23]: org.osgi.framework.BundleException: Activator start error in bundle id.co.itasoft.plugin.oasys-application-tools [23].
+org.osgi.framework.BundleException: Activator start error in bundle id.co.itasoft.plugin.oasys-application-tools [23].
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2452)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2308)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:984)
+	at org.joget.plugin.base.PluginManager.startBundle(PluginManager.java:340)
+	at org.joget.plugin.base.PluginManager.installBundles(PluginManager.java:283)
+	at org.joget.plugin.base.PluginManager.refresh(PluginManager.java:262)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleSettingPluginRefresh(ConsoleWebController.java:4256)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:667)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$d5a5318f.consoleSettingPluginRefresh(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at id.co.itasoft.plugin.CreateUserForClient.<init>(CreateUserForClient.java:58)
+	at id.co.itasoft.plugin.Activator.start(Activator.java:50)
+	at org.apache.felix.framework.util.SecureAction.startActivator(SecureAction.java:698)
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2402)
+	... 97 more
+INFO  06 Oct 2020 13:48:11 org.joget.plugin.base.PluginManager  - Bundle org.joget.scheduler started
+INFO  06 Oct 2020 13:48:48 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+ERROR 06 Oct 2020 13:49:24 org.joget.plugin.base.PluginManager  - Failed bundle start for id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53]: org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.6): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.6)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.6)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.6): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.6)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.6)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4368)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2281)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:984)
+	at org.joget.plugin.base.PluginManager.startBundle(PluginManager.java:340)
+	at org.joget.plugin.base.PluginManager.upload(PluginManager.java:597)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleSettingPluginUploadSubmit(ConsoleWebController.java:4278)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:667)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$d5a5318f.consoleSettingPluginUploadSubmit(<generated>)
+	at sun.reflect.GeneratedMethodAccessor993.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+INFO  06 Oct 2020 13:49:49 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:50:50 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+ERROR 06 Oct 2020 13:51:13 org.joget.plugin.base.PluginManager  - Failed bundle start for id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53]: org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.7): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.7)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.7)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.7): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.7)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.7)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4368)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2281)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:984)
+	at org.joget.plugin.base.PluginManager.startBundle(PluginManager.java:340)
+	at org.joget.plugin.base.PluginManager.upload(PluginManager.java:597)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleSettingPluginUploadSubmit(ConsoleWebController.java:4278)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:667)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$d5a5318f.consoleSettingPluginUploadSubmit(<generated>)
+	at sun.reflect.GeneratedMethodAccessor993.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+INFO  06 Oct 2020 13:51:51 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:52:51 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:53:47 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:53:47 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:53:49 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:53:52 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+ERROR 06 Oct 2020 13:54:08 org.joget.plugin.base.PluginManager  - Failed bundle start for id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53]: org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.8): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.8)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.8)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+org.osgi.framework.BundleException: Unable to resolve id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.8): missing requirement [id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.8)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0))) Unresolved requirements: [[id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services [53](R 53.8)] osgi.wiring.package; (&(osgi.wiring.package=javax.servlet)(version>=2.5.0)(!(version>=3.0.0)))]
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4368)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2281)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:998)
+	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:984)
+	at org.joget.plugin.base.PluginManager.startBundle(PluginManager.java:340)
+	at org.joget.plugin.base.PluginManager.upload(PluginManager.java:597)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleSettingPluginUploadSubmit(ConsoleWebController.java:4278)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:667)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$d5a5318f.consoleSettingPluginUploadSubmit(<generated>)
+	at sun.reflect.GeneratedMethodAccessor993.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+INFO  06 Oct 2020 13:54:49 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:54:53 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:55:50 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:55:54 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:56:51 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:56:55 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:57:51 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:57:56 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:58:52 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:58:57 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 13:59:52 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 13:59:58 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 14:00:52 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : false
+INFO  06 Oct 2020 14:00:59 id.co.itasoft.tmmin.eform.cr.plugin.CustodianPermission  - result : true
+INFO  06 Oct 2020 14:01:04 org.joget.plugin.base.PluginManager  - Bundle id.co.itasoft.tmmin.eform.idea.plugin.eform-idea-web-services started

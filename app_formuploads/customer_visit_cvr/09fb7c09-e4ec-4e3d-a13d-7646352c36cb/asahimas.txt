@@ -1,0 +1,35 @@
+Server Development | DX:
+- URL : http://3.112.247.50/jw/
+- User : admin / P@ssw0rdP@ssw0rd
+====
+Applicant
+Safety Member
+Staff Coord Resp Department
+Responsible Department
+Division Manager
+
+Ade.Ramdhani  00002544
+Fauzan.Affandi
+Muhammad.Taufik
+
+Transaction
+Create New
+My Task
+My CMTS
+List All CMTS
+
+Source Code, Hazard Class, Division, Responsibility, Category, Kind Of Category, Plant, Area
+
+===
+
+52.77.114.84/jw
+v5
+
+===
+
+- luthfie.nur
+- hasan.iskandar
+- Dikdik.Trisnadi
+- Nurhidayat.Asc
+
+

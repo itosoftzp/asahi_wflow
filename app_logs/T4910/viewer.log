@@ -1,0 +1,8 @@
+INFO    20 Sep 2024 14:59:13 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 0
+INFO    20 Sep 2024 14:59:13 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    20 Sep 2024 14:59:13 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form t4910_main. _Add form test_form. _Add list list_t4910_main. _Add list list_test_form. _Add userview v. _Update app config T4910. _Update app definition T4910. _
+INFO    20 Sep 2024 14:59:40 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition T4910. _Update app config T4910. _
+INFO    20 Sep 2024 15:03:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true
+INFO    20 Sep 2024 15:03:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true
+INFO    20 Sep 2024 15:04:52 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true
+INFO    20 Sep 2024 15:10:28 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true

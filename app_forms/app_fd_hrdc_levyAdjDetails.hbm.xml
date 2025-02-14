@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_hrdc_levyAdjDetails" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_hrdc_levyAdjDetails">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_transactionType" name="transactionType" not-null="false" type="text"/><property column="c_voucherNo" name="voucherNo" not-null="false" type="text"/><property column="c_noofEmployees" name="noofEmployees" not-null="false" type="text"/><property column="c_amount" name="amount" not-null="false" type="text"/><property column="c_JournalDate" name="JournalDate" not-null="false" type="text"/><property column="c_sendtoFAAPI" name="sendtoFAAPI" not-null="false" type="text"/><property column="c_levyMonth" name="levyMonth" not-null="false" type="text"/><property column="c_paymentReferenceNo" name="paymentReferenceNo" not-null="false" type="text"/><property column="c_totalWages" name="totalWages" not-null="false" type="text"/><property column="c_applicationID" name="applicationID" not-null="false" type="text"/><property column="c_journalNo" name="journalNo" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

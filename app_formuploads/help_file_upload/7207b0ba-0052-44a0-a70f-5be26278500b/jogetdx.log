@@ -1,0 +1,691 @@
+INFO  10 Jun 2020 09:00:20 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:00:23 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:00:25 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:00:25 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:00:25 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:00:26 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:00:27 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:00:35 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:00:55 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:01:03 org.joget.apps.app.web.ThreadCleaner  - cleaned 130 values in ThreadLocals
+INFO  10 Jun 2020 09:04:30 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:04:32 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:04:34 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:04:34 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:04:34 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:04:35 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:04:35 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:04:44 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:05:38 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:06:51 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+WARN  10 Jun 2020 09:06:52 net.sf.ehcache.DiskStorePathManager  - diskStorePath '/home/jogetdx/joget-enterprise-linux-7.0.5/apache-tomcat-8.5.41/temp' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to /home/jogetdx/joget-enterprise-linux-7.0.5/apache-tomcat-8.5.41/temp/ehcache_auto_created5430769071233591151diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+INFO  10 Jun 2020 09:06:54 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:06:55 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:06:55 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:06:56 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:06:56 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:06:57 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:07:06 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:07:30 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:07:55 org.joget.apps.app.web.ThreadCleaner  - cleaned 115 values in ThreadLocals
+INFO  10 Jun 2020 09:12:55 org.joget.apps.app.web.ThreadCleaner  - cleaned 49 values in ThreadLocals
+INFO  10 Jun 2020 09:17:37 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:17:39 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:17:41 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:17:41 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:17:41 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:17:41 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:17:42 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:17:51 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:18:11 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:18:18 org.joget.apps.app.web.ThreadCleaner  - cleaned 122 values in ThreadLocals
+INFO  10 Jun 2020 09:20:01 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:20:03 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:20:05 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:20:05 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:20:05 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:20:06 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:20:06 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:20:14 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:20:31 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:20:35 org.joget.apps.app.web.ThreadCleaner  - cleaned 120 values in ThreadLocals
+INFO  10 Jun 2020 09:22:49 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:22:52 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:22:53 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:22:53 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:22:53 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:22:54 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:22:54 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:23:00 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:23:16 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:24:39 org.joget.apps.app.web.ThreadCleaner  - cleaned 76 values in ThreadLocals
+INFO  10 Jun 2020 09:25:28 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:25:30 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:25:31 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:25:31 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:25:31 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:25:32 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:25:32 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:25:38 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:25:54 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:26:08 org.joget.apps.app.web.ThreadCleaner  - cleaned 282 values in ThreadLocals
+INFO  10 Jun 2020 09:26:08 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=appcenter, version=1, published=true}
+INFO  10 Jun 2020 09:27:42 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:27:43 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:27:45 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:27:45 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:27:45 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:27:46 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:27:46 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:27:53 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:28:15 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:28:45 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=appcenter, version=1, published=true}
+INFO  10 Jun 2020 09:28:57 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for appcenter_1
+INFO  10 Jun 2020 09:29:09 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=appcenter, version=1, published=true}
+INFO  10 Jun 2020 09:29:11 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Update form landing. _Update userview v. _Update userview v2. _Update app definition appcenter. _Update app config appcenter. _Update app resources appcenter. _
+INFO  10 Jun 2020 09:30:07 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=crm, version=1, published=true}
+INFO  10 Jun 2020 09:30:07 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=expenseclaim, version=1, published=true}
+INFO  10 Jun 2020 09:30:07 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=dashboard, version=1, published=true}
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=dashboard, version=1, published=true}
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=expenseclaim, version=1, published=true}
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=isr, version=1, published=true}
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=crm, version=1, published=true}
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=jshowcasedx, version=1, published=true}
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for isr_1
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for expenseclaim_1
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for dashboard_1
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for expenseclaim_1
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for dashboard_1
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for crm_1
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for crm_1
+INFO  10 Jun 2020 09:30:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Initial commit for jshowcasedx_1
+ERROR 10 Jun 2020 09:30:09 org.joget.apps.app.service.AppDevUtil  - /home/jogetdx/joget-enterprise-linux-7.0.5/./wflow/app_src/dashboard/dashboard_1: error occurred during unpacking on the remote end: error Cannot lock pack in /home/jogetdx/joget-enterprise-linux-7.0.5/./wflow/app_src/dashboard/dashboard_1/.git/objects/pack/pack-acdd69f52dcbc964857b0319407358f6f4b5c5dd.pack
+org.eclipse.jgit.api.errors.TransportException: /home/jogetdx/joget-enterprise-linux-7.0.5/./wflow/app_src/dashboard/dashboard_1: error occurred during unpacking on the remote end: error Cannot lock pack in /home/jogetdx/joget-enterprise-linux-7.0.5/./wflow/app_src/dashboard/dashboard_1/.git/objects/pack/pack-acdd69f52dcbc964857b0319407358f6f4b5c5dd.pack
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:180)
+	at org.joget.apps.app.service.AppDevUtil.gitPushLocal(AppDevUtil.java:598)
+	at org.joget.apps.app.service.AppDevUtil.gitCommit(AppDevUtil.java:414)
+	at org.joget.apps.app.service.AppDevUtil.fileSave(AppDevUtil.java:869)
+	at org.joget.apps.app.dao.FormDefinitionDaoImpl.update_aroundBody6(FormDefinitionDaoImpl.java:150)
+	at org.joget.apps.app.dao.FormDefinitionDaoImpl$AjcClosure7.run(FormDefinitionDaoImpl.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:229)
+	at org.joget.commons.util.AppLicenseAspect.formUpdate(AppLicenseAspect.java:155)
+	at org.joget.apps.app.dao.FormDefinitionDaoImpl.update(FormDefinitionDaoImpl.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.joget.apps.app.service.AuditTrailInterceptor.invoke(AuditTrailInterceptor.java:17)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy60.update_aroundBody0(Unknown Source)
+	at com.sun.proxy.$Proxy60$AjcClosure1.run(<Unknown>:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:229)
+	at org.joget.commons.util.AppLicenseAspect.formUpdate(AppLicenseAspect.java:155)
+	at com.sun.proxy.$Proxy60.update(Unknown Source)
+	at org.joget.apps.app.dao.AppDefinitionDaoImpl.saveOrUpdate(AppDefinitionDaoImpl.java:242)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.joget.apps.app.service.AuditTrailInterceptor.invoke(AuditTrailInterceptor.java:17)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy65.saveOrUpdate(Unknown Source)
+	at org.joget.apps.app.service.AppDevUtil.dirSyncApp(AppDevUtil.java:1425)
+	at org.joget.apps.app.service.AppServiceImpl.loadAppDefinition(AppServiceImpl.java:1147)
+	at org.joget.apps.app.service.AppServiceImpl.getAppDefinition(AppServiceImpl.java:1114)
+	at sun.reflect.GeneratedMethodAccessor244.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy72.getAppDefinition(Unknown Source)
+	at org.joget.commons.util.AppLicenseAspect.getPublishedVersion(AppLicenseAspect.java:64)
+	at org.joget.apps.app.dao.AppDefinitionDaoImpl.getPublishedVersion(AppDefinitionDaoImpl.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy65.getPublishedVersion_aroundBody2(Unknown Source)
+	at com.sun.proxy.$Proxy65$AjcClosure3.run(<Unknown>:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at org.joget.commons.util.AppLicenseAspect.getPublishedVersion(AppLicenseAspect.java:60)
+	at com.sun.proxy.$Proxy65.getPublishedVersion(Unknown Source)
+	at org.joget.apps.app.service.AppServiceImpl.getPublishedVersion(AppServiceImpl.java:1840)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy72.getPublishedVersion(Unknown Source)
+	at org.joget.apps.app.controller.AppWebController.downloadAppResource(AppWebController.java:567)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.jgit.errors.TransportException: /home/jogetdx/joget-enterprise-linux-7.0.5/./wflow/app_src/dashboard/dashboard_1: error occurred during unpacking on the remote end: error Cannot lock pack in /home/jogetdx/joget-enterprise-linux-7.0.5/./wflow/app_src/dashboard/dashboard_1/.git/objects/pack/pack-acdd69f52dcbc964857b0319407358f6f4b5c5dd.pack
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:382)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:222)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:170)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:172)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1344)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:169)
+	... 175 more
+INFO  10 Jun 2020 09:30:16 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=dashboard, version=1, published=true}
+INFO  10 Jun 2020 09:30:16 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=isr, version=1, published=true}
+INFO  10 Jun 2020 09:30:16 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=expenseclaim, version=1, published=true}
+INFO  10 Jun 2020 09:30:16 org.joget.apps.app.web.ThreadCleaner  - cleaned 554 values in ThreadLocals
+ERROR 10 Jun 2020 09:30:17 org.joget.apps.app.web.GitRequestFilter  - java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.joget.plugin.base.PluginManager.loadOsgiPlugins(PluginManager.java:473)
+	at org.joget.plugin.base.PluginManager.listOsgiPlugin(PluginManager.java:387)
+	at org.joget.apps.app.service.AppDevUtil.syncAppPlugins(AppDevUtil.java:1341)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO  10 Jun 2020 09:30:17 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=dashboard, version=1, published=true}
+ERROR 10 Jun 2020 09:30:17 org.joget.apps.app.web.GitRequestFilter  - java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.joget.plugin.base.PluginManager.loadOsgiPlugins(PluginManager.java:473)
+	at org.joget.plugin.base.PluginManager.listOsgiPlugin(PluginManager.java:387)
+	at org.joget.apps.app.service.AppDevUtil.syncAppPlugins(AppDevUtil.java:1341)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 10 Jun 2020 09:30:17 org.joget.apps.app.web.GitRequestFilter  - java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.joget.plugin.base.PluginManager.loadOsgiPlugins(PluginManager.java:473)
+	at org.joget.plugin.base.PluginManager.listOsgiPlugin(PluginManager.java:387)
+	at org.joget.apps.app.service.AppDevUtil.syncAppPlugins(AppDevUtil.java:1341)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 10 Jun 2020 09:30:17 org.joget.apps.app.web.GitRequestFilter  - java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.joget.plugin.base.PluginManager.loadOsgiPlugins(PluginManager.java:473)
+	at org.joget.plugin.base.PluginManager.listOsgiPlugin(PluginManager.java:387)
+	at org.joget.apps.app.service.AppDevUtil.syncAppPlugins(AppDevUtil.java:1341)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:798)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:808)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+INFO  10 Jun 2020 09:36:53 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:36:55 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:36:57 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:36:57 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:36:57 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:36:57 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:36:58 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:37:06 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:37:26 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:37:42 org.joget.apps.app.web.ThreadCleaner  - cleaned 122 values in ThreadLocals
+INFO  10 Jun 2020 09:39:15 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:39:17 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:39:19 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:39:19 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:39:19 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:39:19 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:39:20 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:39:26 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:39:43 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:39:55 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=crm, version=1, published=true}
+INFO  10 Jun 2020 09:39:55 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=isr, version=1, published=true}
+INFO  10 Jun 2020 09:39:55 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=dashboard, version=1, published=true}
+INFO  10 Jun 2020 09:39:55 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=jshowcasedx, version=1, published=true}
+INFO  10 Jun 2020 09:40:03 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=dashboard, version=1, published=true}
+INFO  10 Jun 2020 09:40:03 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=isr, version=1, published=true}
+INFO  10 Jun 2020 09:40:04 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Update form user_approval. _Update form user_creation. _Update form user_registration. _Update list user_list. _Update userview DashboardTemplate. _Update userview home. _Update app definition dashboard. _Update app config dashboard. _Update xpdl dashboard. _Update app resources dashboard. _
+INFO  10 Jun 2020 09:40:04 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Update form isr_new_request. _Update form isr_remark. _Update form isr_request_detail. _Update form isr_resolve_assigned. _Update form isr_resolve_reopened. _Update form isr_resolve_request. _Update form isr_verify_resolved. _Update form isrrequestview. _Update list isr_all_requests. _Update list isr_assigned_requests. _Update list isr_new_requests. _Update list isr_personal_submitted. _Update list isr_rejected_requests. _Update list isr_reopened_requests. _Update list isr_resolved_requests. _Update list isr_verified_requests. _Update userview isr. _Update app definition isr. _Update app config isr. _Update xpdl isr. _Update app resources isr. _
+INFO  10 Jun 2020 09:40:06 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=jshowcasedx, version=1, published=true}
+INFO  10 Jun 2020 09:40:06 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Update form calendarMeeting. _Update form candleStick. _Update form chartData. _Update form featureAdvancedGrid. _Update form featureDateTime. _Update form featureFormGrid. _Update form featureListGrid. _Update form featureMiscField. _Update form featureSelectField. _Update form featureSpreadsheet. _Update form featureStdField. _Update form featureUploadField. _Update form gridadv. _Update form gridForm. _Update form gridLG. _Update form gridSp. _Update form processApprove1. _Update form processApprove2. _Update form processRequest. _Update form processRequestResubmit. _Update form ProcessRequestTab1. _Update form ProcessRequestTab2. _Update form ProcessRequestTab3. _Update form ProcessRequestTab4. _Update form processRequestView. _Update list candleStick. _Update list chartData. _Update list dashboardInbox. _Update list list_calendarMeeting. _Update list list_featureAdvancedGrid. _Update list list_featureDateTime. _Update list list_featureFormGrid. _Update list list_featureListGrid. _Update list list_featureMiscField. _Update list list_featureSelectField. _Update list list_featureSpreadsheet. _Update list list_featureStdField. _Update list list_featureUploadField. _Update list list_processRequest. _Update list userlist. _Update userview v. _Update userview zDashboard. _Update app definition jshowcasedx. _Update app config jshowcasedx. _Update xpdl jshowcasedx. _Update app resources jshowcasedx. _
+INFO  10 Jun 2020 09:40:08 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=crm, version=1, published=true}
+INFO  10 Jun 2020 09:40:08 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Update form AccountContacts. _Update form AccountContactSub. _Update form AccountsMain. _Update form crm_account. _Update form crm_contact. _Update form crm_opportunity. _Update form crm_proposal_approval_form. _Update form crm_proposal_form. _Update form crm_proposal_resubmit_form. _Update form crm_proposal_sending_form. _Update form Users. _Update list AccountsDashboard. _Update list ContactDashboard. _Update list crm_account_list. _Update list crm_contact_list. _Update list crm_opportunity_list. _Update list OpportunityDashboard. _Update list Proposal. _Update list ProposalDashboardInbox. _Update list ProposalsDashboard. _Update list Users. _Update list UsersDashboard. _Update userview crm_userview_sales. _Update internal INTERNAL_TAGGING. _Update app definition crm. _Update app config crm. _Update xpdl crm. _Update app resources crm. _
+INFO  10 Jun 2020 09:40:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (10.10.6.145) : true
+INFO  10 Jun 2020 09:40:26 org.joget.apps.app.web.ThreadCleaner  - cleaned 415 values in ThreadLocals
+INFO  10 Jun 2020 09:54:15 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:54:17 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:54:19 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:54:19 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:54:19 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:54:19 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:54:20 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:54:26 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 09:54:42 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 09:54:56 org.joget.apps.app.web.ThreadCleaner  - cleaned 314 values in ThreadLocals
+INFO  10 Jun 2020 09:58:54 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 09:58:59 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 09:59:02 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 09:59:02 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 09:59:02 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 09:59:03 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 09:59:05 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 09:59:19 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 10:01:55 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+WARN  10 Jun 2020 10:01:57 net.sf.ehcache.DiskStorePathManager  - diskStorePath '/home/jogetdx/joget-enterprise-linux-7.0.5/apache-tomcat-8.5.41/temp' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to /home/jogetdx/joget-enterprise-linux-7.0.5/apache-tomcat-8.5.41/temp/ehcache_auto_created430895734697145007diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+INFO  10 Jun 2020 10:01:59 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 10:02:01 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 10:02:01 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 10:02:01 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 10:02:02 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 10:02:03 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 10:02:15 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 10:04:31 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 10:04:35 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 10:04:36 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 10:04:36 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 10:04:36 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 10:04:37 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 10:04:37 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 10:04:46 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 10:05:06 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 10:05:13 org.joget.apps.app.web.ThreadCleaner  - cleaned 86 values in ThreadLocals
+INFO  10 Jun 2020 10:05:36 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 10:05:43 org.joget.apps.app.web.ThreadCleaner  - cleaned 79 values in ThreadLocals
+INFO  10 Jun 2020 10:07:42 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 10:07:45 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 10:07:46 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 10:07:46 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 10:07:46 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 10:07:47 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 10:07:47 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 10:07:54 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 10:08:11 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 10:12:06 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (10.10.6.145) : true
+INFO  10 Jun 2020 10:15:21 org.displaytag.export.ExportViewFactory  - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO  10 Jun 2020 10:15:21 org.displaytag.properties.TableProperties  - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO  10 Jun 2020 10:17:55 org.joget.apps.app.service.AppDevUtil  - Git project not found, first time init for app {id=expenseclaim, version=1, published=true}
+INFO  10 Jun 2020 10:18:06 org.joget.apps.app.service.AppDevUtil  - Git project init complete for app {id=expenseclaim, version=1, published=true}
+INFO  10 Jun 2020 10:18:06 org.joget.apps.app.service.AppDevUtil  - Commit to Git repo by roleAnonymous: Update form ExpenseClaimView. _Update form ExpensesApproval. _Update form ExpensesApprovalEntry. _Update form ExpensesClaim. _Update form ExpensesClaimEntry. _Update form ExpensesClaimFinance. _Update form ExpensesClaimNew. _Update form ExpensesClaimResubmit. _Update form SetupCategory. _Update list ExpenseClaimDInbox. _Update list ExpenseListMini. _Update list ExpensesApproved. _Update list ExpensesClosed. _Update list ExpensesInbox. _Update list ExpensesListAll. _Update list ExpensesRejected. _Update list ExpensesSubmitted. _Update list list_ExpensesClaimEntry. _Update list SetupCategory. _Update userview dashboard. _Update userview home. _Update app definition expenseclaim. _Update app config expenseclaim. _Update xpdl expenseclaim. _Update app resources expenseclaim. _
+INFO  10 Jun 2020 10:25:14 org.joget.apps.app.web.ThreadCleaner  - cleaned 521 values in ThreadLocals
+INFO  10 Jun 2020 10:50:54 org.joget.commons.util.SetupManager  - Using base directory: ./wflow/
+INFO  10 Jun 2020 10:50:57 org.joget.commons.util.DynamicDataSource  - profileName=default, url=jdbc:mysql://10.10.12.25:3306/jogetdx?characterEncoding=UTF-8, user=root
+INFO  10 Jun 2020 10:50:59 bitronix.tm.BitronixTransactionManager  - Bitronix Transaction Manager version 2.1.4
+INFO  10 Jun 2020 10:50:59 bitronix.tm.Configuration  - JVM unique ID: <btm-joget>
+INFO  10 Jun 2020 10:50:59 bitronix.tm.recovery.Recoverer  - recovery committed 0 dangling transaction(s) and rolled back 0 aborted transaction(s) on 0 resource(s) [] (restricted to serverId 'btm-joget')
+INFO  10 Jun 2020 10:51:00 org.joget.commons.util.SetupManager  - Initializing setup cache
+INFO  10 Jun 2020 10:51:00 org.joget.plugin.base.PluginManager  - PluginManager initialized
+INFO  10 Jun 2020 10:51:09 org.joget.workflow.model.service.WorkflowManagerImpl  - Datasource bound to jwdb
+INFO  10 Jun 2020 10:51:26 org.displaytag.filter.ResponseOverrideFilter  - Filter initialized. Response buffering is enabled
+INFO  10 Jun 2020 10:51:51 org.joget.apps.workflow.security.WorkflowAuthenticationProvider  - Authentication for user admin (10.10.6.145) : true
+INFO  10 Jun 2020 10:52:06 org.joget.apps.app.web.ThreadCleaner  - cleaned 414 values in ThreadLocals

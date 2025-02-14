@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_pvc_transfer_detail" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_pvc_transfer_detail">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_block_line_sesudah" name="block_line_sesudah" not-null="false" type="text"/><property column="c_keterangan" name="keterangan" not-null="false" type="text"/><property column="c_block_line_sebelum" name="block_line_sebelum" not-null="false" type="text"/><property column="c_jumlah" name="jumlah" not-null="false" type="text"/><property column="c_parent_id" name="parent_id" not-null="false" type="text"/><property column="c_id_warehouse" name="id_warehouse" not-null="false" type="text"/><property column="c_block_line_name_sesudah" name="block_line_name_sesudah" not-null="false" type="text"/><property column="c_block_line_name" name="block_line_name" not-null="false" type="text"/><property column="c_lot_number" name="lot_number" not-null="false" type="text"/><property column="c_block_line_name_sebelum" name="block_line_name_sebelum" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

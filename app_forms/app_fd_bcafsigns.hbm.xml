@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_bcafsigns" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_bcafsigns">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_docNum" name="docNum" not-null="false" type="text"/><property column="c_nip" name="nip" not-null="false" type="text"/><property column="c_nama" name="nama" not-null="false" type="text"/><property column="c_final_status" name="final_status" not-null="false" type="text"/><property column="c_status_pengajuan" name="status_pengajuan" not-null="false" type="text"/><property column="c_approval3" name="approval3" not-null="false" type="text"/><property column="c_requestDate" name="requestDate" not-null="false" type="text"/><property column="c_approval2" name="approval2" not-null="false" type="text"/><property column="c_docFile" name="docFile" not-null="false" type="text"/><property column="c_approval1" name="approval1" not-null="false" type="text"/><property column="c_department" name="department" not-null="false" type="text"/><property column="c_reqId" name="reqId" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

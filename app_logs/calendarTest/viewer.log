@@ -1,0 +1,3 @@
+INFO    15 Jan 2021 05:22:39 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 0
+INFO    15 Jan 2021 05:22:39 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    15 Jan 2021 05:22:39 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Add form calendarForm. _Add list list_calendarForm. _Add userview v. _Update app config calendarTest. _Update app definition calendarTest. _

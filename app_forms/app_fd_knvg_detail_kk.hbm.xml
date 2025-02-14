@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_knvg_detail_kk" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_knvg_detail_kk">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_no" name="no" not-null="false" type="text"/><property column="c_no_kitas_kitap" name="no_kitas_kitap" not-null="false" type="text"/><property column="c_pendidikan" name="pendidikan" not-null="false" type="text"/><property column="c_nama_ibu" name="nama_ibu" not-null="false" type="text"/><property column="c_nama_lengkap" name="nama_lengkap" not-null="false" type="text"/><property column="c_no_paspor" name="no_paspor" not-null="false" type="text"/><property column="c_status_hub_dlm_klg" name="status_hub_dlm_klg" not-null="false" type="text"/><property column="c_kewarganegaraan" name="kewarganegaraan" not-null="false" type="text"/><property column="c_jenis_pekerjaan" name="jenis_pekerjaan" not-null="false" type="text"/><property column="c_nik" name="nik" not-null="false" type="text"/><property column="c_tempat_lahir" name="tempat_lahir" not-null="false" type="text"/><property column="c_kk_no" name="kk_no" not-null="false" type="text"/><property column="c_nama_ayah" name="nama_ayah" not-null="false" type="text"/><property column="c_jenis_kelamin" name="jenis_kelamin" not-null="false" type="text"/><property column="c_tanggal_lahir" name="tanggal_lahir" not-null="false" type="text"/><property column="c_status_perkawinan" name="status_perkawinan" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

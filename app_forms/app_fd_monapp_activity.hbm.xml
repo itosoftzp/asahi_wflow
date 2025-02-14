@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_monapp_activity" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_monapp_activity">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_processInstanceId" name="processInstanceId" not-null="false" type="text"/><property column="c_finishTime" name="finishTime" not-null="false" type="text"/><property column="c_timeConsuming" name="timeConsuming" not-null="false" type="text"/><property column="c_appName" name="appName" not-null="false" type="text"/><property column="c_activityName" name="activityName" not-null="false" type="text"/><property column="c_activityDefId" name="activityDefId" not-null="false" type="text"/><property column="c_instanceId" name="instanceId" not-null="false" type="text"/><property column="c_delay" name="delay" not-null="false" type="text"/><property column="c_processName" name="processName" not-null="false" type="text"/><property column="c_due" name="due" not-null="false" type="text"/><property column="c_limit" name="limit" not-null="false" type="text"/><property column="c_createdTime" name="createdTime" not-null="false" type="text"/><property column="c_assignee" name="assignee" not-null="false" type="text"/><property column="c_state" name="state" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

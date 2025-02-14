@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_hrdc_forfeiture" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_hrdc_forfeiture">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_approvedDate" name="approvedDate" not-null="false" type="text"/><property column="c_classCode" name="classCode" not-null="false" type="text"/><property column="c_enforcementendDate" name="enforcementendDate" not-null="false" type="text"/><property column="c_applicationStatus" name="applicationStatus" not-null="false" type="text"/><property column="c_forfeitamount" name="forfeitamount" not-null="false" type="text"/><property column="c_enforceStartDate" name="enforceStartDate" not-null="false" type="text"/><property column="c_liabilityDate" name="liabilityDate" not-null="false" type="text"/><property column="c_employerName" name="employerName" not-null="false" type="text"/><property column="c_mycoid" name="mycoid" not-null="false" type="text"/><property column="c_state" name="state" not-null="false" type="text"/><property column="c_fileID" name="fileID" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

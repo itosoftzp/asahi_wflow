@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_dca_mstr_param" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_dca_mstr_param">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_option_value" name="option_value" not-null="false" type="text"/><property column="c_parameter_eqp" name="parameter_eqp" not-null="false" type="text"/><property column="c_form_type_name" name="form_type_name" not-null="false" type="text"/><property column="c_form_type" name="form_type" not-null="false" type="text"/><property column="c_sort" name="sort" not-null="false" type="text"/><property column="c_mandatory" name="mandatory" not-null="false" type="text"/><property column="c_cc_allowance" name="cc_allowance" not-null="false" type="text"/><property column="c_unit_name" name="unit_name" not-null="false" type="text"/><property column="c_role_name" name="role_name" not-null="false" type="text"/><property column="c_min_value" name="min_value" not-null="false" type="text"/><property column="c_correct_option" name="correct_option" not-null="false" type="text"/><property column="c_unit" name="unit" not-null="false" type="text"/><property column="c_autocode" name="autocode" not-null="false" type="text"/><property column="c_parent_id" name="parent_id" not-null="false" type="text"/><property column="c_ins_parameter" name="ins_parameter" not-null="false" type="text"/><property column="c_department" name="department" not-null="false" type="text"/><property column="c_max_value" name="max_value" not-null="false" type="text"/><property column="c_service_option" name="service_option" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

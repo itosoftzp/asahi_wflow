@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_vip_subscription_det" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_vip_subscription_det">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_end_date" name="end_date" not-null="false" type="text"/><property column="c_transaction_id" name="transaction_id" not-null="false" type="text"/><property column="c_id_doctor" name="id_doctor" not-null="false" type="text"/><property column="c_active" name="active" not-null="false" type="text"/><property column="c_payment_ref" name="payment_ref" not-null="false" type="text"/><property column="c_clinic_hospital" name="clinic_hospital" not-null="false" type="text"/><property column="c_charges" name="charges" not-null="false" type="text"/><property column="c_date_paid" name="date_paid" not-null="false" type="text"/><property column="c_parent_id" name="parent_id" not-null="false" type="text"/><property column="c_id_audit_trail" name="id_audit_trail" not-null="false" type="text"/><property column="c_patient_name" name="patient_name" not-null="false" type="text"/><property column="c_display_end_date" name="display_end_date" not-null="false" type="text"/><property column="c_subscription_type" name="subscription_type" not-null="false" type="text"/><property column="c_start_date" name="start_date" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

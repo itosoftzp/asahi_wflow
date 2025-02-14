@@ -1,0 +1,14 @@
+{
+    "elements": [{
+        "className": "org.joget.api.lib.SsoAPI",
+        "properties": {
+            "ENABLED_PATHS": "post:/",
+            "id": "4D522E62-3079-4E94-1644-AF29F4A4B7A3"
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "API-93c3c135-bd44-40cb-acbb-d9b8aaac49b3",
+        "name": "authenticate"
+    }
+}

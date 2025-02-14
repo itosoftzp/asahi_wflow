@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_e_wallet_trans" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_e_wallet_trans">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_trxnDate" name="trxnDate" not-null="false" type="text"/><property column="c_amount" name="amount" not-null="false" type="text"/><property column="c_trxnType" name="trxnType" not-null="false" type="text"/><property column="c_trxnNo" name="trxnNo" not-null="false" type="text"/><property column="c_accNo" name="accNo" not-null="false" type="text"/><property column="c_client" name="client" not-null="false" type="text"/><property column="c_paymentFromTo" name="paymentFromTo" not-null="false" type="text"/><property column="c_employee" name="employee" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

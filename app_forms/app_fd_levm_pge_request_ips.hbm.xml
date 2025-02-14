@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_levm_pge_request_ips" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_levm_pge_request_ips">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_ic_number" name="ic_number" not-null="false" type="text"/><property column="c_fixed_allowance" name="fixed_allowance" not-null="false" type="text"/><property column="c_gender" name="gender" not-null="false" type="text"/><property column="c_citizenship" name="citizenship" not-null="false" type="text"/><property column="c_basic_salary" name="basic_salary" not-null="false" type="text"/><property column="c_total_leave_to_be_paid" name="total_leave_to_be_paid" not-null="false" type="text"/><property column="c_employee_name" name="employee_name" not-null="false" type="text"/><property column="c_designation" name="designation" not-null="false" type="text"/><property column="c_unpaid_leaves" name="unpaid_leaves" not-null="false" type="text"/><property column="c_column_2" name="column_2" not-null="false" type="text"/><property column="c_column_1" name="column_1" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

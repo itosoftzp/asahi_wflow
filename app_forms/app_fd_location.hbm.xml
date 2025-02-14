@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_location" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_location">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_address_code" name="address_code" not-null="false" type="text"/><property column="c_street_address" name="street_address" not-null="false" type="text"/><property column="c_country" name="country" not-null="false" type="text"/><property column="c_city" name="city" not-null="false" type="text"/><property column="c_latitude" name="latitude" not-null="false" type="text"/><property column="c_location_id" name="location_id" not-null="false" type="text"/><property column="c_province" name="province" not-null="false" type="text"/><property column="c_location_code" name="location_code" not-null="false" type="text"/><property column="c_workzone" name="workzone" not-null="false" type="text"/><property column="c_postal_code" name="postal_code" not-null="false" type="text"/><property column="c_parent_location" name="parent_location" not-null="false" type="text"/><property column="c_longitude" name="longitude" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

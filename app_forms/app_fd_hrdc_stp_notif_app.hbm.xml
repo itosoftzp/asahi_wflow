@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_hrdc_stp_notif_app" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_hrdc_stp_notif_app">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_notification" name="notification" not-null="false" type="text"/><property column="c_notif_type_to_officer" name="notif_type_to_officer" not-null="false" type="text"/><property column="c_schedule_notif" name="schedule_notif" not-null="false" type="text"/><property column="c_notif_date" name="notif_date" not-null="false" type="text"/><property column="c_publish" name="publish" not-null="false" type="text"/><property column="c_notif_type_to_employer" name="notif_type_to_employer" not-null="false" type="text"/><property column="c_no_of_notif" name="no_of_notif" not-null="false" type="text"/><property column="c_title" name="title" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

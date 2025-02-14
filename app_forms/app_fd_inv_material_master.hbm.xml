@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_inv_material_master" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_inv_material_master">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_manager_department" name="manager_department" not-null="false" type="text"/><property column="c_manager_division" name="manager_division" not-null="false" type="text"/><property column="c_section_chief" name="section_chief" not-null="false" type="text"/><property column="c_mcv_manager_department" name="mcv_manager_department" not-null="false" type="text"/><property column="c_latest_remark" name="latest_remark" not-null="false" type="text"/><property column="c_staff" name="staff" not-null="false" type="text"/><property column="c_mcv_manager_division" name="mcv_manager_division" not-null="false" type="text"/><property column="c_storage_bin" name="storage_bin" not-null="false" type="text"/><property column="c_group_master" name="group_master" not-null="false" type="text"/><property column="c_material" name="material" not-null="false" type="text"/><property column="c_mcv_section_chief" name="mcv_section_chief" not-null="false" type="text"/><property column="c_size_dimension" name="size_dimension" not-null="false" type="text"/><property column="c_um" name="um" not-null="false" type="text"/><property column="c_basic_material" name="basic_material" not-null="false" type="text"/><property column="c_material_description" name="material_description" not-null="false" type="text"/><property column="c_tag_no" name="tag_no" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/><property column="c_mcv_staff" name="mcv_staff" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

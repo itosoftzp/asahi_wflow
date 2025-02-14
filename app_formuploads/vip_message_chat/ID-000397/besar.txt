@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="TJLandscap" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="0" uuid="0f0bbb20-202d-496c-9835-b732f60e63b6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SQLToyota"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="tgl_awal" class="java.lang.String"/>
+	<parameter name="tgl_akhir" class="java.lang.String"/>
+	<parameter name="id" class="java.lang.String"/>
+	<parameter name="defaultValue" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[new Integer("1")]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT 
+id,
+c_request_number,
+c_tgl_pengajuan,
+c_value_reward,
+c_bipartite,
+c_tujuan
+FROM app_fd_tunjangan_request WITH (NOLOCK)
+WHERE c_bipartite !='NULL'
+and
+CONVERT(date,c_tgl_pengajuan ,103) BETWEEN CONVERT(date,$P{tgl_awal},103) AND CONVERT(date,$P{tgl_akhir},103)
+and c_bipartite ='BESAR'
+ORDER BY c_tgl_pengajuan ASC]]>
+	</queryString>
+	<field name="id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+	</field>
+	<field name="c_request_number" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="c_request_number"/>
+	</field>
+	<field name="c_tgl_pengajuan" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="c_tgl_pengajuan"/>
+	</field>
+	<field name="c_value_reward" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="c_value_reward"/>
+	</field>
+	<field name="c_bipartite" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="c_bipartite"/>
+	</field>
+	<field name="c_tujuan" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="c_tujuan"/>
+	</field>
+	<variable name="Variable_1" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[$V{Variable_1}]]></variableExpression>
+	</variable>
+	<title>
+		<band height="39" splitType="Stretch">
+			<staticText>
+				<reportElement x="1" y="0" width="800" height="20" uuid="32df5304-fc24-42ac-a4ca-9e7a1d81da7c"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[PT. TOYOTA MOTOR MANUFACTURING INDONESIA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="1" y="20" width="800" height="13" uuid="2086e866-77e6-4d0b-ac6a-6d83f4b624e5"/>
+				<textElement textAlignment="Left">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Rekap MOM Periode Pengajuan : " + $P{tgl_awal}+" / "+ $P{tgl_akhir}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="47" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="239" height="10" uuid="1f89127e-1e42-4cf5-bd32-ad0d49f37e96"/>
+				<textElement>
+					<font fontName="SansSerif" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new Integer($V{Variable_1}.intValue()+$P{defaultValue}.intValue())+". TANGGAL PENGAJUAN :   "+$F{c_tgl_pengajuan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="10" width="239" height="10" uuid="910c8ea0-67a2-4cb3-836f-40cf9e53bf56"/>
+				<textElement>
+					<font fontName="SansSerif" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["    NO PENGAJUAN             :   "+$F{c_request_number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="20" width="239" height="10" uuid="2d43931e-1be9-44c2-be14-1aa6b6d45c00"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["    JENIS PENGAJUAN        :   "+$F{c_value_reward} +"  "+$F{c_bipartite}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="30" width="239" height="10" uuid="54136a68-ffcb-428c-a9e2-eb1fb52b140e"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["     LOKASI                            :   "+$F{c_tujuan}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement x="239" y="0" width="412" height="44" uuid="ce83368a-c63c-4b5e-8167-2b9ea360c87f"/>
+				<subreportParameter name="id">
+					<subreportParameterExpression><![CDATA[$F{id}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["mom_bipartite1.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="41">
+			<subreport>
+				<reportElement stretchType="RelativeToTallestObject" x="-19" y="3" width="840" height="31" isRemoveLineWhenBlank="true" uuid="9a684cd8-e661-435a-baac-2a7448f400dc"/>
+				<subreportParameter name="id">
+					<subreportParameterExpression><![CDATA[$F{id}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["subBipartite.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

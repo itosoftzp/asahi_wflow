@@ -1,0 +1,54 @@
+INFO    13 Aug 2024 16:31:18 ASC - Smart Patrol VCM - Import Data - Ini format Standart
+INFO    13 Aug 2024 16:31:18 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    13 Aug 2024 16:31:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    17 Sep 2024 10:04:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"data":[{"date":"2024-09-13 14:11:35","total":"4"}]}
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: 
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: 
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Responsible
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Division
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Responsible;Division;Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: 
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: 
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Responsible
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Division
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Responsible;Division;Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - allowedPositions: Safety
+INFO    18 Sep 2024 14:18:32 id.co.itasoft.asc.cmts.plugin.Permission - username: admin
+INFO    15 Oct 2024 14:48:53 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:48:53 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:16:41 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:16:41 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:40:21 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:40:21 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:40:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:40:29 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 15:55:57 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4591_appCMTS_counterMeasureTrackingSystemProcess, processDefId=appCMTS#27#counterMeasureTrackingSystemProcess, participantId=applicant, next user=[admin]]
+INFO    15 Oct 2024 15:59:12 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4626_appCMTS_counterMeasureTrackingSystemProcess, processDefId=appCMTS#27#counterMeasureTrackingSystemProcess, participantId=safetyMember, next user=[Arma.Adi, aditya.henggar]]
+INFO    15 Oct 2024 16:00:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:00:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:07:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 16:07:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true
+INFO    18 Nov 2024 14:01:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (103.109.203.166) : true
+INFO    28 Nov 2024 10:02:21 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? AND c_status_user_patrol = 'Done' GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    28 Nov 2024 10:02:21 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2024-11-01 23:59:59, end_date=2025-01-04 23:59:59, department=INS
+INFO    28 Nov 2024 10:02:21 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[2],"data":[{"total":"2","month":"November"}],"month":["November"]}

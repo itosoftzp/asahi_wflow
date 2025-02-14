@@ -1,0 +1,19 @@
+INFO    23 Apr 2021 08:35:04 PackageEventLogger - UTCTime=1619166904723,EventType=packageLoaded,PackageId=purchaseRequisitionFahmi,PackageVersion=1,EventPerformedBy=afnan
+INFO    23 Apr 2021 08:35:05 org.joget.apps.app.service.AppServiceImpl - Imported xpdl
+INFO    23 Apr 2021 08:35:05 org.joget.apps.app.service.AppServiceImpl - Imported process form mappings : 5
+INFO    23 Apr 2021 08:35:05 org.joget.apps.app.service.AppServiceImpl - Imported process tool mappings : 4
+INFO    23 Apr 2021 08:35:05 org.joget.apps.app.service.AppServiceImpl - Imported process participant mappings : 4
+INFO    23 Apr 2021 08:35:05 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 1
+INFO    23 Apr 2021 08:35:05 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    23 Apr 2021 08:35:05 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by afnan: Add form acknowledgeApprove. _Add form approvalRequest. _Add form submitRequest. _Add list myRequestList. _Add list requestList. _Add userview purchaseRequisitionPortal. _Update xpdl purchaseRequisitionFahmi. _Update app config purchaseRequisitionFahmi. _Update app definition purchaseRequisitionFahmi. _
+INFO    07 May 2021 13:40:46 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by afnan: Update app definition purchaseRequisitionFahmi. _Update app config purchaseRequisitionFahmi. _
+INFO    07 May 2021 13:45:10 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by afnan: Update package purchaseRequisitionFahmi. _
+INFO    07 May 2021 13:46:42 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by afnan: Update form submitRequest. _
+INFO    07 May 2021 13:47:10 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=2544_purchaseRequisitionFahmi_purchaseRequestProcess, processDefId=purchaseRequisitionFahmi#1#purchaseRequestProcess, participantId=applicant, next user=[afnan]]
+INFO    07 May 2021 13:47:21 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=2544_purchaseRequisitionFahmi_purchaseRequestProcess, processDefId=purchaseRequisitionFahmi#1#purchaseRequestProcess, participantId=approver, next user=[afnan]]
+INFO    07 May 2021 13:53:03 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=2544_purchaseRequisitionFahmi_purchaseRequestProcess, processDefId=purchaseRequisitionFahmi#1#purchaseRequestProcess, participantId=admin, next user=[admin]]
+INFO    08 Jul 2021 09:49:17 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form testForm. _
+INFO    08 Jul 2021 09:49:23 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form testForm. _
+INFO    08 Jul 2021 09:49:41 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form testForm. _
+INFO    08 Jul 2021 09:49:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add list list_testForm. _Update userview purchaseRequisitionPortal. _
+INFO    08 Jul 2021 09:56:08 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form testForm. _

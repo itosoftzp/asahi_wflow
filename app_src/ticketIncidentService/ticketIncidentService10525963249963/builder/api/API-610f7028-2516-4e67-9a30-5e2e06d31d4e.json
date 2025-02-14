@@ -1,0 +1,17 @@
+{
+    "elements": [{
+        "className": "org.joget.api.lib.AppFormAPI",
+        "properties": {
+            "ENABLED_PATHS": "post:/;delete:/{recordId};get:/{recordId}/download/{fileName};put:/;post:/addWithFiles;get:/{recordId}/{fieldId}/files;get:/{recordId};post:/updateWithFiles",
+            "formDefId": "ticketUserInformation",
+            "id": "0BB8D11E-3B8C-4C83-F51F-1716E84A027C",
+            "ignorePermission": "",
+            "label": "Untuk Form Create Ticket"
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "API-610f7028-2516-4e67-9a30-5e2e06d31d4e",
+        "name": "TicketAPI"
+    }
+}

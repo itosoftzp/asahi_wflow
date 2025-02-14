@@ -1,0 +1,6 @@
+INFO  18 Dec 2020 08:54:08 org.joget.apps.app.lib.EmailTool                   - EmailTool: Sending email from=noreply@itasoft.co.id, to=fahmi.jafar@itasoft.co.id, admin@itasoft.co.id, kuan@itasoft.co.id, cc=, bcc=, subject=OASYS - WFH Request
+INFO  18 Dec 2020 08:54:12 org.joget.apps.app.lib.EmailTool                   - EmailTool: Sending email completed for subject=OASYS - WFH Request
+INFO  18 Dec 2020 09:42:50 org.joget.apps.app.lib.EmailTool                   - EmailTool: Sending email from=noreply@itasoft.co.id, to=fahmi.jafar@itasoft.co.id, cc=, bcc=, subject=OASYS - Approved WFH Request
+INFO  18 Dec 2020 09:42:55 org.joget.apps.app.lib.EmailTool                   - EmailTool: Sending email completed for subject=OASYS - Approved WFH Request
+INFO  18 Dec 2020 10:00:11 org.joget.apps.app.lib.EmailTool                   - EmailTool: Sending email from=noreply@itasoft.co.id, to=fahmi.jafar@itasoft.co.id, cc=, bcc=, subject=OASYS - Leave Request
+INFO  18 Dec 2020 10:00:14 org.joget.apps.app.lib.EmailTool                   - EmailTool: Sending email completed for subject=OASYS - Leave Request

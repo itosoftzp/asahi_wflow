@@ -1,0 +1,112 @@
+INFO    28 Nov 2023 16:12:31 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition dinamicForm. _Update app config dinamicForm. _
+INFO    28 Nov 2023 16:12:54 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form formDinamic. _
+INFO    28 Nov 2023 16:14:18 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    28 Nov 2023 16:15:13 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form formDinamicDetail. _
+INFO    28 Nov 2023 16:16:56 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamicDetail. _
+INFO    28 Nov 2023 16:17:54 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamicDetail. _
+INFO    28 Nov 2023 16:18:47 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamicDetail. _
+INFO    28 Nov 2023 16:22:07 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamicDetail. _
+INFO    28 Nov 2023 16:22:19 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamicDetail. _
+INFO    28 Nov 2023 16:23:57 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamicDetail. _
+INFO    28 Nov 2023 16:24:21 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    28 Nov 2023 16:28:48 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add userview dinamicForm. _
+INFO    28 Nov 2023 16:29:08 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add list list_formDinamic. _
+INFO    28 Nov 2023 16:29:20 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list_formDinamic. _
+INFO    28 Nov 2023 16:29:39 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview dinamicForm. _
+INFO    28 Nov 2023 16:32:16 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    28 Nov 2023 16:46:51 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    28 Nov 2023 16:47:06 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    30 Nov 2023 09:24:19 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview dinamicForm. _
+INFO    30 Nov 2023 09:30:24 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.digitization.plugin.we.process.asc-digitization-ProcessTools started
+INFO    30 Nov 2023 09:30:25 org.joget.plugin.base.PluginManager - admin installed plugin (asc-digitization-ProcessTools-7.0-SNAPSHOT.jar).
+INFO    04 Dec 2023 14:59:22 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    04 Dec 2023 15:00:36 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    04 Dec 2023 15:06:27 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview dinamicForm. _
+INFO    04 Dec 2023 15:12:19 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    04 Dec 2023 15:16:57 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    04 Dec 2023 16:16:02 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview dinamicForm. _
+INFO    04 Dec 2023 16:16:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview dinamicForm. _
+INFO    04 Dec 2023 16:17:51 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list_formDinamic. _
+INFO    04 Dec 2023 16:18:50 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form formDinamic. _
+INFO    05 Dec 2023 08:55:52 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    05 Dec 2023 08:55:52 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    05 Dec 2023 08:57:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    05 Dec 2023 13:57:04 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 13:57:04 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 13:59:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 13:59:10 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 14:02:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user s (182.253.194.61) : false
+INFO    05 Dec 2023 14:02:54 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user s (182.253.194.61) : false
+INFO    05 Dec 2023 14:03:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 14:03:03 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 14:05:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 14:05:45 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 14:17:41 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    05 Dec 2023 14:17:41 org.joget.apps.workflow.controller.DirectoryJsonController - Authentication for user admin (182.253.194.61) : true
+INFO    05 Dec 2023 14:18:08 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user dadan (182.253.194.61) : true
+INFO    05 Dec 2023 14:18:08 org.joget.apps.workflow.controller.DirectoryJsonController - Authentication for user dadan (182.253.194.61) : true
+INFO    05 Dec 2023 14:34:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user dadan (182.253.194.61) : true
+INFO    05 Dec 2023 14:34:03 org.joget.apps.workflow.controller.DirectoryJsonController - Authentication for user dadan (182.253.194.61) : true
+INFO    05 Dec 2023 14:34:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user dadan (182.253.194.61) : true
+INFO    05 Dec 2023 14:34:03 org.joget.apps.workflow.controller.DirectoryJsonController - Authentication for user dadan (182.253.194.61) : true
+INFO    05 Dec 2023 14:35:22 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    05 Dec 2023 14:35:22 org.joget.apps.workflow.controller.DirectoryJsonController - Authentication for user admin (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user undefined (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:01 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user undefined (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user undefined (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:01 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user undefined (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user c (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:07 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user c (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user ca (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:07 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user ca (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:07 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:12 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:12 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:13 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : false
+INFO    05 Dec 2023 16:22:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:14 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:17 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:17 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:18 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:18 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:19 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:19 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:22 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:22 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:25 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:25 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:28 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:28 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:30 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:30 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:31 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:32 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:34 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:34 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:35 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:36 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:22:37 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user cat (182.253.194.61) : true
+INFO    05 Dec 2023 16:32:39 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    20 Mar 2024 10:26:15 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    20 Mar 2024 10:26:15 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    22 Aug 2024 10:18:29 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    22 Aug 2024 10:18:29 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    23 Aug 2024 10:15:22 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Initial commit for digitalChecklist_1
+INFO    23 Aug 2024 10:15:22 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition digitalChecklist. _Update app config digitalChecklist. _

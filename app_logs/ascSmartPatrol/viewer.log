@@ -1,0 +1,42 @@
+INFO    03 Dec 2024 11:06:58 ASC - Smart Patrol VCM - Import Data - Ini format Standart
+INFO    03 Dec 2024 11:06:58 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Dec 2024 11:06:58 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Dec 2024 11:06:58 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Dec 2024 13:31:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.55) : true
+INFO    03 Dec 2024 13:43:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.55) : true
+INFO    03 Dec 2024 16:21:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.55) : true
+INFO    04 Dec 2024 12:04:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin' (182.253.194.55) : false
+INFO    04 Dec 2024 21:38:27 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.2) : true
+INFO    11 Dec 2024 08:49:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Masuk readJson{"user":{"shift":"1","nama_staff":"Andrianto Prasetyo","department":"VCM-4"},"transactions":[{"area_code":"B001","area_name":"Xin Building","document_code":"FL001","document_name":"Floor 1","equipment_code":"R001a","equipment_name":"Meeting Room 1","id_service":"7ad51979-ee24-41b5-a697-f7c6b4d5422c","service_name":"Door Lock","parameter":"Functional","tag":"DOORFUNCTION","date":"2024-12-11 08:49:49.093118","form_type":"options","min_value":"","max_value":"","correct_option":"NORMAL","unit":"","nfc_code":"ITAS987","user_nik":"20152113","user_name":"Andrianto Prasetyo","department":"VCM-4","shift":"1","input":"NORMAL","description":"","foto":"","foto_2":"","status":"normal","format_type":"72dec0ca-aca5-4e2b-9e68-b5dd6ad0be01","step":"","to":""},{"area_code":"B001","area_name":"Xin Building","document_code":"FL001","document_name":"Floor 1","equipment_code":"R001a","equipment_name":"Meeting Room 1","id_service":"9a214307-cef2-477b-a93b-afddbcf46b02","service_name":"APAR Availability","parameter":"Available","tag":"APARAVAIL","date":"2024-12-11 08:49:49.094119","form_type":"options","min_value":"","max_value":"","correct_option":"Yes","unit":"","nfc_code":"ITAS987","user_nik":"20152113","user_name":"Andrianto Prasetyo","department":"VCM-4","shift":"1","input":"Yes","description":"","foto":"","foto_2":"","status":"normal","format_type":"72dec0ca-aca5-4e2b-9e68-b5dd6ad0be01","step":"","to":""}]}
+INFO    11 Dec 2024 08:49:50 ASC - Smart Patrol VCM - Import Data - Ini format Standart
+INFO    11 Dec 2024 08:49:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    11 Dec 2024 08:49:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    11 Dec 2024 09:14:27 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Afandi.Asc (180.252.233.174) : true
+INFO    12 Dec 2024 10:16:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (180.252.233.174) : true
+INFO    16 Dec 2024 09:49:52 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.63) : true
+INFO    17 Dec 2024 13:53:24 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.63) : true
+INFO    17 Dec 2024 13:55:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.63) : true
+INFO    17 Dec 2024 15:49:34 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.63) : true
+INFO    20 Dec 2024 10:09:04 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Budi.Utomoaeji (182.253.194.63) : true
+INFO    03 Jan 2025 17:26:22 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.124.137) : true
+INFO    09 Jan 2025 14:22:08 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.43) : true
+INFO    09 Jan 2025 14:50:22 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.43) : true
+INFO    09 Jan 2025 15:15:02 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.43) : false
+INFO    10 Jan 2025 09:12:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.45) : true
+INFO    16 Jan 2025 09:05:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : true
+INFO    17 Jan 2025 15:10:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.39) : true
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek User
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Section
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Area
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Document
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Equipment
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Shift
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service_Special
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Format
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - Berhasil generate JSON
+INFO    24 Jan 2025 10:11:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.39) : true
+INFO    03 Feb 2025 07:24:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (114.122.70.229) : false
+INFO    03 Feb 2025 07:24:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (114.122.70.229) : false
+INFO    13 Feb 2025 09:54:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user wendy (103.109.203.166) : true
+INFO    14 Feb 2025 10:30:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (125.164.20.42) : true

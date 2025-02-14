@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_claims" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_claims">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_note" name="note" not-null="false" type="text"/><property column="c_page4_key" name="page4_key" not-null="false" type="text"/><property column="c_timeOfVisit" name="timeOfVisit" not-null="false" type="text"/><property column="c_authorizationCode" name="authorizationCode" not-null="false" type="text"/><property column="c_statusAuth" name="statusAuth" not-null="false" type="text"/><property column="c_page2_key" name="page2_key" not-null="false" type="text"/><property column="c_transactionNo" name="transactionNo" not-null="false" type="text"/><property column="c_currentDate" name="currentDate" not-null="false" type="text"/><property column="c_dateAuthCreated" name="dateAuthCreated" not-null="false" type="text"/><property column="c_employee" name="employee" not-null="false" type="text"/><property column="c_dateOfVisit" name="dateOfVisit" not-null="false" type="text"/><property column="c_editBy" name="editBy" not-null="false" type="text"/><property column="c_dateUpdated" name="dateUpdated" not-null="false" type="text"/><property column="c_countVisit" name="countVisit" not-null="false" type="text"/><property column="c_patient" name="patient" not-null="false" type="text"/><property column="c_client" name="client" not-null="false" type="text"/><property column="c_clinic" name="clinic" not-null="false" type="text"/><property column="c_page3_key" name="page3_key" not-null="false" type="text"/><property column="c_editByName" name="editByName" not-null="false" type="text"/><property column="c_page1_key" name="page1_key" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

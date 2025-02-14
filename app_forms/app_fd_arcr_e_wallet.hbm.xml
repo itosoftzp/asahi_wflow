@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_e_wallet" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_e_wallet">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_dateTerminated" name="dateTerminated" not-null="false" type="text"/><property column="c_code" name="code" not-null="false" type="text"/><property column="c_staffNo" name="staffNo" not-null="false" type="text"/><property column="c_eWalletBalance" name="eWalletBalance" not-null="false" type="text"/><property column="c_active" name="active" not-null="false" type="text"/><property column="c_mobileNo" name="mobileNo" not-null="false" type="text"/><property column="c_employee" name="employee" not-null="false" type="text"/><property column="c_6DigitPin" name="t__6DigitPin" not-null="false" type="text"/><property column="c_dateApproved" name="dateApproved" not-null="false" type="text"/><property column="c_accountNo" name="accountNo" not-null="false" type="text"/><property column="c_client" name="client" not-null="false" type="text"/><property column="c_dateApplied" name="dateApplied" not-null="false" type="text"/><property column="c_remarks" name="remarks" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_p_person_list" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_p_person_list">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_person_email" name="person_email" not-null="false" type="text"/><property column="c_auth_type" name="auth_type" not-null="false" type="text"/><property column="c_notes" name="notes" not-null="false" type="text"/><property column="c_last_login" name="last_login" not-null="false" type="text"/><property column="c_login_failed_count" name="login_failed_count" not-null="false" type="text"/><property column="c_last_name" name="last_name" not-null="false" type="text"/><property column="c_person_name" name="person_name" not-null="false" type="text"/><property column="c_otp" name="otp" not-null="false" type="text"/><property column="c_parent_person_id" name="parent_person_id" not-null="false" type="text"/><property column="c_type" name="type" not-null="false" type="text"/><property column="c_location_id" name="location_id" not-null="false" type="text"/><property column="c_hirarchy" name="hirarchy" not-null="false" type="text"/><property column="c_nik" name="nik" not-null="false" type="text"/><property column="c_password" name="password" not-null="false" type="text"/><property column="c_phone_number" name="phone_number" not-null="false" type="text"/><property column="c_regional_id" name="regional_id" not-null="false" type="text"/><property column="c_first_name" name="first_name" not-null="false" type="text"/><property column="c_person_id" name="person_id" not-null="false" type="text"/><property column="c_username" name="username" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

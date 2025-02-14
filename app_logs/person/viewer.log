@@ -1,0 +1,344 @@
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 2
+INFO    19 Apr 2022 11:03:52 org.joget.plugin.base.PluginManager - Bundle org.joget.api.builder_plugins started
+INFO    19 Apr 2022 11:03:52 org.joget.plugin.base.PluginManager - Bundle org.joget.full-text-search started
+INFO    19 Apr 2022 11:03:52 org.joget.plugin.base.PluginManager - Bundle org.joget.sample.json_call_form_options_binder started
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 3
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_calender_type : 2
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_craft : 2
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_craft_skill : 2
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_crew : 2
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_crew_labor : 2
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_crew_type : 2
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_crew_workzone : 1
+INFO    19 Apr 2022 11:03:52 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_labor_craft : 3
+INFO    19 Apr 2022 11:04:03 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_person_group : 3352
+INFO    19 Apr 2022 11:04:03 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_person_group_team : 2
+INFO    19 Apr 2022 11:04:03 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_person_list : 2
+INFO    19 Apr 2022 11:04:03 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_person_type : 3
+INFO    19 Apr 2022 11:04:03 org.joget.apps.app.service.AppServiceImpl - Imported form datas - p_skill : 2
+INFO    19 Apr 2022 11:04:04 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by imas: Add form calenderType. _Add form craft. _Add form craftSkill. _Add form crew. _Add form crewLabor. _Add form crewType. _Add form crewWorkzone. _Add form laborCraft. _Add form personGroup. _Add form personGroupTeam. _Add form personList. _Add form personType. _Add form profile. _Add form profileMenu. _Add form skill. _Add form userProfile. _Add list list_calenderType. _Add list list_craft. _Add list list_craftSkill. _Add list list_crew. _Add list list_crewLabor. _Add list list_crewType. _Add list list_crewWorkzone. _Add list list_laborCraft. _Add list list_personGroup. _Add list list_personGroupAPI. _Add list list_personGroupTeam. _Add list list_personList. _Add list list_personType. _Add list list_profile. _Add list list_profileMenu. _Add list list_skill. _Add list list_userProfile. _Add userview v. _Add api API-e3dbf162-fc3c-490a-baa0-9e8670e42538. _Update app config person. _Update app definition person. _
+ERROR   19 Apr 2022 11:37:38 org.joget.sample.JsonCallFormOptionsBinder - Invalid JSON. Check JSON URL.
+org.json.JSONException: A JSONObject text must begin with '{' at character 1
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:496)
+	at org.json.JSONObject.<init>(JSONObject.java:180)
+	at org.json.JSONObject.<init>(JSONObject.java:403)
+	at org.joget.sample.JsonCallFormOptionsBinder.getJsonData(JsonCallFormOptionsBinder.java:300)
+	at org.joget.sample.JsonCallFormOptionsBinder.loadAjaxOptions(JsonCallFormOptionsBinder.java:109)
+	at org.joget.sample.JsonCallFormOptionsBinder.load(JsonCallFormOptionsBinder.java:74)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:416)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:424)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:424)
+	at org.joget.apps.form.service.FormUtil.executeOptionBinders(FormUtil.java:424)
+	at org.joget.apps.form.service.FormServiceImpl.executeFormOptionsBinders(FormServiceImpl.java:469)
+	at org.joget.apps.form.service.FormServiceImpl.previewElement(FormServiceImpl.java:68)
+	at org.joget.apps.form.service.FormServiceImpl.previewElement(FormServiceImpl.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy71.previewElement(Unknown Source)
+	at org.joget.apps.app.controller.FormBuilderWebController.formBuilder(FormBuilderWebController.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ERROR   19 Apr 2022 11:38:18 org.joget.apps.app.web.PluginResourceServlet - org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:372)
+	at org.apache.catalina.connector.OutputBuffer.appendByteArray(OutputBuffer.java:811)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:747)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:407)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:385)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.joget.apps.app.web.PluginResourceServlet.service(PluginResourceServlet.java:81)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:462)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:136)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1311)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:716)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:536)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:480)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:631)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:121)
+	at org.apache.coyote.http11.filters.GzipOutputFilter$FakeOutputStream.write(GzipOutputFilter.java:175)
+	at java.base/java.util.zip.DeflaterOutputStream.deflate(DeflaterOutputStream.java:253)
+	at java.base/java.util.zip.DeflaterOutputStream.write(DeflaterOutputStream.java:211)
+	at java.base/java.util.zip.GZIPOutputStream.write(GZIPOutputStream.java:146)
+	at org.apache.coyote.http11.filters.GzipOutputFilter.doWrite(GzipOutputFilter.java:86)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:228)
+	at org.apache.coyote.Response.doWrite(Response.java:600)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:360)
+	... 35 more
+INFO    19 Apr 2022 11:41:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by imas: Update userview v. _
+INFO    19 Apr 2022 13:35:59 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 292ba9fc-b6b1-442b-a1e4-bf0769845dbd : imas
+INFO    19 Apr 2022 13:35:59 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+ERROR   19 Apr 2022 13:37:50 org.joget.apps.util.AppLicenseUtil - java.lang.NullPointerException
+java.lang.NullPointerException
+	at java.base/java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:108)
+	at org.joget.apps.util.AppLicenseUtil.importApp(AppLicenseUtil.java:296)
+	at com.sun.proxy.$Proxy72.importApp_aroundBody3$advice(Unknown Source)
+	at com.sun.proxy.$Proxy72.importApp(Unknown Source)
+	at org.joget.apps.app.controller.ConsoleWebController.consoleAppImportSubmit(ConsoleWebController.java:1720)
+	at org.joget.apps.app.controller.ConsoleWebController$$FastClassBySpringCGLIB$$e1402d89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:668)
+	at org.joget.apps.app.controller.ConsoleWebController$$EnhancerBySpringCGLIB$$236537c0.consoleAppImportSubmit(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+INFO    19 Apr 2022 13:42:35 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 292ba9fc-b6b1-442b-a1e4-bf0769845dbd : imas
+INFO    19 Apr 2022 13:42:35 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    20 Apr 2022 10:47:54 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : e84a165f-e5cd-481f-ba80-e2c3fa30e9e4 : imas
+INFO    20 Apr 2022 10:47:54 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    20 Apr 2022 11:56:58 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : dae30d06-91c6-46d1-80a6-e0896a18bbab : imas
+INFO    20 Apr 2022 11:56:58 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    20 Apr 2022 12:04:28 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 292ba9fc-b6b1-442b-a1e4-bf0769845dbd : imas
+INFO    20 Apr 2022 12:04:28 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    20 Apr 2022 12:52:10 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : dae30d06-91c6-46d1-80a6-e0896a18bbab : imas
+INFO    20 Apr 2022 12:52:10 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 09:33:29 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : dae30d06-91c6-46d1-80a6-e0896a18bbab : imas
+INFO    21 Apr 2022 09:33:29 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 09:34:45 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : dae30d06-91c6-46d1-80a6-e0896a18bbab : imas
+INFO    21 Apr 2022 09:34:45 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 11:06:55 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.telkom.oss.plugin.telkom-tis-application-tools started
+INFO    21 Apr 2022 11:06:55 org.joget.plugin.base.PluginManager - imas installed plugin (telkom-tis-application-tools-7.0-SNAPSHOT.jar).
+INFO    21 Apr 2022 11:07:05 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : dae30d06-91c6-46d1-80a6-e0896a18bbab : imas
+INFO    21 Apr 2022 11:07:05 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 11:43:04 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 34cf0fe4-8ebf-46aa-8b9d-352b38c35e54 : imas
+INFO    21 Apr 2022 11:43:04 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 14:33:50 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : c7f3943e-d463-490b-8f6f-1869bcdbb6d6 : imas
+INFO    21 Apr 2022 14:33:50 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 14:34:25 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : c7f3943e-d463-490b-8f6f-1869bcdbb6d6 : imas
+INFO    21 Apr 2022 14:34:25 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 14:59:34 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : c7f3943e-d463-490b-8f6f-1869bcdbb6d6 : imas
+INFO    21 Apr 2022 14:59:34 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 15:31:23 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : c7f3943e-d463-490b-8f6f-1869bcdbb6d6 : imas
+INFO    21 Apr 2022 15:31:23 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 15:32:08 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : c7f3943e-d463-490b-8f6f-1869bcdbb6d6 : imas
+INFO    21 Apr 2022 15:32:08 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 15:38:00 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 6e93effa-29d8-412d-9c52-692ced8fb5a5 : imas
+INFO    21 Apr 2022 15:38:00 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    21 Apr 2022 15:38:22 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 6e93effa-29d8-412d-9c52-692ced8fb5a5 : imas
+INFO    21 Apr 2022 15:38:22 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    22 Apr 2022 09:53:04 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 1cf957ed-abf8-47c5-8105-eecebb2aaa99 : imas
+INFO    22 Apr 2022 09:53:04 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    22 Apr 2022 09:54:42 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 1cf957ed-abf8-47c5-8105-eecebb2aaa99 : imas
+INFO    22 Apr 2022 09:54:42 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    22 Apr 2022 09:55:43 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 1cf957ed-abf8-47c5-8105-eecebb2aaa99 : imas
+INFO    22 Apr 2022 09:55:43 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    22 Apr 2022 09:57:55 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 1cf957ed-abf8-47c5-8105-eecebb2aaa99 : imas
+INFO    22 Apr 2022 09:57:55 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    22 Apr 2022 10:01:27 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 1cf957ed-abf8-47c5-8105-eecebb2aaa99 : imas
+INFO    22 Apr 2022 10:01:27 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    22 Apr 2022 10:02:20 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - SUCCESS, UPDATE TICKET OWNER : 1cf957ed-abf8-47c5-8105-eecebb2aaa99 : imas
+INFO    22 Apr 2022 10:02:20 Telkom New OSS - Ticket Incident Services - Update Ticket Owner - STATUS INSERT TICKET STATUS : true
+INFO    26 Apr 2022 10:48:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user imas (182.253.194.52) : true

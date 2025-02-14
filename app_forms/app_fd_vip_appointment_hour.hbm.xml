@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_vip_appointment_hour" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_vip_appointment_hour">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_telemedicine" name="telemedicine" not-null="false" type="text"/><property column="c_tm_end_time" name="tm_end_time" not-null="false" type="text"/><property column="c_tm_end_break" name="tm_end_break" not-null="false" type="text"/><property column="c_tm_start_break" name="tm_start_break" not-null="false" type="text"/><property column="c_visit_start_break" name="visit_start_break" not-null="false" type="text"/><property column="c_visit_end_break" name="visit_end_break" not-null="false" type="text"/><property column="c_visit_end_time" name="visit_end_time" not-null="false" type="text"/><property column="c_tm_start_time" name="tm_start_time" not-null="false" type="text"/><property column="c_visit_start_time" name="visit_start_time" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

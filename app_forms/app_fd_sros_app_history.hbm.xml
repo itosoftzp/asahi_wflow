@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_sros_app_history" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_sros_app_history">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_approver" name="approver" not-null="false" type="text"/><property column="c_approver_action" name="approver_action" not-null="false" type="text"/><property column="c_remark" name="remark" not-null="false" type="text"/><property column="c_approve_date" name="approve_date" not-null="false" type="text"/><property column="c_parentId" name="parentId" not-null="false" type="text"/><property column="c_approver_stake_holder" name="approver_stake_holder" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

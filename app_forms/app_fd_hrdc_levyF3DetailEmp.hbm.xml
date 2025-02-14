@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_hrdc_levyF3DetailEmp" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_hrdc_levyF3DetailEmp">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_fileDescription" name="fileDescription" not-null="false" type="text"/><property column="c_payrollStatement" name="payrollStatement" not-null="false" type="text"/><property column="c_arrearsAmount" name="arrearsAmount" not-null="false" type="text"/><property column="c_noEmployees" name="noEmployees" not-null="false" type="text"/><property column="c_Remark" name="Remark" not-null="false" type="text"/><property column="c_totalLevy" name="totalLevy" not-null="false" type="text"/><property column="c_month" name="month" not-null="false" type="text"/><property column="c_fixedAllowance" name="fixedAllowance" not-null="false" type="text"/><property column="c_basicSalary" name="basicSalary" not-null="false" type="text"/><property column="c_totalWages" name="totalWages" not-null="false" type="text"/><property column="c_unpaidLeaves" name="unpaidLeaves" not-null="false" type="text"/><property column="c_paidAmount" name="paidAmount" not-null="false" type="text"/><property column="c_fileID" name="fileID" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

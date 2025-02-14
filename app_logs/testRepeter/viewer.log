@@ -1,0 +1,94 @@
+INFO    08 Oct 2024 09:12:59 PackageEventLogger - UTCTime=1728353579691,EventType=packageLoaded,PackageId=testRepeter,PackageVersion=1,EventPerformedBy=admin
+INFO    08 Oct 2024 09:13:00 org.joget.apps.app.service.AppServiceImpl - Imported xpdl
+INFO    08 Oct 2024 09:13:00 org.joget.apps.app.service.AppServiceImpl - Imported process form mappings : 2
+INFO    08 Oct 2024 09:13:00 org.joget.apps.app.service.AppServiceImpl - Imported process participant mappings : 2
+INFO    08 Oct 2024 09:13:00 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 0
+INFO    08 Oct 2024 09:13:00 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    08 Oct 2024 09:13:01 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form form2. _Add form form3. _Add form form4. _Add form form1. _Add form userMapping. _Add list list_form1. _Add list list_userMapping. _Add userview v. _Update xpdl testRepeter. _Update app config testRepeter. _Update app definition testRepeter. _
+INFO    08 Oct 2024 09:13:48 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    08 Oct 2024 09:13:48 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    08 Oct 2024 09:14:09 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview v. _
+INFO    08 Oct 2024 09:15:06 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form form1. _
+INFO    08 Oct 2024 09:15:22 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4717_testRepeter_process1, processDefId=testRepeter#1#process1, participantId=process1_participant2, next user=[Agus.Salim]]
+INFO    08 Oct 2024 09:15:52 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4717_testRepeter_process1, processDefId=testRepeter#1#process1, participantId=process1_participant2, next user=[Akhmad.Zawazi]]
+INFO    08 Oct 2024 09:18:38 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition monapp. _Update app config monapp. _
+INFO    08 Oct 2024 09:26:31 PackageEventLogger - UTCTime=1728354391973,EventType=packageUpdated,PackageId=testRepeter,PackageVersion=2,EventPerformedBy=admin
+INFO    08 Oct 2024 09:26:32 org.joget.apps.app.service.AppServiceImpl$1 - Updating running processes for testRepeter from 1 to 2
+INFO    08 Oct 2024 09:26:32 org.joget.apps.app.service.AppServiceImpl - Migrating Process Instance ID [4717_testRepeter_process1] to new process version 2.
+INFO    08 Oct 2024 09:26:32 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition testRepeter. _Update package testRepeter. _Update xpdl testRepeter. _
+INFO    08 Oct 2024 09:26:32 org.joget.apps.app.service.AppServiceImpl$1 - Completed updating running processes for testRepeter from 1 to 2
+INFO    08 Oct 2024 09:26:32 PackageEventLogger - UTCTime=1728354392976,EventType=packageUnloaded,PackageId=testRepeter,PackageVersion=1,EventPerformedBy=admin
+INFO    08 Oct 2024 09:28:49 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true
+INFO    08 Oct 2024 10:29:47 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    08 Oct 2024 10:29:48 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    08 Oct 2024 10:29:49 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[{"id":"840bc3ce-8c07-41e4-bdd2-27bd1743ecec","tagno":"ASDF-1"},{"id":"18cc5360-d4d2-4b46-b8ad-5e0166a06af0","tagno":"ASDF-2"},{"id":"dccd1e5b-5ccc-4a67-bd5f-6923e2192efd","tagno":"ASDF-3"},{"id":"a65bea67-688c-4adb-b4b6-2b12d51b1544","tagno":"ASDF-4"},{"id":"eeace765-a320-4a22-83e6-cc85e183c860","tagno":"ASDF-5"}]}
+INFO    08 Oct 2024 10:30:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true
+INFO    08 Oct 2024 10:30:37 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data RSorg.mariadb.jdbc.internal.com.read.resultset.SelectResultSet@157a1a36
+INFO    08 Oct 2024 10:30:37 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2024-09-30 11:17:56","option_value":"-","correct_option":"50","unit":"%","min":"10","avg":"30","parameter_equipment":"Transformer Oil Level (33Q-1)","max":"100","tag_number":"ASDF-1","form_type":"Range"}]}
+INFO    09 Oct 2024 14:30:56 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form form1. _
+INFO    09 Oct 2024 14:31:50 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form form1. _
+INFO    09 Oct 2024 14:34:03 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    09 Oct 2024 14:34:03 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    09 Oct 2024 14:37:40 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    09 Oct 2024 15:12:38 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form form1. _
+INFO    09 Oct 2024 15:13:41 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form form1. _
+INFO    09 Oct 2024 15:14:19 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form form1. _
+INFO    09 Oct 2024 15:26:24 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    09 Oct 2024 15:26:25 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    09 Oct 2024 15:32:06 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    09 Oct 2024 15:32:07 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    09 Oct 2024 15:45:47 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    09 Oct 2024 15:45:48 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    09 Oct 2024 15:48:12 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    09 Oct 2024 15:48:13 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    09 Oct 2024 15:50:48 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    09 Oct 2024 15:50:48 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    09 Oct 2024 15:57:07 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    09 Oct 2024 15:57:07 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    10 Oct 2024 09:00:13 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    10 Oct 2024 09:00:13 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    10 Oct 2024 09:03:04 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4741_testRepeter_process1, processDefId=testRepeter#2#process1, participantId=process1_participant2, next user=[raisa]]
+INFO    10 Oct 2024 09:22:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.48) : true
+INFO    11 Oct 2024 10:31:29 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list_userMapping. _
+INFO    11 Oct 2024 10:31:48 ASC - Re Eevaluate - 5e2e4c9c-6e0f-4521-94d6-ce638cfbc8e2
+INFO    11 Oct 2024 10:31:48 ASC - Re Eevaluate - e754dd45-e924-45bf-9bd2-1e11c74a441a
+INFO    11 Oct 2024 10:32:38 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4750_testRepeter_process1, processDefId=testRepeter#2#process1, participantId=process1_participant2, next user=[admin]]
+INFO    11 Oct 2024 10:33:08 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview v. _
+INFO    11 Oct 2024 10:33:57 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview v. _
+INFO    11 Oct 2024 10:34:02 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list_form1. _
+INFO    11 Oct 2024 10:34:12 ASC - Re Eevaluate - 41566fac-1536-453a-b2c6-7135f176e814
+INFO    11 Oct 2024 10:34:12 ASC - Re Eevaluate - 7f385217-e917-4075-a92c-804e87c41e55
+INFO    11 Oct 2024 10:34:12 ASC - Re Eevaluate - ae845329-a8f7-499e-8771-ad2a3c4558f1
+INFO    11 Oct 2024 10:40:22 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.Asc.DatalistAction.Datalist-Action started
+INFO    11 Oct 2024 10:40:23 org.joget.plugin.base.PluginManager - admin installed plugin (Datalist-Action-7.0-SNAPSHOT.jar).
+INFO    11 Oct 2024 10:40:30 ASC - Re Eevaluate - 4741_testRepeter_process1
+INFO    11 Oct 2024 10:40:30 ASC - Re Eevaluate - 4717_testRepeter_process1
+INFO    11 Oct 2024 10:40:30 ASC - Re Eevaluate - 4750_testRepeter_process1
+INFO    11 Oct 2024 10:40:50 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update package testRepeter. _
+INFO    11 Oct 2024 10:40:58 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update package testRepeter. _
+INFO    11 Oct 2024 10:41:12 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4751_testRepeter_process1, processDefId=testRepeter#2#process1, participantId=process1_participant2, next user=[admin]]
+INFO    11 Oct 2024 10:41:41 org.joget.apps.workflow.controller.WorkflowJsonController - Activity variable status set to roy
+INFO    11 Oct 2024 10:41:43 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4751_testRepeter_process1, processDefId=testRepeter#2#process1, participantId=process1_participant2, next user=[roy]]
+INFO    11 Oct 2024 10:42:07 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update list list_form1. _
+INFO    11 Oct 2024 10:46:38 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    11 Oct 2024 10:46:38 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    11 Oct 2024 10:57:36 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Initial commit for reEevaluate_1
+INFO    11 Oct 2024 10:57:36 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition reEevaluate. _Update app config reEevaluate. _
+INFO    11 Oct 2024 15:52:33 PackageEventLogger - UTCTime=1728636753115,EventType=packageUpdated,PackageId=testRepeter,PackageVersion=3,EventPerformedBy=admin
+INFO    11 Oct 2024 15:52:33 org.joget.apps.app.service.AppServiceImpl$1 - Updating running processes for testRepeter from 2 to 3
+INFO    11 Oct 2024 15:52:33 org.joget.apps.app.service.AppServiceImpl - Migrating Process Instance ID [4717_testRepeter_process1, 4741_testRepeter_process1, 4750_testRepeter_process1, 4751_testRepeter_process1] to new process version 3.
+INFO    11 Oct 2024 15:52:33 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition testRepeter. _Update package testRepeter. _Update xpdl testRepeter. _
+INFO    11 Oct 2024 15:52:34 org.joget.apps.app.service.AppServiceImpl$1 - Completed updating running processes for testRepeter from 2 to 3
+INFO    11 Oct 2024 15:52:35 PackageEventLogger - UTCTime=1728636755138,EventType=packageUnloaded,PackageId=testRepeter,PackageVersion=2,EventPerformedBy=admin
+INFO    11 Oct 2024 15:53:06 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update package testRepeter. _
+INFO    11 Oct 2024 15:57:01 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    11 Oct 2024 15:57:01 org.joget.plugin.base.PluginManager - admin installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    11 Oct 2024 16:14:14 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update package testRepeter. _
+INFO    11 Oct 2024 16:14:16 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update package testRepeter. _
+INFO    11 Oct 2024 16:14:23 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4753_testRepeter_process2, processDefId=testRepeter#3#process2, participantId=process2_process1_participant2, next user=[admin]]
+INFO    11 Oct 2024 16:14:54 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4754_testRepeter_process2, processDefId=testRepeter#3#process2, participantId=process2_process1_participant2, next user=[admin]]
+INFO    11 Oct 2024 16:15:02 ASC - Re Eevaluate - 388830_4754_testRepeter_process2_tool1
+INFO    11 Oct 2024 16:20:18 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4755_testRepeter_process2, processDefId=testRepeter#3#process2, participantId=process2_process1_participant2, next user=[admin]]
+INFO    11 Oct 2024 16:20:20 ASC - Re Eevaluate - 388832_4755_testRepeter_process2_tool1
+INFO    11 Oct 2024 16:20:20 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[admin]]
+INFO    15 Oct 2024 11:06:46 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update package testRepeter. _

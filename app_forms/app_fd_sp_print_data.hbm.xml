@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_sp_print_data" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_sp_print_data">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_tipe_form" name="tipe_form" not-null="false" type="text"/><property column="c_kode_cpl" name="kode_cpl" not-null="false" type="text"/><property column="c_waktu_patrol_old" name="waktu_patrol_old" not-null="false" type="text"/><property column="c_tanggal_patrol" name="tanggal_patrol" not-null="false" type="text"/><property column="c_waktu_patrol" name="waktu_patrol" not-null="false" type="text"/><property column="c_bulan" name="bulan" not-null="false" type="text"/><property column="c_frequency" name="frequency" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

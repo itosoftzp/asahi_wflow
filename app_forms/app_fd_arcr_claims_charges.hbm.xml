@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_claims_charges" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_claims_charges">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_patientName" name="patientName" not-null="false" type="text"/><property column="c_totalBill" name="totalBill" not-null="false" type="text"/><property column="c_medication" name="medication" not-null="false" type="text"/><property column="c_xray" name="xray" not-null="false" type="text"/><property column="c_consultation" name="consultation" not-null="false" type="text"/><property column="c_procedure" name="procedure" not-null="false" type="text"/><property column="c_labTest" name="labTest" not-null="false" type="text"/><property column="c_injection" name="injection" not-null="false" type="text"/><property column="c_noOfDays" name="noOfDays" not-null="false" type="text"/><property column="c_parentId" name="parentId" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

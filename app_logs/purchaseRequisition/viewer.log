@@ -1,0 +1,9 @@
+INFO    30 Mar 2021 07:36:14 PackageEventLogger - UTCTime=1617089774189,EventType=packageLoaded,PackageId=purchaseRequisition,PackageVersion=1,EventPerformedBy=novifp
+INFO    30 Mar 2021 07:36:14 org.joget.apps.app.service.AppServiceImpl - Imported xpdl
+INFO    30 Mar 2021 07:36:14 org.joget.apps.app.service.AppServiceImpl - Imported process form mappings : 5
+INFO    30 Mar 2021 07:36:14 org.joget.apps.app.service.AppServiceImpl - Imported process tool mappings : 5
+INFO    30 Mar 2021 07:36:15 org.joget.apps.app.service.AppServiceImpl - Imported process participant mappings : 6
+INFO    30 Mar 2021 07:36:15 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 7
+INFO    30 Mar 2021 07:36:15 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    30 Mar 2021 07:36:15 org.joget.apps.app.service.AppServiceImpl - Imported form datas - asc_purchase_cat : 5
+INFO    30 Mar 2021 14:36:16 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by novifp: Add form acknowledgeApproval. _Add form approvalRequest. _Add form departmentTerkait. _Add form items. _Add form kategori. _Add form purchaseRequestForm. _Add form register. _Add form submitRequest. _Add list departmentList. _Add list listItems. _Add list listKategori. _Add list myRequestList. _Add list requestList. _Add userview dashboard. _Add userview purchaseRequisitionPortal. _Add api API-854773d0-b5bc-4fe1-8dcc-1e09481f01b6. _Add internal INTERNAL_TAGGING. _Add report rp_report_by_approval. _Update xpdl purchaseRequisition. _Update app config purchaseRequisition. _Update app definition purchaseRequisition. _

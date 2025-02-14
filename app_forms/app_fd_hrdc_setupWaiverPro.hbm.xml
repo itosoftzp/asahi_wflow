@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_hrdc_setupWaiverPro" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_hrdc_setupWaiverPro">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_classCode" name="classCode" not-null="false" type="text"/><property column="c_circularDesc" name="circularDesc" not-null="false" type="text"/><property column="c_levyMonthTo" name="levyMonthTo" not-null="false" type="text"/><property column="c_paymentDateTo" name="paymentDateTo" not-null="false" type="text"/><property column="c_circulateDate" name="circulateDate" not-null="false" type="text"/><property column="c_paymentDateFrom" name="paymentDateFrom" not-null="false" type="text"/><property column="c_field9" name="field9" not-null="false" type="text"/><property column="c_waiveCircularType" name="waiveCircularType" not-null="false" type="text"/><property column="c_circularNumber" name="circularNumber" not-null="false" type="text"/><property column="c_levyMonthFrom" name="levyMonthFrom" not-null="false" type="text"/><property column="c_remarks" name="remarks" not-null="false" type="text"/><property column="c_arrearPaymentMadeWithin" name="arrearPaymentMadeWithin" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_tis_mst_asset" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_tis_mst_asset">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_package" name="package" not-null="false" type="text"/><property column="c_description" name="description" not-null="false" type="text"/><property column="c_source_lock_down" name="source_lock_down" not-null="false" type="text"/><property column="c_technology" name="technology" not-null="false" type="text"/><property column="c_rk_information" name="rk_information" not-null="false" type="text"/><property column="c_reference_number" name="reference_number" not-null="false" type="text"/><property column="c_service_type" name="service_type" not-null="false" type="text"/><property column="c_service_id" name="service_id" not-null="false" type="text"/><property column="c_witel" name="witel" not-null="false" type="text"/><property column="c_work_zone" name="work_zone" not-null="false" type="text"/><property column="c_realm" name="realm" not-null="false" type="text"/><property column="c_customer_name" name="customer_name" not-null="false" type="text"/><property column="c_workzone_desc" name="workzone_desc" not-null="false" type="text"/><property column="c_customer_id" name="customer_id" not-null="false" type="text"/><property column="c_region" name="region" not-null="false" type="text"/><property column="c_service_number" name="service_number" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

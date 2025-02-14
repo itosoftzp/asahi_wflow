@@ -1,0 +1,2 @@
+INFO    15 Oct 2024 14:42:53 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (54.179.192.182) : true
+INFO    15 Oct 2024 14:42:53 org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter - Authentication for user admin (54.179.192.182) : true

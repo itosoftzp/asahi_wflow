@@ -1,0 +1,2 @@
+INFO    13 Nov 2024 12:31:22 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form exampleForm. _Update list exampleList. _Update userview exampleUserview. _Update app definition example. _Update app config example. _Update xpdl example. _
+INFO    13 Nov 2024 12:31:34 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form test. _

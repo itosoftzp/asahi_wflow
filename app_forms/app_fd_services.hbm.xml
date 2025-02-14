@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_services" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_services">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_service_category" name="service_category" not-null="false" type="text"/><property column="c_service_address" name="service_address" not-null="false" type="text"/><property column="c_reference_number" name="reference_number" not-null="false" type="text"/><property column="c_service_id_description" name="service_id_description" not-null="false" type="text"/><property column="c_service_type" name="service_type" not-null="false" type="text"/><property column="c_parent_id" name="parent_id" not-null="false" type="text"/><property column="c_service_id" name="service_id" not-null="false" type="text"/><property column="c_workzone" name="workzone" not-null="false" type="text"/><property column="c_service_flag" name="service_flag" not-null="false" type="text"/><property column="c_customer_id" name="customer_id" not-null="false" type="text"/><property column="c_service_id_decription" name="service_id_decription" not-null="false" type="text"/><property column="c_service_number" name="service_number" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

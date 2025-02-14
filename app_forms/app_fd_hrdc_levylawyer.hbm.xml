@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_hrdc_levylawyer" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_hrdc_levylawyer">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_emailPIC" name="emailPIC" not-null="false" type="text"/><property column="c_address" name="address" not-null="false" type="text"/><property column="c_telephoneNo" name="telephoneNo" not-null="false" type="text"/><property column="c_faxNo" name="faxNo" not-null="false" type="text"/><property column="c_lawFirmName" name="lawFirmName" not-null="false" type="text"/><property column="c_mobileNoPIC" name="mobileNoPIC" not-null="false" type="text"/><property column="c_postcode" name="postcode" not-null="false" type="text"/><property column="c_pic" name="pic" not-null="false" type="text"/><property column="c_mobileNo" name="mobileNo" not-null="false" type="text"/><property column="c_state" name="state" not-null="false" type="text"/><property column="c_City" name="City" not-null="false" type="text"/><property column="c_email" name="email" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

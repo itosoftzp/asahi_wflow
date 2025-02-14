@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Package xmlns="http://www.wfmc.org/2002/XPDL1.0" xmlns:xpdl="http://www.wfmc.org/2002/XPDL1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="ticketIncidentService" Name="Ticket Incident Service" xsi:schemaLocation="http://www.wfmc.org/2002/XPDL1.0 http://wfmc.org/standards/docs/TC-1025_schema_10_xpdl.xsd">
+    <PackageHeader>
+        <XPDLVersion>1.0</XPDLVersion>
+        <Vendor/>
+        <Created/>
+    </PackageHeader>
+    <Script Type="text/javascript"/>
+    <Participants>
+        <Participant Id="otherSystems" Name="Other Systems">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="nossaTicketin" Name="NOSSA Ticketin">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="otherSystem" Name="Other System">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="nossaWorkOrder" Name="NOSSA Workorder">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="process4_owner" Name="Owner">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="process4_ownerGroup" Name="Owner Group">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="process4_ticketIncident" Name="Ticket Incident">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+    </Participants>
+    <Applications>
+        <Application Id="default_application"/>
+    </Applications>
+    <WorkflowProcesses>
+        <WorkflowProcess Id="ticketIncidentServiceProcess" Name="Ticket Incident Service Process">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="statusTechnical" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="statusSolusiNossaTicketin" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="statusPelangganNossaTicketin" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="statusAPIUkurSCC" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="statusNossaActivity1" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="statusSonicSCC" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="statusiBooster" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="createTicketSegment" Name="Create Ticket Segment">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>otherSystems</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="otherSystems"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="151,38.98750305175781"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="APICreateTicket" Name="API CreateTicket">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="156,26"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="technical" Name="Technical">
+                    <Route/>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition59"/>
+                                    <TransitionRef Id="transition64"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="378,135"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="callAPITKMappingSolution" Name="CallAPI-TK_MappingSolution">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>otherSystems</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="otherSystems"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="342,49.98750305175781"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="solusi" Name="Solusi">
+                    <Route/>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition53"/>
+                                    <TransitionRef Id="transition34"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="540.0874982561385,247.8675079345703"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tambahSolusi" Name="Tambah Solusi">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition11"/>
+                                    <TransitionRef Id="transition58"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="722.84375,56.53125"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="callAPISolutionMapping" Name="CallAPI_SolutionMapping">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>otherSystems</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="otherSystems"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="860,13.1875"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="butuhKePelanggan" Name="Butuh Ke Pelanggan">
+                    <Route/>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition49"/>
+                                    <TransitionRef Id="transition55"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1050.989501953125,6.158854500000018"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tambahActualSolusi" Name="Tambah Actual Solusi">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1268.671875,83.5"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="callAPICekUkurSCC" Name="CallAPI_CekUkurSCC">
+                    <Route/>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition18"/>
+                                    <TransitionRef Id="transition57"/>
+                                    <TransitionRef Id="transition63"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1517.1353759765625,148.64582349414064"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="closed" Name="Closed">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1885.247314453125,9.765635505859393"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="callAPICreateWorkOrder" Name="CallAPI_CreateWorkOrder">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="995.9895420074463,366.99216748828127"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="callAPIClosedWorkOrder" Name="CallAPI_ClosedWorkOrder">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaWorkOrder</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaWorkOrder"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1000.1953125,94.5703230058594"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="cekPengukuranIBooster" Name="Cek Pengukuran iBooster">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>otherSystem</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="otherSystem"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1287.5625,87.8125"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="hasilIBooster" Name="Hasil iBooster">
+                    <Route/>
+                    <Performer>otherSystem</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition60"/>
+                                    <TransitionRef Id="transition62"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="otherSystem"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="911.575439453125,95.84635449999996"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="mediacare" Name="MEDIACARE">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1687.2786254882812,240.7682295"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="salamSimpati" Name="SALAMSIMPATI">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1883.137939453125,112.25260450000002"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="callAPIUpdateTicket" Name="CallAPI_UpdateTicket">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2063.9322509765625,8.567698494140643"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="closeTicketSegment" Name="CloseTicket_Segment">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>otherSystems</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="otherSystems"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2063.8126046316966,60.75749969482422"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="notifyTambahActualSolusi" Name="Notify Tambah Actual Solusi">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1473.4374389648438,9.453120247070302"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="notifyTambahSolusi" Name="Notify Tambah Solusi">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="676.1625453404018,214.88002014160156"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="notifyCloseTicketSegment" Name="Notify Close Ticket Segment">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>otherSystems</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="otherSystems"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2279.7001429966517,62.29643685477121"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="queued" Name="Queued">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="353.9713439941406,322.9036359941406"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="backend" Name="Backend">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="876.9791259765625,8.906245247070302"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="updateWorkorder" Name="Update Workorder">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>nossaWorkOrder</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaWorkOrder"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="494.54425048828125,84.5312605058594"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="finalCheck" Name="Final Check">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>nossaTicketin</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="nossaTicketin"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1279,262.71875"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="createTicketSegment" Id="transition2" To="callAPITKMappingSolution">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="callAPITKMappingSolution" Id="transition4" To="APICreateTicket">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="tambahSolusi" Id="transition11" Name="Request Submit" To="callAPISolutionMapping">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="callAPICekUkurSCC" Id="transition18" To="closed">
+                    <Condition Type="CONDITION">statusAPIUkurSCC === 'Passed'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusAPIUkurSCC&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Passed&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="cekPengukuranIBooster" Id="transition40" To="hasilIBooster">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="mediacare" Id="transition45" To="salamSimpati">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="salamSimpati" Id="transition46" To="closed">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="closed" Id="transition47" To="callAPIUpdateTicket">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="callAPIUpdateTicket" Id="transition48" To="closeTicketSegment">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="butuhKePelanggan" Id="transition49" To="notifyTambahActualSolusi">
+                    <Condition Type="CONDITION">statusPelangganNossaTicketin === 'No'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusPelangganNossaTicketin&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;No&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="notifyTambahActualSolusi" Id="transition50" To="tambahActualSolusi">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="notifyTambahSolusi" Id="transition52" To="tambahSolusi">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="solusi" Id="transition53" To="notifyTambahSolusi">
+                    <Condition Type="CONDITION">statusSolusiNossaTicketin === 'No'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusSolusiNossaTicketin&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;No&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="APICreateTicket" Id="transition51" To="technical">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="closeTicketSegment" Id="transition54" To="notifyCloseTicketSegment">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="butuhKePelanggan" Id="transition55" To="callAPICreateWorkOrder">
+                    <Condition Type="CONDITION">statusPelangganNossaTicketin === 'Yes'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusPelangganNossaTicketin&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Yes&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="callAPICekUkurSCC" Id="transition57" To="mediacare">
+                    <Condition Type="CONDITION">statusAPIUkurSCC !== 'Passed'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusAPIUkurSCC&quot;,&quot;operator&quot;:&quot;!==&quot;,&quot;value&quot;:&quot;Passed&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="hasilIBooster" Id="transition60" To="callAPICekUkurSCC">
+                    <Condition Type="CONDITION">statusiBooster === 'Passed'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusiBooster&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Passed&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="technical" Id="transition59" To="queued">
+                    <Condition Type="CONDITION">statusTechnical === 'No'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusTechnical&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;No&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="queued" Id="transition61" To="solusi">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="hasilIBooster" Id="transition62" To="backend">
+                    <Condition Type="CONDITION">statusiBooster === 'NoSpec'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusiBooster&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;NoSpec&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="callAPICekUkurSCC" Id="transition63" To="backend">
+                    <Condition Type="CONDITION">statusSonicSCC !== 'Passed' || statusiBooster !== 'Passed'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusSonicSCC&quot;,&quot;operator&quot;:&quot;!==&quot;,&quot;value&quot;:&quot;Passed&quot;},{&quot;join&quot;:&quot;||&quot;,&quot;variable&quot;:&quot;statusiBooster&quot;,&quot;operator&quot;:&quot;!==&quot;,&quot;value&quot;:&quot;Passed&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="tambahSolusi" Id="transition58" To="backend">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="technical" Id="transition64" To="backend">
+                    <Condition Type="CONDITION">statusTechnical === 'Yes'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusTechnical&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Yes&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="backend" Id="transition65" To="butuhKePelanggan">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="callAPICreateWorkOrder" Id="transition35" To="updateWorkorder">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="updateWorkorder" Id="transition32" To="callAPIClosedWorkOrder">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="tambahActualSolusi" Id="transition31" To="finalCheck">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="finalCheck" Id="transition36" To="cekPengukuranIBooster">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="callAPIClosedWorkOrder" Id="transition33" To="finalCheck">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="solusi" Id="transition34" To="finalCheck">
+                    <Condition Type="CONDITION">statusSolusiNossaTicketin === 'Yes'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;statusSolusiNossaTicketin&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Yes&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="otherSystems;nossaTicketin;nossaWorkOrder;otherSystem"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=otherSystems,CONNECTING_ACTIVITY_ID=createTicketSegment,X_OFFSET=80,Y_OFFSET=55,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=otherSystems,CONNECTING_ACTIVITY_ID=notifyCloseTicketSegment,X_OFFSET=2452,Y_OFFSET=74,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=otherSystems,CONNECTING_ACTIVITY_ID=callAPISolutionMapping,X_OFFSET=1072,Y_OFFSET=27,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="ticketIncidentServiceProcess4" Name="Ticket Incident Service Process - V4">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status_to" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="ticket_status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="symptom_type" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="pending_status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="action_status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="pending_timeout" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="flag_solution" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="status_pelanggan" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="route2">
+                    <Route/>
+                    <Performer>process4_ticketIncident</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition81"/>
+                                    <TransitionRef Id="transition83"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ticketIncident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="159.96875,153.46875"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="analysis" Name="Analysis">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="AND">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition7"/>
+                                    <TransitionRef Id="transition17"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="813.406241280692,56.618743896484375"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="backend" Name="Backend">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="205.5625,496.46875"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route3">
+                    <Route/>
+                    <Performer>process4_owner</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition10"/>
+                                    <TransitionRef Id="transition11"/>
+                                    <TransitionRef Id="transition94"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_owner"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="803,30"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="reassignOwner" Name="Reassign Owner">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_owner</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_owner"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1488.53515625,29.7265625"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="requestPending" Name="Request Pending">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_owner</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_owner"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1697.828125,100.9375"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route5">
+                    <Route/>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2161.8437848772323,6.2296905517578125"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="finalcheck" Name="Finalcheck - Resolved">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="AND">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition18"/>
+                                    <TransitionRef Id="transition92"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2361.078125,223.59375"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route6">
+                    <Route/>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition19"/>
+                                    <TransitionRef Id="transition20"/>
+                                    <TransitionRef Id="transition50"/>
+                                    <TransitionRef Id="transition49"/>
+                                    <TransitionRef Id="transition89"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1592.2500174386162,183.77813720703125"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="mediacare" Name="Mediacare">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <Deadline Execution="SYNCHR">
+                        <DeadlineCondition>var s=new java.util.Date(); s.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(10*1000)); s;</DeadlineCondition>
+                        <ExceptionName>mediacare_exception</ExceptionName>
+                    </Deadline>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="AND">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition40"/>
+                                    <TransitionRef Id="transition77"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2318.6875,691.984375"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route7">
+                    <Route/>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition24"/>
+                                    <TransitionRef Id="transition46"/>
+                                    <TransitionRef Id="transition54"/>
+                                    <TransitionRef Id="transition91"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1754.562465122768,422.390625"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="salamsim" Name="Salamsim">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <Deadline Execution="SYNCHR">
+                        <DeadlineCondition>var s=new java.util.Date(); s.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(10*1000)); s;</DeadlineCondition>
+                        <ExceptionName>CLOSE</ExceptionName>
+                    </Deadline>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="AND">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition28"/>
+                                    <TransitionRef Id="transition79"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2272.515625,356.640625"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route9">
+                    <Route/>
+                    <Performer>process4_ticketIncident</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition34"/>
+                                    <TransitionRef Id="transition31"/>
+                                    <TransitionRef Id="transition32"/>
+                                    <TransitionRef Id="transition87"/>
+                                    <TransitionRef Id="transition74"/>
+                                    <TransitionRef Id="transition75"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ticketIncident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="412.015625,32.34375"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route11">
+                    <Route/>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition42"/>
+                                    <TransitionRef Id="transition44"/>
+                                    <TransitionRef Id="transition52"/>
+                                    <TransitionRef Id="transition93"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="862.5,651.140625"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route11_1">
+                    <Route/>
+                    <Performer>process4_owner</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition57"/>
+                                    <TransitionRef Id="transition59"/>
+                                    <TransitionRef Id="transition58"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_owner"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1674,3.859375"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route12">
+                    <Route/>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition61"/>
+                                    <TransitionRef Id="transition55"/>
+                                    <TransitionRef Id="transition67"/>
+                                    <TransitionRef Id="transition62"/>
+                                    <TransitionRef Id="transition63"/>
+                                    <TransitionRef Id="transition51"/>
+                                    <TransitionRef Id="transition66"/>
+                                    <TransitionRef Id="transition68"/>
+                                    <TransitionRef Id="transition69"/>
+                                    <TransitionRef Id="transition71"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1393,349"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="pendingToAnalysis" Name="Pending to Analysis">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <Deadline Execution="SYNCHR">
+                        <DeadlineCondition>var s=new java.util.Date(); s.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(10*1000)); s;</DeadlineCondition>
+                        <ExceptionName>pending_timeout_exception</ExceptionName>
+                    </Deadline>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1961,50.078125"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="pendingToBackend" Name="Pending to Backend">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <Deadline Execution="SYNCHR">
+                        <DeadlineCondition>var s=new java.util.Date(); s.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(10*1000)); s;</DeadlineCondition>
+                        <ExceptionName>pending_timeout_exception</ExceptionName>
+                    </Deadline>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1967,143"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="pendingToSalamsim" Name="Pending to Salamsim">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <Deadline Execution="SYNCHR">
+                        <DeadlineCondition>var s=new java.util.Date(); s.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(10*1000)); s;</DeadlineCondition>
+                        <ExceptionName>pending_timeout_exception</ExceptionName>
+                    </Deadline>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2012,286"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="pendingToMediacare" Name="Pending to Mediacare">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <Deadline Execution="SYNCHR">
+                        <DeadlineCondition>var s=new java.util.Date(); s.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(10*1000)); s;</DeadlineCondition>
+                        <ExceptionName>pending_timeout_exception</ExceptionName>
+                    </Deadline>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2153,529"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="pendingToFinalcheck" Name="Pending to Finalcheck">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <Deadline Execution="SYNCHR">
+                        <DeadlineCondition>var s=new java.util.Date(); s.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(10*1000)); s;</DeadlineCondition>
+                        <ExceptionName>pending_timeout_exception</ExceptionName>
+                    </Deadline>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2243,122"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="updateTicketStatus" Name="Update Ticket Status Salamsim">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2385,435.53125"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="insertLog1" Name="Insert Log Backend">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="61,47.53125"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="insertLog2" Name="Insert Log Analysis">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ticketIncident</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ticketIncident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="810,213"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="insertLog3" Name="Insert Log Backend">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="350,694"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="insertLog4" Name="Insert Log Finalcheck">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2395,54"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="insertLog5" Name="Insert Log Mediacare">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ownerGroup</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2053,591"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="insertLog6" Name="Insert Log Closed">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_owner</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_owner"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1850,187"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="updateTicketStatusClosed" Name="Closed (update status closed)">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_owner</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_owner"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1850,284.546875"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="createWO" Name="Create Work Order">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ticketIncident</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ticketIncident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1455,11"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="actualResolution" Name="Actual Resolution">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_ticketIncident</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ticketIncident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="796,117"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route10">
+                    <Route/>
+                    <Performer>process4_ownerGroup</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_ownerGroup"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="2626,247"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="analysis" Id="transition7" To="route3">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route3" Id="transition10" To="reassignOwner">
+                    <Condition Type="CONDITION">action_status === 'REASSIGN_OWNER'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REASSIGN_OWNER&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route3" Id="transition11" To="requestPending">
+                    <Condition Type="CONDITION">action_status === 'REQUEST_PENDING' &amp;&amp; ticket_status === 'ANALYSIS'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REQUEST_PENDING&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;ANALYSIS&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="analysis" Id="transition17" To="route5">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="finalcheck" Id="transition18" To="route6">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route6" Id="transition19" To="analysis">
+                    <Condition Type="CONDITION">action_status === 'REOPEN' &amp;&amp; ticket_status === 'ANALYSIS'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REOPEN&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;ANALYSIS&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route6" Id="transition20" To="reassignOwner">
+                    <Condition Type="CONDITION">action_status === 'REASSIGN_OWNER'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REASSIGN_OWNER&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route7" Id="transition24" To="analysis">
+                    <Condition Type="CONDITION">action_status === 'REOPEN' &amp;&amp; ticket_status === 'ANALYSIS'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REOPEN&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;ANALYSIS&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="salamsim" Id="transition28" To="route7">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="backend" Id="transition33" To="route9">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route9" Id="transition34" To="route3">
+                    <Condition Type="CONDITION">action_status === 'REASSIGN_OWNER' &amp;&amp; ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REASSIGN_OWNER&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route9" Id="transition31" To="route5">
+                    <Condition Type="CONDITION">action_status === 'RESOLVE' &amp;&amp; ticket_status === 'FINALCHECK'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;RESOLVE&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;FINALCHECK&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route9" Id="transition32" To="requestPending">
+                    <Condition Type="CONDITION">action_status === 'REQUEST_PENDING' &amp;&amp; ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REQUEST_PENDING&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="mediacare" Id="transition40" To="route11">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route11" Id="transition42" To="analysis">
+                    <Condition Type="CONDITION">action_status === 'REOPEN' &amp;&amp; ticket_status === 'ANALYSIS'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REOPEN&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;ANALYSIS&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route11" Id="transition44" To="backend">
+                    <Condition Type="CONDITION">action_status === 'REOPEN' &amp;&amp; ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REOPEN&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route7" Id="transition46" To="backend">
+                    <Condition Type="CONDITION">action_status === 'REOPEN' &amp;&amp; ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REOPEN&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route6" Id="transition50" To="backend">
+                    <Condition Type="CONDITION">action_status === 'REOPEN' &amp;&amp; ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REOPEN&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route6" Id="transition49" To="requestPending">
+                    <Condition Type="CONDITION">action_status === 'REQUEST_PENDING' &amp;&amp; ticket_status === 'FINALCHECK'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REQUEST_PENDING&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;FINALCHECK&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route11" Id="transition52" To="requestPending">
+                    <Condition Type="CONDITION">ticket_status === 'MEDIACARE' &amp;&amp; action_status === 'REQUEST_PENDING'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;MEDIACARE&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REQUEST_PENDING&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route7" Id="transition54" To="requestPending">
+                    <Condition Type="CONDITION">ticket_status === 'SALAMSIM' &amp;&amp; action_status === 'REQUEST_PENDING'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;SALAMSIM&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REQUEST_PENDING&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="reassignOwner" Id="transition56" To="route11_1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route11_1" Id="transition57" To="finalcheck">
+                    <Condition Type="CONDITION">ticket_status === 'FINALCHECK'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;FINALCHECK&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route11_1" Id="transition59" To="analysis">
+                    <Condition Type="CONDITION">ticket_status === 'ANALYSIS'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;ANALYSIS&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route11_1" Id="transition58" To="backend">
+                    <Condition Type="CONDITION">ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="requestPending" Id="transition60" To="route12">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition61" To="mediacare">
+                    <Condition Type="CONDITION">pending_status === 'REJECTED' &amp;&amp; ticket_status === 'MEDIACARE'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REJECTED&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;MEDIACARE&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition55" To="finalcheck">
+                    <Condition Type="CONDITION">ticket_status === 'FINALCHECK' &amp;&amp; pending_status === 'REJECTED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;FINALCHECK&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REJECTED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="pendingToAnalysis" Id="transition64" To="analysis">
+                    <Condition Type="EXCEPTION">pending_timeout_exception</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition67" To="pendingToAnalysis">
+                    <Condition Type="CONDITION">ticket_status === 'ANALYSIS' &amp;&amp; pending_status === 'APPROVED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;ANALYSIS&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;APPROVED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition62" To="backend">
+                    <Condition Type="CONDITION">pending_status === 'REJECTED' &amp;&amp; ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REJECTED&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition63" To="analysis">
+                    <Condition Type="CONDITION">ticket_status === 'ANALYSIS' &amp;&amp; pending_status === 'REJECTED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;ANALYSIS&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REJECTED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition51" To="pendingToBackend">
+                    <Condition Type="CONDITION">pending_status === 'APPROVED' &amp;&amp; ticket_status === 'BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;APPROVED&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="pendingToBackend" Id="transition65" To="backend">
+                    <Condition Type="EXCEPTION">pending_timeout_exception</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition66" To="pendingToSalamsim">
+                    <Condition Type="CONDITION">ticket_status === 'SALAMSIM' &amp;&amp; pending_status === 'APPROVED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;SALAMSIM&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;APPROVED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="pendingToSalamsim" Id="transition53" To="salamsim">
+                    <Condition Type="EXCEPTION">pending_timeout_exception</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition68" To="salamsim">
+                    <Condition Type="CONDITION">pending_status === 'REJECTED' &amp;&amp; ticket_status === 'SALAMSIM'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REJECTED&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;SALAMSIM&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition69" To="pendingToMediacare">
+                    <Condition Type="CONDITION">ticket_status === 'MEDIACARE' &amp;&amp; pending_status === 'APPROVED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;MEDIACARE&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;APPROVED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="pendingToMediacare" Id="transition70" To="mediacare">
+                    <Condition Type="EXCEPTION">pending_timeout_exception</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route12" Id="transition71" To="pendingToFinalcheck">
+                    <Condition Type="CONDITION">ticket_status === 'FINALCHECK' &amp;&amp; pending_status === 'APPROVED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;FINALCHECK&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;pending_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;APPROVED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="pendingToFinalcheck" Id="transition72" To="finalcheck">
+                    <Condition Type="EXCEPTION">pending_timeout_exception</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="mediacare" Id="transition77" To="updateTicketStatus">
+                    <Condition Type="EXCEPTION">mediacare_exception</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="updateTicketStatus" Id="transition78" To="salamsim">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route2" Id="transition81" To="insertLog1">
+                    <Condition Type="CONDITION">symptom_type === 'TECHNICAL'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;symptom_type&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;TECHNICAL&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="insertLog1" Id="transition82" To="backend">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route2" Id="transition83" To="insertLog2">
+                    <Condition Type="CONDITION">symptom_type === 'NON_TECHNICAL'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;symptom_type&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;NON_TECHNICAL&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="insertLog2" Id="transition84" To="analysis">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="insertLog3" Id="transition86" To="backend">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="insertLog4" Id="transition88" To="finalcheck">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route6" Id="transition89" To="insertLog5">
+                    <Condition Type="CONDITION">action_status === 'RESOLVE' &amp;&amp; ticket_status === 'MEDIACARE'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;RESOLVE&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;MEDIACARE&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="insertLog5" Id="transition90" To="mediacare">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route7" Id="transition91" To="insertLog6">
+                    <Condition Type="CONDITION">action_status === 'RESOLVE' &amp;&amp; ticket_status === 'CLOSED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;RESOLVE&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;CLOSED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route11" Id="transition93" To="insertLog6">
+                    <Condition Type="CONDITION">action_status === 'RESOLVE' &amp;&amp; ticket_status === 'CLOSED'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;RESOLVE&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;CLOSED&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route3" Id="transition94" To="insertLog3">
+                    <Condition Type="CONDITION">action_status === 'REDISPATCH_TO_BACKEND'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REDISPATCH_TO_BACKEND&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route5" Id="transition85" To="insertLog4">
+                    <Condition Type="CONDITION">action_status === 'RESOLVE' &amp;&amp; ticket_status === 'FINALCHECK'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="salamsim" Id="transition79" To="insertLog6">
+                    <Condition Type="EXCEPTION">CLOSE</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="insertLog6" Id="transition76" To="updateTicketStatusClosed">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="createWO" Id="transition80" To="insertLog4">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route9" Id="transition87" To="actualResolution">
+                    <Condition Type="CONDITION">status_pelanggan === 'FALSE'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;status_pelanggan&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;FALSE&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="actualResolution" Id="transition73" To="insertLog4">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route9" Id="transition74" To="backend">
+                    <Condition Type="CONDITION">ticket_status === 'BACKEND' &amp;&amp; action_status === 'REDISPATCH_BY_SELECT_SOLUTION'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;BACKEND&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REDISPATCH_BY_SELECT_SOLUTION&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route9" Id="transition75" To="createWO">
+                    <Condition Type="CONDITION">status_pelanggan === 'TRUE'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;status_pelanggan&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;TRUE&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="finalcheck" Id="transition92" To="route10">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route10" Id="transition95" To="finalcheck">
+                    <Condition Type="CONDITION">action_status === 'REDISPATCH_BY_SELECT_SOLUTION' &amp;&amp; ticket_status === 'FINALCHECK'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;action_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;REDISPATCH_BY_SELECT_SOLUTION&quot;},{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;ticket_status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;FINALCHECK&quot;}]"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process4_ticketIncident;process4_ownerGroup;process4_owner"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_ticketIncident,CONNECTING_ACTIVITY_ID=route2,X_OFFSET=178,Y_OFFSET=11,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_owner,CONNECTING_ACTIVITY_ID=updateTicketStatusClosed,X_OFFSET=2040,Y_OFFSET=296,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+    </WorkflowProcesses>
+    <ExtendedAttributes>
+        <ExtendedAttribute Name="EDITING_TOOL" Value="Web Workflow Designer"/>
+        <ExtendedAttribute Name="EDITING_TOOL_VERSION" Value="5.0-pre-alpha"/>
+    </ExtendedAttributes>
+</Package>

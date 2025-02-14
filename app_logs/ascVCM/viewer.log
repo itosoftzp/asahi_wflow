@@ -1,0 +1,20 @@
+INFO    03 Feb 2025 14:07:03 ASC - Smart Patrol VCM - Import Data - Ini format Standart
+INFO    03 Feb 2025 14:07:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Feb 2025 14:07:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Feb 2025 14:07:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Feb 2025 14:07:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Feb 2025 14:07:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Feb 2025 14:07:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.ImportData - Berhasil Insert Data to table History Data
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service prop nya : dddc8636-d604-4eb6-b6c9-817b0324726c
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service nya : dddc8636-d604-4eb6-b6c9-817b0324726c
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service prop nya : 8b01959a-f6ee-4b19-9f61-78ff615e37ca
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service nya : 8b01959a-f6ee-4b19-9f61-78ff615e37ca
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service prop nya : cb80e581-c55a-4f1e-8caf-636a8b5f16ce
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service nya : cb80e581-c55a-4f1e-8caf-636a8b5f16ce
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service prop nya : 6280612b-31f9-4f1e-9a32-8a36b8d5e1e0
+INFO    03 Feb 2025 14:08:34 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service nya : 6280612b-31f9-4f1e-9a32-8a36b8d5e1e0
+INFO    03 Feb 2025 14:09:25 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - masuk get data option 2025-02-03 23:59:59
+INFO    03 Feb 2025 14:09:25 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - masuk get data option 2025-02-03 23:59:59
+INFO    03 Feb 2025 17:42:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (103.21.219.5) : true
+INFO    03 Feb 2025 17:43:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (103.21.219.5) : false
+INFO    12 Feb 2025 10:33:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.50) : true

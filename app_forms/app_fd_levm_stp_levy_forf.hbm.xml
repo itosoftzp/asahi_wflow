@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_levm_stp_levy_forf" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_levm_stp_levy_forf">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_notification" name="notification" not-null="false" type="text"/><property column="c_forfeit_period" name="forfeit_period" not-null="false" type="text"/><property column="c_unutilized_levy_year" name="unutilized_levy_year" not-null="false" type="text"/><property column="c_warning_period_type" name="warning_period_type" not-null="false" type="text"/><property column="c_warning_period" name="warning_period" not-null="false" type="text"/><property column="c_notif_before_forfeit_within" name="notif_before_forfeit_within" not-null="false" type="text"/><property column="c_publish" name="publish" not-null="false" type="text"/><property column="c_no_of_notif_per_month" name="no_of_notif_per_month" not-null="false" type="text"/><property column="c_apply_grant" name="apply_grant" not-null="false" type="text"/><property column="c_forfeit_period_type" name="forfeit_period_type" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

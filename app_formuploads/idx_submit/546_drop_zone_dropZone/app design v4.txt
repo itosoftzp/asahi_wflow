@@ -1,0 +1,75 @@
+1. login page
+2. transfer data option page
+2.1 system to system
+2.2 user to system
+2.3 user to user
+
+wizard (Step 1 -> Step 2 -> Step 3 -> Step 4)
+step 1 choice option (system to system /user to user/ user to system)
+
+----- case system to system-----
+step 2 
+file name: <file name>
+
+Step 3
+site option (option 1 same site, option 2 different site)
+
+option 1: same site (office,dagang)
+
+dagang (sys1 dagang,sys2 dagang)
+source and target (sys1 dagang,sys2 dagang)
+link sys1 dagang:172.58.8.5/home/sys1/sharedfolder
+link sys2 dagang:172.58.8.5/home/sys2/sharedfolder
+
+office (sys1 office,sys2 office)
+source and target (sys1 office,sys2 office)
+link sys1 office:172.58.8.4/home/sys1/sharedfolder
+link sys2 offcie:172.58.8.4/home/sys1/sharedfolder
+
+option 2: different site (office to dagang, dagang to office)
+source: (sys1 dagang,sys2 dagang,sys1 office, sys2 office) 
+link sys1 dagang:172.58.8.5
+link sys2 dagang:172.58.8.5
+link sys1 office:172.58.8.4
+link sys2 office:172.58.8.4
+target: (sys1 dagang,sys2 dagang,sys1 office, sys2 office)
+link sys1 dagang:172.58.8.4/home/sys1/sys1_dagang
+link sys2 dagang:172.58.8.4/home/sys2/sys2_dagang
+link sys1 office:172.58.8.5/home/sys1/sys1_office
+link sys2 office:172.58.8.5/home/sys2/sys2_office
+
+step 4: excute job (sftp ke target)
+4.1 adhoc run
+4.2 schedule run
+step 5: monitoring (REST API)
+
+----- case user to user-----
+step 2 
+upload file (sftp)
+target: (user dagang,user office)
+link user dagang:172.58.8.5/home/user
+link user office:172.58.8.4/home/user
+step 3: excute job (sftp ke target)
+3.1 adhoc run
+3.2 schedule run
+step 4: monitoring (REST API)
+
+----- case user to system-----
+step 2 
+upload file (sftp)
+target: (sys1 dagang,sys2 dagang,sys1 office, sys2 office)
+link sys1 dagang:172.58.8.4/home/sys1/sys1_dagang
+link sys2 dagang:172.58.8.4/home/sys2/sys2_dagang
+link sys1 office:172.58.8.5/home/sys1/sys1_office
+link sys2 office:172.58.8.5/home/sys2/sys2_office
+ada plihan execute jobnya
+2.1 adhoc run
+2.2 schedule run
+step 3: request approval
+after approve then excute job automatic (sftp ke target)
+step 4: monitoring (REST API)
+
+
+
+
+

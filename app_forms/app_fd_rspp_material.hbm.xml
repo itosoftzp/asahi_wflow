@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_rspp_material" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_rspp_material">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_oh_qty" name="oh_qty" not-null="false" type="text"/><property column="c_take_out_from_stock" name="take_out_from_stock" not-null="false" type="text"/><property column="c_pr" name="pr" not-null="false" type="text"/><property column="c_pr_date" name="pr_date" not-null="false" type="text"/><property column="c_material_no" name="material_no" not-null="false" type="text"/><property column="c_storage_bin" name="storage_bin" not-null="false" type="text"/><property column="c_size_dimension" name="size_dimension" not-null="false" type="text"/><property column="c_qty" name="qty" not-null="false" type="text"/><property column="c_um" name="um" not-null="false" type="text"/><property column="c_material_id" name="material_id" not-null="false" type="text"/><property column="c_min_stock" name="min_stock" not-null="false" type="text"/><property column="c_under_pr_po" name="under_pr_po" not-null="false" type="text"/><property column="c_basic_material" name="basic_material" not-null="false" type="text"/><property column="c_material_description" name="material_description" not-null="false" type="text"/><property column="c_tag_no" name="tag_no" not-null="false" type="text"/><property column="c_reserved_qty" name="reserved_qty" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

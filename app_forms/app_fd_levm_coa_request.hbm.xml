@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_levm_coa_request" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_levm_coa_request">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_authorized_by" name="authorized_by" not-null="false" type="text"/><property column="c_reverse_by" name="reverse_by" not-null="false" type="text"/><property column="c_decision" name="decision" not-null="false" type="text"/><property column="c_reverse_remarks" name="reverse_remarks" not-null="false" type="text"/><property column="c_employer_name" name="employer_name" not-null="false" type="text"/><property column="c_mycoid" name="mycoid" not-null="false" type="text"/><property column="c_reverse_date" name="reverse_date" not-null="false" type="text"/><property column="c_authorized_date" name="authorized_date" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

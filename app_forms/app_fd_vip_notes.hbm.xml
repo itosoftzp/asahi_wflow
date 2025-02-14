@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_vip_notes" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_vip_notes">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_is_read" name="is_read" not-null="false" type="text"/><property column="c_uploaded_by" name="uploaded_by" not-null="false" type="text"/><property column="c_redirected_to" name="redirected_to" not-null="false" type="text"/><property column="c_notes" name="notes" not-null="false" type="text"/><property column="c_uploaded_to" name="uploaded_to" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

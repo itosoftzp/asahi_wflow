@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_mip_purchase" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_mip_purchase">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_code" name="code" not-null="false" type="text"/><property column="c_endDate" name="endDate" not-null="false" type="text"/><property column="c_approvedBy" name="approvedBy" not-null="false" type="text"/><property column="c_employee" name="employee" not-null="false" type="text"/><property column="c_editBy" name="editBy" not-null="false" type="text"/><property column="c_totalPackageCost" name="totalPackageCost" not-null="false" type="text"/><property column="c_dateUpdated" name="dateUpdated" not-null="false" type="text"/><property column="c_approvedDate" name="approvedDate" not-null="false" type="text"/><property column="c_packageCostPerEmployee" name="packageCostPerEmployee" not-null="false" type="text"/><property column="c_packageCode" name="packageCode" not-null="false" type="text"/><property column="c_insurancePolicyNumber" name="insurancePolicyNumber" not-null="false" type="text"/><property column="c_client" name="client" not-null="false" type="text"/><property column="c_packageName" name="packageName" not-null="false" type="text"/><property column="c_totalEmployees" name="totalEmployees" not-null="false" type="text"/><property column="c_employees" name="employees" not-null="false" type="text"/><property column="c_packageCostPerEmployeeText" name="packageCostPerEmployeeText" not-null="false" type="text"/><property column="c_editByName" name="editByName" not-null="false" type="text"/><property column="c_effectiveDate" name="effectiveDate" not-null="false" type="text"/><property column="c_dateSubmitted" name="dateSubmitted" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,328 @@
+INFO    28 Jun 2023 09:20:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.43) : true
+INFO    20 Jul 2023 10:55:51 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - id Service :d79006ae-7886-457b-aa84-6fa5e389c5b4
+INFO    20 Jul 2023 10:55:51 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - StarDate :2023-07-15
+INFO    20 Jul 2023 10:55:51 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - EndDate :2023-07-21
+INFO    20 Jul 2023 10:55:51 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - Get Values :0
+INFO    20 Jul 2023 10:56:13 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - id Service :d79006ae-7886-457b-aa84-6fa5e389c5b4
+INFO    20 Jul 2023 10:56:13 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - StarDate :2023-07-20
+INFO    20 Jul 2023 10:56:13 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - EndDate :2023-07-26
+INFO    20 Jul 2023 10:56:13 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - Get Values :0
+INFO    20 Jul 2023 11:15:41 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - id Service :d79006ae-7886-457b-aa84-6fa5e389c5b4
+INFO    20 Jul 2023 11:15:41 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - StarDate :2023-07-15
+INFO    20 Jul 2023 11:15:41 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - EndDate :2023-07-21
+INFO    20 Jul 2023 11:15:41 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - Get Values :0
+INFO    20 Jul 2023 11:46:15 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - id Service :d79006ae-7886-457b-aa84-6fa5e389c5b4
+INFO    20 Jul 2023 11:46:15 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - StarDate :2023-07-21
+INFO    20 Jul 2023 11:46:15 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - EndDate :2023-07-27
+INFO    20 Jul 2023 11:46:15 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - End Date Dao : 2023-07-27
+INFO    20 Jul 2023 11:46:15 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - start Date Dao : 2023-07-21
+INFO    20 Jul 2023 11:46:15 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - service Date Dao : d79006ae-7886-457b-aa84-6fa5e389c5b4
+INFO    20 Jul 2023 11:46:15 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartNumber - Get Values :0
+INFO    28 Jul 2023 14:15:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.52) : true
+INFO    01 Aug 2023 09:11:11 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.52) : true
+INFO    01 Aug 2023 10:11:39 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    01 Aug 2023 10:11:39 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    01 Aug 2023 10:13:37 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini start date nya : 2023-07-01
+INFO    01 Aug 2023 10:13:37 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - masuk get data option 2023-07-31 23:59:59
+INFO    01 Aug 2023 10:13:37 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini end date nya : 2023-07-31
+INFO    01 Aug 2023 10:13:51 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini start date nya : 2023-07-01
+INFO    01 Aug 2023 10:13:51 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - masuk get data option 2023-07-31 23:59:59
+INFO    01 Aug 2023 10:13:51 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini end date nya : 2023-07-31
+INFO    01 Aug 2023 10:13:55 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini start date nya : 2023-07-01
+INFO    01 Aug 2023 10:13:55 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - masuk get data option 2023-07-31 23:59:59
+INFO    01 Aug 2023 10:13:55 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini end date nya : 2023-07-31
+INFO    01 Aug 2023 10:14:00 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini start date nya : 2023-07-01
+INFO    01 Aug 2023 10:14:00 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - masuk get data option 2023-07-31 23:59:59
+INFO    01 Aug 2023 10:14:00 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini end date nya : 2023-07-31
+INFO    01 Aug 2023 10:14:05 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini start date nya : 2023-07-01
+INFO    01 Aug 2023 10:14:05 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - masuk get data option 2023-07-31 23:59:59
+INFO    01 Aug 2023 10:14:05 id.co.itasoft.asc.digitization.plugin.aw.webservice.ChartOption - ini end date nya : 2023-07-31
+INFO    11 Aug 2023 13:10:47 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.3.42.26) : true
+INFO    14 Aug 2023 09:18:02 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.digitization.plugin.aw.webservice.asc-digitization-Webservice started
+INFO    14 Aug 2023 09:18:02 org.joget.plugin.base.PluginManager - admin installed plugin (asc-digitization-Webservice-1.jar).
+INFO    14 Aug 2023 09:18:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:d79006ae-7886-457b-aa84-6fa5e389c5b4
+INFO    14 Aug 2023 09:18:16 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:a6811481-ff50-4c04-a88c-2db7e1263a55
+INFO    18 Sep 2023 15:35:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.58) : true
+INFO    09 Oct 2023 10:01:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.37) : true
+INFO    19 Oct 2023 16:11:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.37) : true
+INFO    01 Nov 2023 13:40:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : true
+INFO    06 Nov 2023 10:25:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : true
+INFO    16 Nov 2023 14:15:54 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : true
+INFO    22 Nov 2023 06:57:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (114.122.72.175) : true
+ERROR   22 Nov 2023 09:58:20 org.joget.commons.spring.web.CustomDelegatingFilterProxy - Request processing failed; nested exception is java.lang.NullPointerException
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.JsonResponseFilter.doFilter(JsonResponseFilter.java:144)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.NullPointerException
+	at id.co.itasoft.asc.digitization.plugin.userview.permission.UserViewPermission.webService(UserViewPermission.java:116)
+	at org.joget.apps.app.controller.PluginJsonController.pluginService(PluginJsonController.java:279)
+	at jdk.internal.reflect.GeneratedMethodAccessor340.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 81 more
+ERROR   22 Nov 2023 09:58:20 org.joget.apps.app.web.JsonResponseFilter - java.lang.NullPointerException
+java.lang.NullPointerException
+	at id.co.itasoft.asc.digitization.plugin.userview.permission.UserViewPermission.webService(UserViewPermission.java:116)
+	at org.joget.apps.app.controller.PluginJsonController.pluginService(PluginJsonController.java:279)
+	at jdk.internal.reflect.GeneratedMethodAccessor340.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:440)
+	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:428)
+	at org.joget.commons.spring.web.ParameterizedAnnotationMethodHandlerAdapter.handle(ParameterizedAnnotationMethodHandlerAdapter.java:32)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.GitRequestFilter.doFilter(GitRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.displaytag.filter.ResponseOverrideFilter.doFilter(ResponseOverrideFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:88)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.joget.apps.workflow.security.WorkflowHttpAuthProcessingFilter.doFilter(WorkflowHttpAuthProcessingFilter.java:86)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:347)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:263)
+	at org.joget.commons.spring.web.CustomDelegatingFilterProxy.doFilter(CustomDelegatingFilterProxy.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.ExpireFilter.doFilter(ExpireFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.joget.apps.app.web.JsonResponseFilter.doFilter(JsonResponseFilter.java:144)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+INFO    04 Dec 2023 09:34:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    08 Dec 2023 09:27:21 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user andrianto.prasetyo (114.8.137.98) : true
+INFO    12 Dec 2023 10:43:55 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    15 Jan 2024 10:41:44 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.61) : false
+INFO    24 Feb 2024 14:01:34 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.124.142) : true
+INFO    05 Jul 2024 13:41:23 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.51) : true
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek User
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Section
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Area
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Document
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Equipment
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Shift
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service_Special
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Format
+INFO    08 Jul 2024 07:55:03 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - Berhasil generate JSON
+INFO    02 Aug 2024 14:05:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    14 Aug 2024 14:08:21 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service prop nya : 47304dba-9785-454e-ba06-d8ec67232114
+INFO    14 Aug 2024 14:08:21 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service nya : 47304dba-9785-454e-ba06-d8ec67232114
+INFO    14 Aug 2024 14:08:21 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service prop nya : 8d38b17b-519d-4e9a-bd25-92e9c7d465f0
+INFO    14 Aug 2024 14:08:21 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.ChartNumberDao - Ini service nya : 8d38b17b-519d-4e9a-bd25-92e9c7d465f0
+INFO    19 Aug 2024 11:45:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.61) : true
+INFO    23 Aug 2024 10:14:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.57) : true
+INFO    26 Aug 2024 09:03:15 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (104.28.250.135) : false
+INFO    02 Sep 2024 09:27:50 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.60) : true
+INFO    02 Sep 2024 09:55:08 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.60) : true
+INFO    05 Sep 2024 15:18:48 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.59) : false
+INFO    23 Sep 2024 09:46:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.49) : true
+INFO    23 Sep 2024 11:11:45 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.49) : true
+INFO    25 Sep 2024 09:50:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.49) : true
+INFO    08 Oct 2024 09:10:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (180.252.230.12) : true
+INFO    08 Oct 2024 14:05:19 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    08 Oct 2024 14:06:05 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    15 Oct 2024 10:02:47 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    16 Oct 2024 10:00:04 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    17 Oct 2024 09:45:37 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    21 Oct 2024 09:22:41 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.53) : true
+INFO    21 Oct 2024 10:40:35 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.53) : true
+INFO    24 Oct 2024 13:51:58 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : false
+INFO    25 Oct 2024 09:36:31 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.45) : false
+INFO    28 Oct 2024 10:57:27 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user coedotz (182.253.194.45) : true
+INFO    28 Oct 2024 16:29:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.45) : true
+INFO    31 Oct 2024 14:28:30 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dca-api-element started
+INFO    31 Oct 2024 14:28:30 org.joget.plugin.base.PluginManager - 00000 installed plugin (dca-api-element-7.0-SNAPSHOT.jar).
+INFO    31 Oct 2024 16:09:54 id.co.itasoft.asc.maintenance.plugin.TagNo - Cek Data Tagno {"data":[]}
+INFO    04 Nov 2024 11:54:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:9b32a43b-9549-47ab-b7f6-6e5eb5eb50d7
+INFO    04 Nov 2024 11:54:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:2a008458-ea37-46a1-b074-008d19725275
+INFO    04 Nov 2024 11:54:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:863c436a-3780-415d-bcd9-e9bf523a7cef
+INFO    04 Nov 2024 11:54:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:e65b50e4-2de0-4752-a70e-5fe985368e20
+INFO    04 Nov 2024 11:54:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:14f7131a-d84e-4ae7-bb56-c6546bf444bd
+INFO    04 Nov 2024 11:54:50 id.co.itasoft.asc.digitization.plugin.aw.webservice.dao.GenerateExcelDao - ini service nya:49ecc0db-f723-4a8b-833b-98fa8b9b150c
+INFO    04 Nov 2024 15:58:28 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-api-element started
+INFO    04 Nov 2024 15:58:28 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-api-element-7.0-SNAPSHOT.jar).
+INFO    05 Nov 2024 10:09:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.52) : true
+INFO    08 Nov 2024 13:23:24 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (114.122.71.91) : true
+INFO    08 Nov 2024 15:09:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.52) : true
+INFO    11 Nov 2024 10:42:11 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.52) : true
+INFO    12 Nov 2024 11:02:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.52) : true
+INFO    18 Nov 2024 12:50:16 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (61.5.22.84) : true
+INFO    21 Nov 2024 10:09:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.50) : true
+INFO    26 Nov 2024 09:23:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.55) : true
+INFO    26 Nov 2024 16:21:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.55) : true
+INFO    29 Nov 2024 09:13:46 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Afandi.Asc (103.109.203.166) : true
+INFO    06 Dec 2024 21:00:11 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-api-element started
+INFO    06 Dec 2024 21:00:11 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-api-element-7.0-SNAPSHOT.jar).
+INFO    10 Dec 2024 13:18:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.63) : true
+INFO    03 Jan 2025 17:27:16 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Budi.Utomoaeji (182.253.124.137) : true
+INFO    09 Jan 2025 15:17:38 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.43) : true
+INFO    22 Jan 2025 14:28:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.39) : true
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek User
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Section
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Area
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Document
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Equipment
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Shift
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Service_Special
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - cek Format
+INFO    22 Jan 2025 14:32:56 id.co.itasoft.asc.digitization.plugin.aw.webservice.GenerateJson - Berhasil generate JSON
+INFO    31 Jan 2025 10:09:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.39) : true
+INFO    02 Feb 2025 09:24:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.3) : true
+INFO    02 Feb 2025 10:32:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (182.253.194.3) : true
+INFO    12 Feb 2025 10:04:32 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.50) : false
+INFO    12 Feb 2025 16:40:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.50) : true

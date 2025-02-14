@@ -1,0 +1,3 @@
+INFO    23 Aug 2024 11:14:45 org.joget.apps.app.service.AppServiceImpl - Imported app resources files : 0
+INFO    23 Aug 2024 11:14:45 org.joget.apps.app.service.AppServiceImpl - Imported plugins : 0
+INFO    23 Aug 2024 11:14:45 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form parent. _Add form subform. _Add list list_parent. _Add list list_subform. _Add userview v. _Update app config subform_repeater_file_upload. _Update app definition subform_repeater_file_upload. _

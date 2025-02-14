@@ -1,0 +1,16 @@
+[{
+	"kodeCpl": "111111",
+	"kodeEquipment": "EQ00001",
+	"tag": "TAG00001",
+	"service": "Service 1"
+},{
+	"kodeCpl": "222222",
+	"kodeEquipment": "EQ00002",
+	"tag": "",
+	"service": "Service 2"
+},{
+	"kodeCpl": "333333",
+	"kodeEquipment": "EQ00003",
+	"tag": "TAG00003",
+	"service": "Service 3"
+}]

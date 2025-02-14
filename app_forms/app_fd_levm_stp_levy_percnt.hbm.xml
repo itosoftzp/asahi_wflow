@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_levm_stp_levy_percnt" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_levm_stp_levy_percnt">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_range_amount" name="range_amount" not-null="false" type="text"/><property column="c_levy_month_to" name="levy_month_to" not-null="false" type="text"/><property column="c_levy_year_from" name="levy_year_from" not-null="false" type="text"/><property column="c_levy_percent" name="levy_percent" not-null="false" type="text"/><property column="c_max_no_of_employees" name="max_no_of_employees" not-null="false" type="text"/><property column="c_publish" name="publish" not-null="false" type="text"/><property column="c_industry_sector" name="industry_sector" not-null="false" type="text"/><property column="c_levy_month_from" name="levy_month_from" not-null="false" type="text"/><property column="c_effective_date" name="effective_date" not-null="false" type="text"/><property column="c_min_no_of_employees" name="min_no_of_employees" not-null="false" type="text"/><property column="c_levy_year_to" name="levy_year_to" not-null="false" type="text"/><property column="c_class_code" name="class_code" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

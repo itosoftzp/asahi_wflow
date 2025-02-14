@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_tis_ticketstatus" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_tis_ticketstatus">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_owner" name="owner" not-null="false" type="text"/><property column="c_ticketstatusid" name="ticketstatusid" not-null="false" type="text"/><property column="c_changeby" name="changeby" not-null="false" type="text"/><property column="c_memo" name="memo" not-null="false" type="text"/><property column="c_changedate" name="changedate" not-null="false" type="text"/><property column="c_ownergroup" name="ownergroup" not-null="false" type="text"/><property column="c_assignedownergroup" name="assignedownergroup" not-null="false" type="text"/><property column="c_orgid" name="orgid" not-null="false" type="text"/><property column="c_statustracking" name="statustracking" not-null="false" type="text"/><property column="c_siteid" name="siteid" not-null="false" type="text"/><property column="c_class" name="class" not-null="false" type="text"/><property column="c_ticketid" name="ticketid" not-null="false" type="text"/><property column="c_status" name="status" not-null="false" type="text"/><property column="c_tkstatusid" name="tkstatusid" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

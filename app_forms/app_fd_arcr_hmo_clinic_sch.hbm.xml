@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_hmo_clinic_sch" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_hmo_clinic_sch">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_lunchEnd" name="lunchEnd" not-null="false" type="text"/><property column="c_dinnerStart" name="dinnerStart" not-null="false" type="text"/><property column="c_operationalDay" name="operationalDay" not-null="false" type="text"/><property column="c_lunchStart" name="lunchStart" not-null="false" type="text"/><property column="c_dinnerEnd" name="dinnerEnd" not-null="false" type="text"/><property column="c_operationTimes" name="operationTimes" not-null="false" type="text"/><property column="c_startTime" name="startTime" not-null="false" type="text"/><property column="c_endTime" name="endTime" not-null="false" type="text"/><property column="c_parentId" name="parentId" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

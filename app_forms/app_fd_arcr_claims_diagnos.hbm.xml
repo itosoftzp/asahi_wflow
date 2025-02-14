@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class entity-name="app_fd_arcr_claims_diagnos" lazy="false" name="org.joget.apps.form.model.FormRow" table="app_fd_arcr_claims_diagnos">
+        <id name="id" type="string"/>
+        <property name="dateCreated" type="timestamp"/>
+        <property name="dateModified" type="timestamp"/>
+        <property name="createdBy" type="string"/>
+        <property name="createdByName" type="string"/>
+        <property name="modifiedBy" type="string"/>
+        <property name="modifiedByName" type="string"/>
+        <dynamic-component insert="true" name="customProperties" optimistic-lock="true" unique="false" update="true"><property column="c_consultationTotalCost" name="consultationTotalCost" not-null="false" type="text"/><property column="c_patientName" name="patientName" not-null="false" type="text"/><property column="c_medicationTotalCost" name="medicationTotalCost" not-null="false" type="text"/><property column="c_weight" name="weight" not-null="false" type="text"/><property column="c_oxySat" name="oxySat" not-null="false" type="text"/><property column="c_parentId" name="parentId" not-null="false" type="text"/><property column="c_diagnostics" name="diagnostics" not-null="false" type="text"/><property column="c_systolic" name="systolic" not-null="false" type="text"/><property column="c_diastolic" name="diastolic" not-null="false" type="text"/><property column="c_pulse" name="pulse" not-null="false" type="text"/><property column="c_respRate" name="respRate" not-null="false" type="text"/><property column="c_xrayTotalCost" name="xrayTotalCost" not-null="false" type="text"/><property column="c_procedureTotalCost" name="procedureTotalCost" not-null="false" type="text"/><property column="c_injectionTotalCost" name="injectionTotalCost" not-null="false" type="text"/><property column="c_height" name="height" not-null="false" type="text"/><property column="c_bmi" name="bmi" not-null="false" type="text"/><property column="c_labTestTotalCost" name="labTestTotalCost" not-null="false" type="text"/></dynamic-component>
+    </class>
+</hibernate-mapping>

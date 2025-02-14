@@ -1,0 +1,399 @@
+INFO    12 Feb 2025 16:51:00 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - Reason transaction inserted
+INFO    12 Feb 2025 16:51:00 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - Transactions Can't Patrol inserted
+INFO    12 Feb 2025 16:51:03 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:51:07 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:51:30 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:51:30 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-12 23:59:59, end_date=2025-02-12 23:59:59, department=INS
+INFO    12 Feb 2025 16:51:30 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:51:47 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:51:47 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-16 23:59:59, end_date=2025-02-16 23:59:59, department=INS
+INFO    12 Feb 2025 16:51:47 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:51:52 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:51:52 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-16 23:59:59, end_date=2025-02-16 23:59:59, department=INS
+INFO    12 Feb 2025 16:51:52 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:52:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:52:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-12 23:59:59, end_date=2025-02-12 23:59:59, department=INS
+INFO    12 Feb 2025 16:52:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:52:46 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:52:46 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-09 23:59:59, end_date=2025-02-09 23:59:59, department=INS
+INFO    12 Feb 2025 16:52:46 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:52:47 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:52:47 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-09 23:59:59, end_date=2025-02-09 23:59:59, department=INS
+INFO    12 Feb 2025 16:52:47 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-09 23:59:59, end_date=2025-02-09 23:59:59, department=INS
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-09 23:59:59, end_date=2025-02-09 23:59:59, department=INS
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-09 23:59:59, end_date=2025-02-09 23:59:59, department=INS
+INFO    12 Feb 2025 16:52:48 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:54:22 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.50) : true
+INFO    12 Feb 2025 16:54:22 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:54:22 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-09 23:59:59, end_date=2025-02-09 23:59:59, department=INS
+INFO    12 Feb 2025 16:54:22 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:54:37 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:54:46 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:55:13 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:55:26 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:55:26 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 23:59:59, end_date=2025-02-02 23:59:59, department=INS
+INFO    12 Feb 2025 16:55:26 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:55:28 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:55:28 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 23:59:59, end_date=2025-02-02 23:59:59, department=INS
+INFO    12 Feb 2025 16:55:28 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:55:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:55:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:55:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:55:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:55:59 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:55:59 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 23:59:59, end_date=2025-02-02 23:59:59, department=INS
+INFO    12 Feb 2025 16:55:59 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 16:56:03 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:56:08 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 16:56:28 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 16:56:28 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-01 23:59:59, end_date=2025-02-12 23:59:59, department=INS
+INFO    12 Feb 2025 16:56:28 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[3],"data":[{"total":"3","month":"Februari"}],"month":["Februari"]}
+INFO    12 Feb 2025 17:00:50 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-web-service started
+INFO    12 Feb 2025 17:00:50 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-web-service-7.0-SNAPSHOT.jar).
+INFO    12 Feb 2025 17:00:55 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:01:15 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE DATE(c_date) BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:01:15 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 23:59:59, end_date=2025-02-02 23:59:59, department=INS
+INFO    12 Feb 2025 17:01:15 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 17:01:23 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:01:32 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE DATE(c_date) BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:01:32 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 23:59:59, end_date=2025-02-02 23:59:59, department=INS
+INFO    12 Feb 2025 17:01:32 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    12 Feb 2025 17:06:22 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-web-service started
+INFO    12 Feb 2025 17:06:22 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-web-service-7.0-SNAPSHOT.jar).
+INFO    12 Feb 2025 17:06:24 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:06:32 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:06:32 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 00:00:00, end_date=2025-02-02 23:59:59, department=INS
+INFO    12 Feb 2025 17:06:32 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[2],"data":[{"total":"2","month":"Februari"}],"month":["Februari"]}
+INFO    12 Feb 2025 17:06:42 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:06:42 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 00:00:00, end_date=2025-02-12 23:59:59, department=INS
+INFO    12 Feb 2025 17:06:42 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[3],"data":[{"total":"3","month":"Februari"}],"month":["Februari"]}
+INFO    12 Feb 2025 17:06:53 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:06:53 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-12 00:00:00, end_date=2025-02-12 23:59:59, department=INS
+INFO    12 Feb 2025 17:06:53 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[1],"data":[{"total":"1","month":"Februari"}],"month":["Februari"]}
+INFO    12 Feb 2025 17:07:00 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:07:00 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2024-11-01 00:00:00, end_date=2025-02-12 23:59:59, department=INS
+INFO    12 Feb 2025 17:07:00 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[6,3],"data":[{"total":"6","month":"Desember"},{"total":"3","month":"Februari"}],"month":["Desember","Februari"]}
+INFO    12 Feb 2025 17:07:21 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:07:21 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 00:00:00, end_date=2025-02-12 23:59:59, department=INS
+INFO    12 Feb 2025 17:07:21 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[3],"data":[{"total":"3","month":"Februari"}],"month":["Februari"]}
+INFO    12 Feb 2025 17:07:28 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:07:32 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:08:02 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:08:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:09:00 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    12 Feb 2025 17:09:00 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-02 00:00:00, end_date=2025-02-02 23:59:59, department=INS
+INFO    12 Feb 2025 17:09:00 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[2],"data":[{"total":"2","month":"Februari"}],"month":["Februari"]}
+INFO    12 Feb 2025 17:09:29 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:10:30 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Executing query with parameters: 
+INFO    12 Feb 2025 17:10:30 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[1]: 7d4327fe-cfce-45b3-90a2-5844a105d6a1
+INFO    12 Feb 2025 17:10:30 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[2]: a3861e0c-6599-48c7-86c4-80a00ea97d94
+INFO    12 Feb 2025 17:10:30 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[3]: 7c215a5f-7fc7-4687-a1ca-60ae31e919ba
+INFO    12 Feb 2025 17:10:30 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[4]: d7b0d340-d78b-4f14-af64-a7b41b3e66a4
+INFO    12 Feb 2025 17:10:30 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2024-12-27 13:57:36","option_value":"-","correct_option":"-","unit":"%","min":"80.0","avg":"1","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-12801","form_type":"Range"},{"date":"2024-12-27 13:57:48","option_value":"-","correct_option":"-","unit":"%","min":"80.0","avg":"0","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-12801","form_type":"Range"}]}
+INFO    12 Feb 2025 17:14:52 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-web-service started
+INFO    12 Feb 2025 17:14:52 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-web-service-7.0-SNAPSHOT.jar).
+INFO    12 Feb 2025 17:15:15 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:15:50 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Executing query with parameters: 
+INFO    12 Feb 2025 17:15:50 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[1]: 7d4327fe-cfce-45b3-90a2-5844a105d6a1
+INFO    12 Feb 2025 17:15:50 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[2]: a3861e0c-6599-48c7-86c4-80a00ea97d94
+INFO    12 Feb 2025 17:15:50 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[3]: 7c215a5f-7fc7-4687-a1ca-60ae31e919ba
+INFO    12 Feb 2025 17:15:50 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[4]: d7b0d340-d78b-4f14-af64-a7b41b3e66a4
+INFO    12 Feb 2025 17:15:50 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2024-12-27 13:57:36","option_value":"-","correct_option":"-","unit":"%","min":"80.0","avg":"1","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-12801","form_type":"Range"},{"date":"2024-12-27 13:57:48","option_value":"-","correct_option":"-","unit":"%","min":"80.0","avg":"0","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-12801","form_type":"Range"}]}
+INFO    12 Feb 2025 17:16:07 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    12 Feb 2025 17:16:07 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    12 Feb 2025 17:16:10 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    12 Feb 2025 17:16:16 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user coedotz (182.253.194.50) : true
+INFO    12 Feb 2025 17:16:17 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    12 Feb 2025 17:16:17 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    12 Feb 2025 17:16:24 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    12 Feb 2025 17:16:27 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    12 Feb 2025 17:16:54 id.co.itasoft.asc.maintenance.plugin.MainRoot - Login Successfully
+INFO    12 Feb 2025 17:17:43 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - User data inserted
+INFO    12 Feb 2025 17:17:43 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - All transactions committed successfully
+INFO    12 Feb 2025 17:17:43 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - Output Data: {"message":"Data inserted successfully","status":"success"}
+INFO    12 Feb 2025 17:17:43 id.co.itasoft.asc.maintenance.plugin.ApiElement - Insert Data Response: org.joget.api.model.ApiResponse@634e3982
+INFO    12 Feb 2025 17:17:54 id.co.itasoft.asc.maintenance.plugin.MainRoot - Login Successfully
+INFO    12 Feb 2025 17:18:19 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - User data inserted
+INFO    12 Feb 2025 17:18:19 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - All transactions committed successfully
+INFO    12 Feb 2025 17:18:19 id.co.itasoft.asc.maintenance.plugin.dao.UserQueryDao - Output Data: {"message":"Data inserted successfully","status":"success"}
+INFO    12 Feb 2025 17:18:19 id.co.itasoft.asc.maintenance.plugin.ApiElement - Insert Data Response: org.joget.api.model.ApiResponse@43870999
+INFO    12 Feb 2025 17:18:28 id.co.itasoft.asc.maintenance.plugin.MainRoot - Login Successfully
+INFO    12 Feb 2025 17:18:35 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    12 Feb 2025 17:18:35 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    12 Feb 2025 17:19:04 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    12 Feb 2025 17:19:14 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.50) : true
+INFO    12 Feb 2025 17:19:14 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:19:14 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:19:21 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Executing query with parameters: 
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[1]: df30af14-bd7f-44f6-ac2c-3872787a91ab
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[2]: 4a4b4151-6531-4f29-a8d3-4c815e78c2fa
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2025-02-12 17:17:16","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:17:19","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:01","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:03","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"}]}
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Executing query with parameters: 
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[1]: df30af14-bd7f-44f6-ac2c-3872787a91ab
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[2]: 4a4b4151-6531-4f29-a8d3-4c815e78c2fa
+INFO    12 Feb 2025 17:20:19 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2025-02-12 17:17:16","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:17:19","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:01","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:03","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"}]}
+INFO    12 Feb 2025 18:30:52 org.joget.apps.app.web.ThreadCleaner - cleaned 5198 values in ThreadLocals
+INFO    13 Feb 2025 08:02:58 org.joget.apps.app.lib.EmailTool - EmailTool: Sending email from=no-reply@agc.com, to=imas.harviana@itasoft.co.id, marcelinus.alvin@itasoft.co.id, cc=itasqa52@gmail.com;marcelinus.alvin@itasoft.co.id, bcc=, subject=Notify Approval Helpdesk Request 2024-10-000062
+INFO    13 Feb 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    13 Feb 2025 08:02:59 org.joget.apps.app.lib.EmailTool - EmailTool: Sending email from=no-reply@agc.com, to=imas.harviana@itasoft.co.id, marcelinus.alvin@itasoft.co.id, cc=itasqa52@gmail.com;marcelinus.alvin@itasoft.co.id, bcc=, subject=Notify Approval Helpdesk Request 2024-10-000063
+INFO    13 Feb 2025 08:03:00 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+ERROR   13 Feb 2025 08:03:01 org.joget.apps.app.lib.EmailTool - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421)
+	at org.apache.commons.mail.Email.send(Email.java:1448)
+	at org.joget.apps.app.lib.EmailTool$1.run(EmailTool.java:136)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:22)
+Caused by: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-732425468c8sm82393b3a.2 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411)
+	... 4 more
+ERROR   13 Feb 2025 08:03:01 org.joget.apps.app.lib.EmailTool - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421)
+	at org.apache.commons.mail.Email.send(Email.java:1448)
+	at org.joget.apps.app.lib.EmailTool$1.run(EmailTool.java:136)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:22)
+Caused by: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2fc13ac0d3bsm75705a91.13 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411)
+	... 4 more
+INFO    13 Feb 2025 08:53:10 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 09:54:57 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user wendy (103.109.203.166) : true
+INFO    13 Feb 2025 09:56:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user wendy (182.253.194.50) : true
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: MRT
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: ELC
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - start_weekly: 2025-02-062025-02-13
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - getDataReport | start_date: 2025-02-06 | end_date: 2025-02-13 | department: ELC
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - start_weekly else: Report Kosong
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: IT
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: INS
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    13 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+INFO    13 Feb 2025 11:39:02 id.co.itasoft.asc.maintenance.plugin.MainRoot - Login Successfully
+INFO    13 Feb 2025 11:39:21 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 11:39:21 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 11:39:24 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 11:39:30 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.50) : true
+INFO    13 Feb 2025 11:39:36 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    13 Feb 2025 11:39:36 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    13 Feb 2025 11:39:49 id.co.itasoft.asc.maintenance.plugin.MainRoot - Login Successfully
+INFO    13 Feb 2025 15:15:58 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 15:15:58 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 15:16:07 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.50) : false
+INFO    13 Feb 2025 15:16:12 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.50) : true
+INFO    13 Feb 2025 15:16:16 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    13 Feb 2025 15:16:16 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    13 Feb 2025 15:16:20 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    13 Feb 2025 15:17:00 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Executing query with parameters: 
+INFO    13 Feb 2025 15:17:00 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[1]: df30af14-bd7f-44f6-ac2c-3872787a91ab
+INFO    13 Feb 2025 15:17:00 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[2]: 4a4b4151-6531-4f29-a8d3-4c815e78c2fa
+INFO    13 Feb 2025 15:17:00 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2025-02-12 17:17:16","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:17:19","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:01","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:03","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"}]}
+INFO    13 Feb 2025 15:18:01 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Executing query with parameters: 
+INFO    13 Feb 2025 15:18:01 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[1]: df30af14-bd7f-44f6-ac2c-3872787a91ab
+INFO    13 Feb 2025 15:18:01 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - parameter_id[2]: 4a4b4151-6531-4f29-a8d3-4c815e78c2fa
+INFO    13 Feb 2025 15:18:01 id.co.itasoft.asc.maintenance.plugin.ChartMonitoring - Cek Data Monitoring Value{"data":[{"date":"2025-02-12 17:17:16","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:17:19","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:01","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level Before","max":"100.0","tag_number":"AT-11801","form_type":"Range"},{"date":"2025-02-12 17:18:03","option_value":"-","correct_option":"","unit":"%","min":"80.0","avg":"80","parameter_equipment":"KCl Level After","max":"100.0","tag_number":"AT-11801","form_type":"Range"}]}
+INFO    13 Feb 2025 15:59:07 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 15:59:07 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 15:59:15 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 15:59:20 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (182.253.194.50) : true
+INFO    13 Feb 2025 16:08:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 16:08:43 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    13 Feb 2025 18:30:52 org.joget.apps.app.web.ThreadCleaner - cleaned 3107 values in ThreadLocals
+INFO    14 Feb 2025 08:03:03 org.joget.apps.app.lib.EmailTool - EmailTool: Sending email from=no-reply@agc.com, to=imas.harviana@itasoft.co.id, marcelinus.alvin@itasoft.co.id, cc=itasqa52@gmail.com;marcelinus.alvin@itasoft.co.id, bcc=, subject=Notify Approval Helpdesk Request 2024-10-000062
+INFO    14 Feb 2025 08:03:05 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    14 Feb 2025 08:03:06 org.joget.apps.app.lib.EmailTool - EmailTool: Sending email from=no-reply@agc.com, to=imas.harviana@itasoft.co.id, marcelinus.alvin@itasoft.co.id, cc=itasqa52@gmail.com;marcelinus.alvin@itasoft.co.id, bcc=, subject=Notify Approval Helpdesk Request 2024-10-000063
+ERROR   14 Feb 2025 08:03:06 org.joget.apps.app.lib.EmailTool - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421)
+	at org.apache.commons.mail.Email.send(Email.java:1448)
+	at org.joget.apps.app.lib.EmailTool$1.run(EmailTool.java:136)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:22)
+Caused by: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2fc13ab1ff2sm1917567a91.8 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411)
+	... 4 more
+INFO    14 Feb 2025 08:03:06 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+ERROR   14 Feb 2025 08:03:08 org.joget.apps.app.lib.EmailTool - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421)
+	at org.apache.commons.mail.Email.send(Email.java:1448)
+	at org.joget.apps.app.lib.EmailTool$1.run(EmailTool.java:136)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:22)
+Caused by: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73242546800sm1954440b3a.29 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411)
+	... 4 more
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: MRT
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: ELC
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: IT
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - start_weekly: 2025-02-072025-02-14
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - getDataReport | start_date: 2025-02-07 | end_date: 2025-02-14 | department: IT
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - start_weekly else: Report Kosong
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: INS
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    14 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+INFO    14 Feb 2025 10:30:42 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (125.164.20.42) : true
+INFO    14 Feb 2025 10:31:25 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    14 Feb 2025 10:31:25 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    14 Feb 2025 10:43:20 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:43:24 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:43:30 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Budi.Utomoaeji (125.164.21.42) : true
+INFO    14 Feb 2025 10:43:30 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Budi.Utomoaeji
+INFO    14 Feb 2025 10:43:30 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Budi.Utomoaeji
+INFO    14 Feb 2025 10:43:34 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Budi.Utomoaeji
+INFO    14 Feb 2025 10:43:40 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Budi.Utomoaeji
+INFO    14 Feb 2025 10:43:44 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Budi.Utomoaeji
+INFO    14 Feb 2025 10:43:55 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:43:55 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:43:56 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:44:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user ary.gunardi (125.164.18.197) : true
+INFO    14 Feb 2025 10:44:01 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Ary.Gunardi
+INFO    14 Feb 2025 10:44:01 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Ary.Gunardi
+INFO    14 Feb 2025 10:44:06 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:44:06 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:44:44 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:44:49 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (125.164.25.91) : false
+INFO    14 Feb 2025 10:44:49 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Budi.Utomoaeji
+INFO    14 Feb 2025 10:44:49 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:44:51 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:45:00 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (125.164.25.91) : true
+INFO    14 Feb 2025 10:45:19 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-hash-variable started
+INFO    14 Feb 2025 10:45:19 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-hash-variable-7.0-SNAPSHOT.jar).
+INFO    14 Feb 2025 10:45:43 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:45:43 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:45:45 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:46:09 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user ary.gunardi (125.164.24.44) : true
+INFO    14 Feb 2025 10:46:09 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Ary.Gunardi
+INFO    14 Feb 2025 10:46:09 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Ary.Gunardi
+INFO    14 Feb 2025 10:46:31 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Ary.Gunardi
+INFO    14 Feb 2025 10:49:19 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Ary.Gunardi
+INFO    14 Feb 2025 10:49:23 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Ary.Gunardi
+INFO    14 Feb 2025 10:49:26 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:49:26 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:49:28 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:49:33 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user afif.lafroni (125.164.24.44) : false
+INFO    14 Feb 2025 10:49:34 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 10:49:38 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user afif.lafroni (125.164.24.44) : true
+INFO    14 Feb 2025 10:49:38 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 10:49:38 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 10:49:41 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 10:49:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 10:54:22 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 10:58:44 org.joget.plugin.base.PluginManager - Bundle id.co.itasoft.asc.maintenance.plugin.dcm-hash-variable started
+INFO    14 Feb 2025 10:58:44 org.joget.plugin.base.PluginManager - 00000 installed plugin (dcm-hash-variable-7.0-SNAPSHOT.jar).
+INFO    14 Feb 2025 10:58:49 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 11:01:11 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:01:11 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:01:29 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:01:30 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:01:36 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user coedotz (182.253.194.50) : true
+INFO    14 Feb 2025 11:01:37 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    14 Feb 2025 11:01:37 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    14 Feb 2025 11:01:41 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    14 Feb 2025 11:01:42 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    14 Feb 2025 11:01:49 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = coedotz
+INFO    14 Feb 2025 11:02:04 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user Afif.Lafroni (182.253.194.50) : true
+INFO    14 Feb 2025 11:02:04 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 11:02:04 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 11:02:18 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    14 Feb 2025 11:02:18 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-14 00:00:00, end_date=2025-02-14 23:59:59, department=MRT
+INFO    14 Feb 2025 11:02:18 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    14 Feb 2025 11:02:31 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 11:07:58 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    14 Feb 2025 11:07:58 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-14 00:00:00, end_date=2025-02-14 23:59:59, department=MRT
+INFO    14 Feb 2025 11:07:58 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    14 Feb 2025 11:08:04 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    14 Feb 2025 11:08:04 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-01 00:00:00, end_date=2025-02-14 23:59:59, department=MRT
+INFO    14 Feb 2025 11:08:04 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    14 Feb 2025 11:08:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    14 Feb 2025 11:08:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2024-04-01 00:00:00, end_date=2025-02-14 23:59:59, department=MRT
+INFO    14 Feb 2025 11:08:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[],"data":[],"month":[]}
+INFO    14 Feb 2025 11:08:16 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 11:08:22 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:08:22 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:08:24 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:08:29 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user aditya.henggar (182.253.194.50) : true
+INFO    14 Feb 2025 11:08:29 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    14 Feb 2025 11:08:29 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    14 Feb 2025 11:08:32 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    14 Feb 2025 11:08:48 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    14 Feb 2025 11:08:52 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    14 Feb 2025 11:09:01 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    14 Feb 2025 11:09:01 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2025-02-01 00:00:00, end_date=2025-02-14 23:59:59, department=INS
+INFO    14 Feb 2025 11:09:01 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[5],"data":[{"total":"5","month":"Februari"}],"month":["Februari"]}
+INFO    14 Feb 2025 11:09:03 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = Afif.Lafroni
+INFO    14 Feb 2025 11:09:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Executing query: SELECT   CASE EXTRACT(MONTH FROM c_date)     WHEN 1 THEN 'Januari'     WHEN 2 THEN 'Februari'     WHEN 3 THEN 'Maret'     WHEN 4 THEN 'April'     WHEN 5 THEN 'Mei'     WHEN 6 THEN 'Juni'     WHEN 7 THEN 'Juli'     WHEN 8 THEN 'Agustus'     WHEN 9 THEN 'September'     WHEN 10 THEN 'Oktober'     WHEN 11 THEN 'November'     WHEN 12 THEN 'Desember'   END AS month, COUNT(c_status_user_patrol) AS total FROM app_fd_dca_user_transaction WHERE c_date BETWEEN ? AND ? AND c_department = ? GROUP BY EXTRACT(MONTH FROM c_date) ORDER BY c_date ASC 
+INFO    14 Feb 2025 11:09:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - With parameters: start_date=2024-11-01 00:00:00, end_date=2025-02-14 23:59:59, department=INS
+INFO    14 Feb 2025 11:09:13 id.co.itasoft.asc.maintenance.plugin.ChartDashboard - Cek Data Dashboard{"total":[6,5],"data":[{"total":"6","month":"Desember"},{"total":"5","month":"Februari"}],"month":["Desember","Februari"]}
+INFO    14 Feb 2025 11:09:24 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    14 Feb 2025 11:09:30 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = aditya.henggar
+INFO    14 Feb 2025 11:09:32 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:09:32 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:09:55 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    14 Feb 2025 11:45:14 id.co.itasoft.asc.maintenance.plugin.MainRoot - Missing username or password
+INFO    14 Feb 2025 13:17:43 id.co.itasoft.asc.maintenance.plugin.MainRoot - Missing username or password
+INFO    14 Feb 2025 13:18:17 id.co.itasoft.asc.maintenance.plugin.MainRoot - Missing username or password
+INFO    14 Feb 2025 13:18:36 id.co.itasoft.asc.maintenance.plugin.MainRoot - Missing username or password
+INFO    14 Feb 2025 13:18:54 id.co.itasoft.asc.maintenance.plugin.MainRoot - Missing username or password
+INFO    14 Feb 2025 13:19:36 id.co.itasoft.asc.maintenance.plugin.MainRoot - Invalid username or password
+INFO    14 Feb 2025 13:20:02 id.co.itasoft.asc.maintenance.plugin.MainRoot - Invalid username or password
+INFO    14 Feb 2025 13:20:10 id.co.itasoft.asc.maintenance.plugin.MainRoot - Invalid username or password
