@@ -295,3 +295,30 @@ INFO    14 Feb 2025 13:18:54 id.co.itasoft.asc.maintenance.plugin.MainRoot - Mis
 INFO    14 Feb 2025 13:19:36 id.co.itasoft.asc.maintenance.plugin.MainRoot - Invalid username or password
 INFO    14 Feb 2025 13:20:02 id.co.itasoft.asc.maintenance.plugin.MainRoot - Invalid username or password
 INFO    14 Feb 2025 13:20:10 id.co.itasoft.asc.maintenance.plugin.MainRoot - Invalid username or password
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: MRT
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: ELC
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: IT
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {result=false}
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getStatus: 1 | dept: INS
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.Report - getFrequency: weekly
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - start_weekly: 2025-02-102025-02-17
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - getDataReport | start_date: 2025-02-10 | end_date: 2025-02-17 | department: INS
+WARN    17 Feb 2025 10:00:00 id.co.itasoft.asc.maintenance.plugin.dao.ReportDao - countAbnormal | start_date: 2025-02-10 | end_date: 2025-02-17 | department: INS
+INFO    17 Feb 2025 10:00:03 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:00:08 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+WARN    17 Feb 2025 10:00:08 id.co.itasoft.asc.maintenance.plugin.Report - result weekly: {end_date=2025-02-17, result=true, department=INS, email=novianto@itasoft.co.id;, start_date=2025-02-10}
+INFO    17 Feb 2025 10:00:08 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:00:09 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:00:10 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:00:10 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:00:14 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:00:14 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:07:09 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:07:10 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:07:12 id.co.itasoft.asc.maintenance.plugin.DepartmentUserViewPermission - Executing query with crt.CREATEDBY = roleAnonymous
+INFO    17 Feb 2025 10:15:04 id.co.itasoft.asc.maintenance.plugin.MainRoot - Login Successfully
