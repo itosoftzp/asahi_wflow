@@ -1493,3 +1493,5 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	... 60 more
 INFO    17 Feb 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
 INFO    17 Feb 2025 08:03:01 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    18 Feb 2025 08:02:58 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    18 Feb 2025 08:02:59 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
