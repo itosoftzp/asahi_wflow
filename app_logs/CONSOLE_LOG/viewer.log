@@ -1443,3 +1443,52 @@ java.lang.Exception: Data insertion failed
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+INFO    18 Feb 2025 14:24:51 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.3.52.170) : true
+INFO    18 Feb 2025 14:25:48 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    18 Feb 2025 14:25:48 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    18 Feb 2025 15:04:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user wendy (103.109.203.166) : true
+INFO    18 Feb 2025 18:30:51 org.joget.apps.app.web.ThreadCleaner - cleaned 4841 values in ThreadLocals
+INFO    20 Feb 2025 10:13:47 org.joget.apps.app.lib.EmailTool - EmailTool: Sending email from=no-reply@agc.com, to=imas.harviana@itasoft.co.id, marcelinus.alvin@itasoft.co.id, cc=itasqa52@gmail.com;marcelinus.alvin@itasoft.co.id, bcc=, subject=Notify Approval Helpdesk Request 2024-10-000062
+INFO    20 Feb 2025 10:13:48 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4752_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+INFO    20 Feb 2025 10:13:49 org.joget.apps.app.lib.EmailTool - EmailTool: Sending email from=no-reply@agc.com, to=imas.harviana@itasoft.co.id, marcelinus.alvin@itasoft.co.id, cc=itasqa52@gmail.com;marcelinus.alvin@itasoft.co.id, bcc=, subject=Notify Approval Helpdesk Request 2024-10-000063
+ERROR   20 Feb 2025 10:13:49 org.joget.apps.app.lib.EmailTool - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421)
+	at org.apache.commons.mail.Email.send(Email.java:1448)
+	at org.joget.apps.app.lib.EmailTool$1.run(EmailTool.java:136)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:22)
+Caused by: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7326973705fsm8687539b3a.7 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411)
+	... 4 more
+INFO    20 Feb 2025 10:13:50 org.joget.workflow.shark.WorkflowAssignmentManager - [processId=4770_helpdesk_helpDesk, processDefId=helpdesk#3#helpDesk, participantId=memberITD, next user=[Iman.Maryadi]]
+ERROR   20 Feb 2025 10:13:51 org.joget.apps.app.lib.EmailTool - org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421)
+	at org.apache.commons.mail.Email.send(Email.java:1448)
+	at org.joget.apps.app.lib.EmailTool$1.run(EmailTool.java:136)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:22)
+Caused by: javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-ade083277b3sm8154077a12.27 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411)
+	... 4 more

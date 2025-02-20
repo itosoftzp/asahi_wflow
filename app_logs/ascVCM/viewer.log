@@ -18,3 +18,6 @@ INFO    03 Feb 2025 14:09:25 id.co.itasoft.asc.digitization.plugin.aw.webservice
 INFO    03 Feb 2025 17:42:43 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user cat (103.21.219.5) : true
 INFO    03 Feb 2025 17:43:26 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user 00000 (103.21.219.5) : false
 INFO    12 Feb 2025 10:33:03 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (182.253.194.50) : true
+INFO    18 Feb 2025 14:25:48 org.displaytag.export.ExportViewFactory - Initializing ExportViewFactory with type={csv,excel,xml,pdf}
+INFO    18 Feb 2025 14:25:48 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    18 Feb 2025 15:04:01 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user wendy (103.109.203.166) : true
